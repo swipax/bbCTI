@@ -1,0 +1,39 @@
+name: Update CTI Bulletin
+
+on:
+  schedule:
+    # Her gun 06:00 UTC (TR saatiyle yaz saatinde 09:00) calisir
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}  # Actions sekmesinden manuel de tetiklenebilir
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run collector
+        env:
+          ABUSECH_AUTH_KEY: ${{ secrets.ABUSECH_AUTH_KEY }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+        run: python collector.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "cti-bulletin-bot"
+          git config user.email "cti-bulletin-bot@users.noreply.github.com"
+          git add docs/data/latest.json docs/data/seen_ids.json
+          git diff --staged --quiet || git commit -m "chore: update CTI bulletin data"
+          git push

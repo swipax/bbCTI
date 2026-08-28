@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>CTI Bulteni (gecici surum)</title>
+</head>
+<body>
+  <h1>CTI Bulteni</h1>
+  <p id="updated">Yukleniyor...</p>
+  <ul id="list"></ul>
+
+  <script>
+    fetch("data/latest.json")
+      .then(r => r.json())
+      .then(data => {
+        document.getElementById("updated").textContent =
+          "Son guncelleme: " + data.updated_at;
+        const list = document.getElementById("list");
+        data.items.forEach(item => {
+          const li = document.createElement("li");
+          li.textContent = `[${item.severity}] ${item.ioc} (${item.malware || "?"}) - ${item.summary_tr}`;
+          list.appendChild(li);
+        });
+      })
+      .catch(err => {
+        document.getElementById("updated").textContent =
+          "Henuz veri yok - workflow ilk kez calisinca burasi dolacak.";
+      });
+  </script>
+</body>
+</html>
