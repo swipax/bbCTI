@@ -1,0 +1,322 @@
+{
+  "updated_at": "2026-08-28T22:26:24.143175+00:00",
+  "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890845",
+      "ioc": "46.101.146.87:9034",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-08-28 22:04:16 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlı yazılımının C2 (Komuta ve Kontrol) sunucusu olarak kullanılan bir IP adresidir. Ağ güvenliği için acilen engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890842",
+      "ioc": "a1q5ie1n.gtsdirect.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-08-28 21:36:38 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0x68dc",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "macOS sistemlerini hedef alan ClearFake zararlı yazılımıyla ilişkili bir alan adıdır. Kimlik avı ve zararlı yönlendirmeler için kullanılır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890840",
+      "ioc": "hvbabdh2.jeffmowatt.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-08-28 21:20:27 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0x0f14",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "macOS kullanıcılarını hedefleyen ClearFake kampanyasının altyapısında yer alan bir alan adıdır. Zararlı içerik dağıtımında rol oynar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890839",
+      "ioc": "jeffmowatt.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-08-28 21:20:03 UTC",
+      "tags": [
+        "28August2026",
+        "ClearFake",
+        "Commandline",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlı yazılım dağıtım ağının bir parçası olan alan adıdır. Sistem güvenliğini tehdit eden zararlı yönlendirmeler yapar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890838",
+      "ioc": "hqgetdsm.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-08-28 21:16:11 UTC",
+      "tags": [
+        "28August2026",
+        "ClearFake",
+        "Commandline",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyası kapsamında zararlı aktivite gösteren bir alan adıdır. Engellenmesi tavsiye edilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890835",
+      "ioc": "scalewithgetdsm.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-08-28 20:58:17 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlı yazılımıyla bağlantılı olan bu alan adı, zararlı yazılım yaymak amacıyla kullanılmaktadır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890825",
+      "ioc": "8.145.59.5:11112",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-08-28 20:05:07 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlı yazılımının iletişim kurduğu bir C2 uç noktasıdır. Yetkisiz erişim riskine karşı izlenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890826",
+      "ioc": "89.34.227.96:8088",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-08-28 20:05:07 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlı yazılımının ağ aktivitelerinde kullandığı bir IP ve port adresidir. Kritik düzeyde tehdit barındırır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890824",
+      "ioc": "47.94.194.175:15000",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-08-28 20:05:06 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlı yazılım faaliyetleriyle ilişkilendirilen bir ağ uç noktasıdır. Sızma girişimlerine karşı engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890823",
+      "ioc": "196.70.69.77:5000",
+      "ioc_type": "ip:port",
+      "malware": "AsyncRAT",
+      "confidence": 100,
+      "first_seen": "2026-08-28 20:05:05 UTC",
+      "tags": [
+        "asyncrat"
+      ],
+      "reference": null,
+      "summary_tr": "Uzaktan erişim trojanı (RAT) olan AsyncRAT'ın C2 sunucusudur. Sistem kontrolünün ele geçirilmesine yol açabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890821",
+      "ioc": "http://165.22.225.110/commands",
+      "ioc_type": "url",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-08-28 19:53:05 UTC",
+      "tags": [],
+      "reference": "https://bazaar.abuse.ch/sample/ff5d658fc78d345ed97b0c695ea6ec04feb14848ebe5de056f1c23cbdc9f80ff/",
+      "summary_tr": "Bilinmeyen bir zararlı yazılımın komut aldığı URL adresidir. Şüpheli trafik tespiti için incelenmelidir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890820",
+      "ioc": "http://165.22.225.110/responses.php",
+      "ioc_type": "url",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-08-28 19:53:04 UTC",
+      "tags": [],
+      "reference": "https://bazaar.abuse.ch/sample/ff5d658fc78d345ed97b0c695ea6ec04feb14848ebe5de056f1c23cbdc9f80ff/",
+      "summary_tr": "Bilinmeyen bir zararlı yazılımın veri alışverişi yaptığı yanıt URL'sidir. Ağ trafiğinde engellenmelidir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890816",
+      "ioc": "guard7.barnfabric.click",
+      "ioc_type": "domain",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-08-28 19:48:55 UTC",
+      "tags": [],
+      "reference": "https://bazaar.abuse.ch/sample/e66a19f3842dcd3b3b807dae122aae370d13d2753116495f34ef837ae8f56102/",
+      "summary_tr": "Şüpheli faaliyetlerde bulunan ve zararlı yazılımlarla ilişkili olduğu değerlendirilen bir alan adıdır.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890744",
+      "ioc": "https://46.29.26.35",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-08-28 19:27:30 UTC",
+      "tags": [
+        "8e8e7920d1ac7f57735398887661bf8d",
+        "c2",
+        "Loader",
+        "stealer",
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Hassas bilgileri çalan Vidar bilgi hırsızının C2 sunucusudur. Bilgi sızıntısı riskine karşı acilen engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890760",
+      "ioc": "https://nsn.12naga.org",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-08-28 19:27:25 UTC",
+      "tags": [
+        "279244a0387f7d5a1b68137bd9768de8",
+        "c2",
+        "Loader",
+        "stealer",
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar stealer zararlısının veri iletimi yaptığı C2 adresidir. Sistem güvenliği için yüksek risk oluşturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890781",
+      "ioc": "https://185.229.225.31",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-08-28 19:27:20 UTC",
+      "tags": [
+        "c2",
+        "e53c0776fdba467447b61be1a2bc4027",
+        "Loader",
+        "stealer",
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hırsızı zararlısının operasyonel altyapısına ait bir C2 URL adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890787",
+      "ioc": "157.20.182.21:1973",
+      "ioc_type": "ip:port",
+      "malware": "AsyncRAT",
+      "confidence": 100,
+      "first_seen": "2026-08-28 19:05:12 UTC",
+      "tags": [
+        "asyncrat"
+      ],
+      "reference": null,
+      "summary_tr": "AsyncRAT zararlısının komuta ve kontrol merkezi olarak kullandığı bir uç noktadır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890786",
+      "ioc": "104.168.94.108:38006",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-08-28 19:05:11 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlı yazılımının iletişim kurduğu tespit edilen şüpheli bir IP ve port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890785",
+      "ioc": "20.119.73.195:7443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-08-28 19:05:10 UTC",
+      "tags": [
+        "Mythic"
+      ],
+      "reference": null,
+      "summary_tr": "Mythic C2 framework altyapısıyla ilişkilendirilen bir uç noktadır. Yetkisiz sızma testleri veya saldırılar için kullanılabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1890784",
+      "ioc": "2.88.92.98:7547",
+      "ioc_type": "ip:port",
+      "malware": "Havoc",
+      "confidence": 100,
+      "first_seen": "2026-08-28 19:05:08 UTC",
+      "tags": [
+        "Havoc"
+      ],
+      "reference": null,
+      "summary_tr": "Havoc C2 framework tarafından kullanılan bir ağ adresidir. Kötü amaçlı komuta ve kontrol trafiği üretir.",
+      "severity": "high"
+    }
+  ]
+}
