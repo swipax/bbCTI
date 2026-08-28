@@ -5,12 +5,12 @@ Ne yapar:
 1. ThreatFox ve URLhaus'tan son IOC'lari ceker
 2. Daha once islenmis olanlari (seen_ids.json) eler, sadece yenileri birakir
 3. En yuksek confidence'a sahip en fazla MAX_ITEMS_PER_RUN taneyi secer
-4. Bu secili grubu TEK bir Grok API cagrisinda (batch) ozetletir
+4. Bu secili grubu TEK bir Gemini API cagrisinda (batch) ozetletir
 5. Sonucu docs/data/latest.json'a yazar
 
 Gerekli ortam degiskenleri (GitHub Actions Secrets uzerinden gelir):
   ABUSECH_AUTH_KEY  -> https://auth.abuse.ch/ adresinden ucretsiz alinir
-  XAI_API_KEY       -> https://console.x.ai adresinden alinir
+  GEMINI_API_KEY    -> https://aistudio.google.com/apikey adresinden, kart gerekmeden ucretsiz alinir
 """
 
 import os
@@ -20,7 +20,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 ABUSECH_AUTH_KEY = os.environ["ABUSECH_AUTH_KEY"]
-XAI_API_KEY = os.environ["XAI_API_KEY"]
+GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 
 # Gunde en fazla kac yeni IOC'yi AI'a gonderelim (token maliyetini kontrol altinda tutar)
 MAX_ITEMS_PER_RUN = 20
@@ -97,7 +97,7 @@ def fetch_urlhaus():
     return items
 
 
-def summarize_with_grok(items):
+def summarize_with_gemini(items):
     """Tum grubu TEK bir API cagrisinda ozetletir. Item sayisi arttikca cagri
     sayisi degil, tek istegin icerigi buyur -> maliyet neredeyse sabit kalir."""
     if not items:
@@ -119,33 +119,29 @@ def summarize_with_grok(items):
         "listesi verilecek. Her IOC icin: (1) ne oldugunu ve neden onemli "
         "oldugunu aciklayan 1-2 cumlelik Turkce bir ozet, (2) 'low', 'medium' "
         "veya 'high' seviyesinde bir risk derecesi uret. SADECE bir JSON array "
-        "dondur, her eleman {id, summary_tr, severity} alanlarina sahip olsun. "
-        "Baska hicbir metin, aciklama veya markdown kod bloğu ekleme."
+        "dondur, her eleman {id, summary_tr, severity} alanlarina sahip olsun."
     )
 
     resp = requests.post(
-        "https://api.x.ai/v1/chat/completions",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
         headers={
-            "Authorization": f"Bearer {XAI_API_KEY}",
+            "x-goog-api-key": GEMINI_API_KEY,
             "Content-Type": "application/json",
         },
         json={
-            "model": "grok-4-fast",  # ucuz/hizli varyant - console.x.ai'dan guncel adini kontrol et
-            "messages": [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": json.dumps(prompt_items, ensure_ascii=False)},
+            "system_instruction": {"parts": [{"text": system_prompt}]},
+            "contents": [
+                {"role": "user", "parts": [{"text": json.dumps(prompt_items, ensure_ascii=False)}]}
             ],
-            "temperature": 0.3,
+            "generationConfig": {
+                "response_mime_type": "application/json",  # Gemini'ye dogrudan JSON dondurtur, fence temizligi gerekmez
+                "temperature": 0.3,
+            },
         },
         timeout=60,
     )
     resp.raise_for_status()
-    content = resp.json()["choices"][0]["message"]["content"].strip()
-
-    # Model bazen ```json ... ``` seklinde sarmalayabiliyor, temizleyelim
-    if content.startswith("```"):
-        content = content.strip("`")
-        content = content.replace("json", "", 1).strip()
+    content = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
 
     results = json.loads(content)
     return {r["id"]: r for r in results}
@@ -161,7 +157,7 @@ def main():
 
     print(f"Toplam cekilen: {len(all_items)} | yeni: {len(new_items)} | islenecek: {len(batch)}")
 
-    summaries = summarize_with_grok(batch)
+    summaries = summarize_with_gemini(batch)
 
     enriched = []
     for it in batch:
