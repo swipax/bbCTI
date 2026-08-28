@@ -123,7 +123,7 @@ def summarize_with_gemini(items):
     )
 
     resp = requests.post(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent",
         headers={
             "x-goog-api-key": GEMINI_API_KEY,
             "Content-Type": "application/json",
@@ -135,7 +135,7 @@ def summarize_with_gemini(items):
             ],
             "generationConfig": {
                 "response_mime_type": "application/json",  # Gemini'ye dogrudan JSON dondurtur, fence temizligi gerekmez
-                "temperature": 0.3,
+                "thinkingConfig": {"thinkingLevel": "low"},  # basit siniflandirma/ozet gorevi icin yeterli, hizli ve ucuz
             },
         },
         timeout=60,
