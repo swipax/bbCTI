@@ -2,8 +2,8 @@ name: Update CTI Bulletin
 
 on:
   schedule:
-    # Her gun 06:00 UTC (TR saatiyle yaz saatinde 09:00) calisir
-    - cron: "0 6 * * *"
+    # Her 2 gunde bir, 06:00 UTC (TR saatiyle yaz saatinde 09:00) calisir
+    - cron: "0 6 */2 * *"
   workflow_dispatch: {}  # Actions sekmesinden manuel de tetiklenebilir
 
 permissions:
