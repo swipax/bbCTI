@@ -2,30 +2,450 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-<title>CTI Bulteni (gecici surum)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CTI Bulteni</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #0B1220;
+    --panel:     #121B2E;
+    --panel-2:   #17233A;
+    --border:    #24314A;
+    --text:      #E4E9F2;
+    --text-dim:  #8C9BB5;
+    --accent:    #F2A93B;
+    --high:      #E6553D;
+    --medium:    #F2A93B;
+    --low:       #4FA98B;
+    --unknown:   #5A6B8A;
+    --radius: 10px;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.5;
+  }
+
+  a { color: var(--accent); }
+
+  .wrap {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+  }
+
+  header.hero {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 28px;
+    margin-bottom: 28px;
+  }
+
+  header.hero h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 2.1rem;
+    letter-spacing: -0.01em;
+    margin: 0 0 8px;
+  }
+
+  header.hero .stats {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 10px;
+  }
+
+  header.hero .stats .dot { color: var(--border); }
+
+  .activity { margin-bottom: 28px; }
+
+  .activity .label {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-dim);
+    margin-bottom: 10px;
+  }
+
+  .activity-strip {
+    display: flex;
+    gap: 4px;
+    align-items: flex-end;
+    height: 56px;
+    overflow-x: auto;
+    padding-bottom: 2px;
+  }
+
+  .activity-day {
+    flex: 1 0 20px;
+    min-width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    background: var(--panel);
+  }
+
+  .activity-seg { width: 100%; min-height: 2px; }
+
+  .activity-day-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.62rem;
+    color: var(--text-dim);
+    text-align: center;
+    margin-top: 6px;
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+
+  .controls input[type="text"] {
+    flex: 1 1 220px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 10px 14px;
+    border-radius: var(--radius);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.92rem;
+  }
+
+  .controls input[type="text"]::placeholder { color: var(--text-dim); }
+
+  .chip-group { display: flex; gap: 6px; flex-wrap: wrap; }
+
+  .chip {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    padding: 9px 14px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    user-select: none;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+
+  .chip:hover { border-color: var(--accent); color: var(--text); }
+
+  .chip.active {
+    border-color: var(--accent);
+    color: var(--bg);
+    background: var(--accent);
+    font-weight: 500;
+  }
+
+  select#malwareFilter {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 9px 12px;
+    border-radius: var(--radius);
+    font-size: 0.85rem;
+  }
+
+  .ioc-list { display: flex; flex-direction: column; gap: 10px; }
+
+  .ioc-row {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--unknown);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+  }
+
+  .ioc-row.sev-high   { border-left-color: var(--high); }
+  .ioc-row.sev-medium { border-left-color: var(--medium); }
+  .ioc-row.sev-low    { border-left-color: var(--low); }
+
+  .ioc-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+
+  .badge {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: 600;
+    background: var(--panel-2);
+    color: var(--text-dim);
+  }
+
+  .badge.sev-high   { background: rgba(230, 85, 61, 0.16);  color: var(--high); }
+  .badge.sev-medium { background: rgba(242, 169, 59, 0.16); color: var(--medium); }
+  .badge.sev-low    { background: rgba(79, 169, 139, 0.16); color: var(--low); }
+
+  .ioc-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.92rem;
+    word-break: break-all;
+  }
+
+  .ioc-malware { color: var(--text-dim); font-size: 0.85rem; }
+
+  .ioc-summary { font-size: 0.92rem; margin: 6px 0 8px; }
+
+  .ioc-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--text-dim);
+  }
+
+  .empty-state {
+    border: 1px dashed var(--border);
+    border-radius: var(--radius);
+    padding: 32px 20px;
+    text-align: center;
+    color: var(--text-dim);
+  }
+
+  footer {
+    margin-top: 40px;
+    color: var(--text-dim);
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+  }
+
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
 </head>
 <body>
-  <h1>CTI Bulteni</h1>
-  <p id="updated">Yukleniyor...</p>
-  <ul id="list"></ul>
+  <div class="wrap">
+    <header class="hero">
+      <h1>CTI Bulteni</h1>
+      <div class="stats" id="statsLine">Yukleniyor...</div>
+    </header>
 
-  <script>
-    fetch("data/latest.json")
-      .then(r => r.json())
-      .then(data => {
-        document.getElementById("updated").textContent =
-          "Son guncelleme: " + data.updated_at;
-        const list = document.getElementById("list");
-        data.items.forEach(item => {
-          const li = document.createElement("li");
-          li.textContent = `[${item.severity}] ${item.ioc} (${item.malware || "?"}) - ${item.summary_tr}`;
-          list.appendChild(li);
-        });
-      })
-      .catch(err => {
-        document.getElementById("updated").textContent =
-          "Henuz veri yok - workflow ilk kez calisinca burasi dolacak.";
+    <div class="activity">
+      <div class="label">Son gunler</div>
+      <div class="activity-strip" id="activityStrip"></div>
+    </div>
+
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="IOC, zararli yazilim veya anahtar kelime ara...">
+      <div class="chip-group" id="severityChips">
+        <span class="chip active" data-sev="all">Tumu</span>
+        <span class="chip" data-sev="high">High</span>
+        <span class="chip" data-sev="medium">Medium</span>
+        <span class="chip" data-sev="low">Low</span>
+      </div>
+      <select id="malwareFilter">
+        <option value="all">Tum zararli yazilimlar</option>
+      </select>
+    </div>
+
+    <div class="ioc-list" id="iocList">
+      <div class="empty-state">Yukleniyor...</div>
+    </div>
+
+    <footer>
+      Acik kaynak tehdit istihbarati feed'lerinden (ThreatFox, URLhaus) otomatik toplanir,
+      Gemini ile ozetlenir. 2 gunde bir kendiliginden guncellenir.
+    </footer>
+  </div>
+
+<script>
+  const state = { items: [], severity: "all", malware: "all", search: "" };
+
+  function severityRank(sev) {
+    return { high: 3, medium: 2, low: 1 }[sev] || 0;
+  }
+
+  function fmtDate(iso) {
+    if (!iso) return "-";
+    try { return new Date(iso).toISOString().slice(0, 10); }
+    catch (e) { return iso; }
+  }
+
+  function renderStats(data) {
+    const el = document.getElementById("statsLine");
+    const updated = data.updated_at ? new Date(data.updated_at).toLocaleString("tr-TR") : "-";
+    el.innerHTML = `
+      <span>Son guncelleme: ${updated}</span>
+      <span class="dot">&middot;</span>
+      <span>${data.items.length} IOC izleniyor</span>
+      <span class="dot">&middot;</span>
+      <span>2 gunde bir otomatik guncellenir</span>
+    `;
+  }
+
+  function renderActivityStrip(items) {
+    const days = {};
+    items.forEach(it => {
+      const d = fmtDate(it.first_seen);
+      if (d === "-") return;
+      if (!days[d]) days[d] = { high: 0, medium: 0, low: 0, unknown: 0 };
+      const key = it.severity in days[d] ? it.severity : "unknown";
+      days[d][key]++;
+    });
+
+    const sortedDays = Object.keys(days).sort().slice(-14);
+    const strip = document.getElementById("activityStrip");
+    strip.innerHTML = "";
+
+    if (sortedDays.length === 0) {
+      strip.innerHTML = '<div class="empty-state" style="width:100%">Henuz gunluk veri yok.</div>';
+      return;
+    }
+
+    const maxCount = Math.max(...sortedDays.map(d => {
+      const c = days[d];
+      return c.high + c.medium + c.low + c.unknown;
+    }), 1);
+
+    sortedDays.forEach(d => {
+      const c = days[d];
+      const total = c.high + c.medium + c.low + c.unknown;
+      const heightPct = Math.max((total / maxCount) * 100, 8);
+
+      const wrapper = document.createElement("div");
+      wrapper.style.display = "flex";
+      wrapper.style.flexDirection = "column";
+      wrapper.style.flex = "1 0 20px";
+
+      const col = document.createElement("div");
+      col.className = "activity-day";
+      col.title = `${d}: ${total} IOC`;
+
+      const inner = document.createElement("div");
+      inner.style.display = "flex";
+      inner.style.flexDirection = "column";
+      inner.style.justifyContent = "flex-end";
+      inner.style.gap = "2px";
+      inner.style.height = heightPct + "%";
+      inner.style.marginTop = "auto";
+      inner.style.width = "100%";
+
+      [["high","var(--high)"],["medium","var(--medium)"],["low","var(--low)"],["unknown","var(--unknown)"]].forEach(([key, color]) => {
+        if (c[key] > 0) {
+          const seg = document.createElement("div");
+          seg.className = "activity-seg";
+          seg.style.background = color;
+          seg.style.flex = c[key];
+          inner.appendChild(seg);
+        }
       });
-  </script>
+
+      col.appendChild(inner);
+      wrapper.appendChild(col);
+
+      const label = document.createElement("div");
+      label.className = "activity-day-label";
+      label.textContent = d.slice(5);
+      wrapper.appendChild(label);
+
+      strip.appendChild(wrapper);
+    });
+  }
+
+  function populateMalwareOptions(items) {
+    const select = document.getElementById("malwareFilter");
+    const names = [...new Set(items.map(it => it.malware).filter(Boolean))].sort();
+    names.forEach(name => {
+      const opt = document.createElement("option");
+      opt.value = name;
+      opt.textContent = name;
+      select.appendChild(opt);
+    });
+  }
+
+  function renderList() {
+    const list = document.getElementById("iocList");
+    const q = state.search.trim().toLowerCase();
+
+    const filtered = state.items.filter(it => {
+      if (state.severity !== "all" && it.severity !== state.severity) return false;
+      if (state.malware !== "all" && it.malware !== state.malware) return false;
+      if (q) {
+        const hay = `${it.ioc} ${it.malware} ${it.summary_tr}`.toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    }).sort((a, b) => severityRank(b.severity) - severityRank(a.severity));
+
+    if (filtered.length === 0) {
+      list.innerHTML = '<div class="empty-state">Bu filtrelerle eslesen IOC bulunamadi. Filtreleri gevsetmeyi dene.</div>';
+      return;
+    }
+
+    list.innerHTML = filtered.map(it => `
+      <div class="ioc-row sev-${it.severity || 'unknown'}">
+        <div class="ioc-top">
+          <span class="badge sev-${it.severity || 'unknown'}">${it.severity || 'unknown'}</span>
+          <span class="badge">${it.ioc_type || '-'}</span>
+          <span class="ioc-malware">${it.malware || 'Bilinmeyen'}</span>
+        </div>
+        <div class="ioc-value">${it.ioc || ''}</div>
+        <div class="ioc-summary">${it.summary_tr || ''}</div>
+        <div class="ioc-meta">kaynak: ${it.source || '-'} &middot; ilk gorulme: ${fmtDate(it.first_seen)}</div>
+      </div>
+    `).join("");
+  }
+
+  function bindControls() {
+    document.getElementById("searchInput").addEventListener("input", e => {
+      state.search = e.target.value;
+      renderList();
+    });
+
+    document.querySelectorAll("#severityChips .chip").forEach(chip => {
+      chip.addEventListener("click", () => {
+        document.querySelectorAll("#severityChips .chip").forEach(c => c.classList.remove("active"));
+        chip.classList.add("active");
+        state.severity = chip.dataset.sev;
+        renderList();
+      });
+    });
+
+    document.getElementById("malwareFilter").addEventListener("change", e => {
+      state.malware = e.target.value;
+      renderList();
+    });
+  }
+
+  fetch("data/latest.json")
+    .then(r => {
+      if (!r.ok) throw new Error("no data yet");
+      return r.json();
+    })
+    .then(data => {
+      state.items = data.items || [];
+      renderStats(data);
+      renderActivityStrip(state.items);
+      populateMalwareOptions(state.items);
+      bindControls();
+      renderList();
+    })
+    .catch(() => {
+      document.getElementById("statsLine").textContent = "Henuz veri yok - ilk otomatik calisma bekleniyor.";
+      document.getElementById("activityStrip").innerHTML = '<div class="empty-state" style="width:100%">Henuz gunluk veri yok.</div>';
+      document.getElementById("iocList").innerHTML = '<div class="empty-state">Henuz veri yok. Workflow ilk kez calistiginda burasi dolacak.</div>';
+    });
+</script>
 </body>
 </html>
