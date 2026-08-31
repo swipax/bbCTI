@@ -1,6 +1,320 @@
 {
-  "updated_at": "2026-08-28T22:26:24.143175+00:00",
+  "updated_at": "2026-08-31T13:02:43.598713+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891851",
+      "ioc": "142.11.244.124:443",
+      "ioc_type": "ip:port",
+      "malware": "DanaBot",
+      "confidence": 100,
+      "first_seen": "2026-08-31 12:58:40 UTC",
+      "tags": [
+        "danabot"
+      ],
+      "reference": "https://tria.ge/260831-n5mezs1djc/behavioral1",
+      "summary_tr": "DanaBot zararlısının C2 sunucusu olarak kullanılan bir IP adresidir. Finansal hırsızlık ve hassas bilgilerin ele geçirilmesi açısından kritik risk taşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891856",
+      "ioc": "43.129.180.120:5555",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-08-31 12:58:32 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlısı ile ilişkili bir C2 iletişim noktasıdır. Yetkisiz uzaktan erişim ve veri sızıntısına yol açabileceği için tehlikelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891857",
+      "ioc": "earl.afghankabobgrill.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-08-31 12:58:32 UTC",
+      "tags": [
+        "ClearFake",
+        "ClickFix",
+        "etherhiding"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyası tarafından kullanılan zararlı bir alan adıdır. Sahte güncellemeler yoluyla kullanıcıları hedef alır ve sistem güvenliğini tehdit eder.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891859",
+      "ioc": "https://raw.githubusercontent.com/Christa6547/davidrun/refs/heads/main/pull2395",
+      "ioc_type": "url",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-08-31 12:48:54 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlısının payload barındıran veya yönlendirme yapan URL adresidir. Kötü amaçlı yazılım indirme riskini artırır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891855",
+      "ioc": "https://raw.githubusercontent.com/Christa6547/davidrun",
+      "ioc_type": "url",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-08-31 12:12:41 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyasına ait zararlı dosya barındıran bir URL'dir. Sistemlere sızma ve zararlı yazılım bulaştırma potansiyeli yüksektir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891853",
+      "ioc": "129.204.11.247:22",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-08-31 12:05:06 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike saldırı çerçevesinin C2 sunucusu olarak görev yapan bir IP ve port kombinasyonudur. Ağ içi yayılma ve sızma faaliyetleri için kritik risk oluşturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891852",
+      "ioc": "207.148.64.94:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-08-31 12:05:05 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlısı ile ilişkili bir uzaktan erişim noktasıdır. Ağ güvenliğini ihlal etmek amacıyla kullanılabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891847",
+      "ioc": "64.224.17.88:2404",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-08-31 11:45:04 UTC",
+      "tags": [
+        "RAT",
+        "RemcosRAT"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos RAT zararlısının komuta kontrol sunucusudur. Uzaktan tam kontrol sağlayarak hassas verileri tehlikeye atar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891846",
+      "ioc": "pjp9p9qh.teamgetdsm.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-08-31 11:44:33 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0x76c7",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "macOS kullanıcılarını hedefleyen ClearFake kampanyasıyla ilişkili zararlı bir alan adıdır. Kötü amaçlı yazılım dağıtımı için kullanılır.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891844",
+      "ioc": "wo2n2gl5.shop-biobooster.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-08-31 11:32:25 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0xdcf2",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "macOS işletim sistemlerini hedef alan ClearFake altyapısına ait bir alan adıdır. Zararlı yazılım indirme saldırılarında rol oynar.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891842",
+      "ioc": "shop-biobooster.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-08-31 11:30:31 UTC",
+      "tags": [
+        "31August2026",
+        "ClearFake",
+        "Commandline",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake ve macOS odaklı kampanyalar tarafından kullanılan ana alan adıdır. Zararlı yönlendirmeler için kritik önem taşır.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891840",
+      "ioc": "https://for.12naga.org/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-08-31 11:05:45 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hırsızı zararlısının veri sızdırma veya C2 iletişimi için kullandığı URL'dir. Kimlik bilgileri ve hassas verileri hedef alır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891838",
+      "ioc": "106.55.25.253:22",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-08-31 11:05:06 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike C2 altyapısının bir parçası olan IP ve port adresidir. Kurumsal ağlar için yüksek seviyede sızma tehdidi barındırır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891839",
+      "ioc": "106.55.25.253:5173",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-08-31 11:05:06 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike operasyonlarında kullanılan ve farklı bir port üzerinden hizmet veren C2 IP adresidir. Ağ güvenliği açısından tehlikelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891837",
+      "ioc": "106.55.25.253:8090",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-08-31 11:05:05 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike framework'üne ait bir başka C2 iletişim noktasıdır. Yetkisiz erişim ve kalıcılık sağlama amacıyla kullanılır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891833",
+      "ioc": "131.226.2.95:40038",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-08-31 10:49:45 UTC",
+      "tags": [
+        "c2",
+        "remcos",
+        "REMOTEHOST"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos RAT zararlısının uzak sunucu bağlantısı kurduğu bir IP adresidir. Sistem üzerinde zararlı faaliyetlerin yürütülmesine olanak tanır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891832",
+      "ioc": "147.124.223.53:2404",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-08-31 10:10:02 UTC",
+      "tags": [
+        "RAT",
+        "RemcosRAT"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos RAT komuta kontrol sunucusu olarak tespit edilen bir uç noktadır. Casusluk ve veri çalma faaliyetleri için kritik risk taşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891828",
+      "ioc": "106.55.25.253:80",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-08-31 10:05:06 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike faaliyetleri için kullanılan standart HTTP portlu C2 sunucu adresidir. Ağ güvenliği ihlallerine yol açabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891829",
+      "ioc": "106.55.25.253:8080",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-08-31 10:05:06 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike altyapısına dahil olan ve C2 trafiği barındıran bir IP ve port ikilisidir. Yüksek riskli tehdit göstergesidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1891827",
+      "ioc": "106.55.25.253:443",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-08-31 10:05:05 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike C2 sunucusunun HTTPS üzerinden iletişim kurduğu IP adresidir. Güvenli tünel oluşturarak zararlı faaliyetleri gizlemeyi amaçlar.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1890845",
