@@ -1,6 +1,334 @@
 {
-  "updated_at": "2026-08-31T13:02:43.598713+00:00",
+  "updated_at": "2026-09-01T11:18:47.993936+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892461",
+      "ioc": "dk1oqrra.en-us-en-heroup.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-01 11:13:58 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0x68dc",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlısının macOS sistemleri hedef alan kampanyalarında kullanılan zararlı bir alan adıdır. Kullanıcıları sahte güncellemelerle kandırarak sistem güvenliğini tehlikeye atar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892458",
+      "ioc": "176.98.182.218:12345",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-01 11:00:43 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlısı için Komuta ve Kontrol (C2) sunucusu olarak görev yapan bir IP ve port adresidir. Zararlı yazılımın uzaktan yönetimini sağlar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892457",
+      "ioc": "t4gd7ofi.retinaclier.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:55:14 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0x0f14",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "macOS kullanıcılarını hedefleyen ClearFake kampanyasıyla ilişkili zararlı bir alan adıdır. Kimlik avı ve zararlı yazılım dağıtımı için kullanılır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892456",
+      "ioc": "glyco--mute.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:52:57 UTC",
+      "tags": [
+        "1September2026",
+        "ClearFake",
+        "Commandline",
+        "DomainShadowing",
+        "Windows"
+      ],
+      "reference": null,
+      "summary_tr": "Windows sistemlerini hedefleyen ClearFake zararlısının alan adı gölgeleme (domain shadowing) yöntemiyle kullandığı altyapıdır. Zararlı komutların iletilmesinde rol oynar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892431",
+      "ioc": "64.89.160.127:2891",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:52:18 UTC",
+      "tags": [
+        "c2",
+        "host",
+        "remcos"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos RAT zararlısının iletişim kurduğu bir Komuta ve Kontrol (C2) IP adresidir. Saldırganlara hedef sistem üzerinde tam kontrol sağlar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892401",
+      "ioc": "165.22.191.159:8080",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:52:17 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlısının ana sunucu ile haberleşmesini sağlayan bir C2 IP ve port adresidir. Kritik düzeyde tehdit oluşturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892408",
+      "ioc": "155.103.70.232:14555",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:52:17 UTC",
+      "tags": [
+        "c2",
+        "remcos",
+        "REMOTEHOST"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos uzak erişim trojanının (RAT) veri sızıntısı ve komuta kontrol için kullandığı aktif bir uç nokta adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892443",
+      "ioc": "188.166.146.72:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:52:16 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlısının komuta ve kontrol operasyonları için kullandığı IP adreslerinden biridir. Yetkisiz erişim teşkil eder.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892444",
+      "ioc": "206.189.127.191:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:52:12 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlı yazılımının uzaktan komuta edilmesi amacıyla kullanılan altyapı unsurlarından biridir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892445",
+      "ioc": "139.59.178.162:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:52:12 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru C2 altyapısına ait olan ve zararlı yazılım trafiğini yöneten bir IP ve port hedefidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892446",
+      "ioc": "164.90.172.4:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:52:11 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlısının ağ iletişimini sürdürmek için kullandığı sunucu adreslerinden biridir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892447",
+      "ioc": "178.128.173.150:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:52:11 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlısı ile ilişkili olan ve komuta kontrol trafiği barındıran bir IP adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892450",
+      "ioc": "134.122.68.91:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:52:11 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlısının botnet veya C2 ağına dahil olan bir sunucu adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892448",
+      "ioc": "164.90.234.119:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:52:09 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlısı için iletişim kanalı sağlayan ve güvenlik duvarlarında engellenmesi gereken bir IP adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892451",
+      "ioc": "167.71.54.89:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:52:08 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru C2 altyapısının bir parçası olan ve zararlı faaliyetleri koordine eden bir IP adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892452",
+      "ioc": "138.68.169.201:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:52:08 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlısının komuta kontrol merkeziyle veri alışverişi yaptığı tespit edilen bir uç noktadır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892454",
+      "ioc": "178.128.36.32:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:52:08 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlısının ağ tabanlı faaliyetlerini sürdürmek için kullandığı C2 sunucusudur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892455",
+      "ioc": "glyco-glycofree.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:51:26 UTC",
+      "tags": [
+        "1September2026",
+        "ClearFake",
+        "Commandline",
+        "DomainShadowing",
+        "Windows"
+      ],
+      "reference": null,
+      "summary_tr": "Windows kullanıcılarını hedefleyen ClearFake kampanyasında kullanılan ve alan adı gölgeleme yöntemiyle işletilen zararlı bir alan adıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892449",
+      "ioc": "https://raw.githubusercontent.com/moonstone-lgtm/radugawolrd/refs/heads/main/wintar",
+      "ioc_type": "url",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:49:38 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlısının payloads (zararlı içerik) dağıtımı için GitHub üzerinden kullandığı zararlı dosya indirme URL'sidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1892442",
+      "ioc": "https://raw.githubusercontent.com/moonstone-lgtm/romana/refs/heads/main/lida486",
+      "ioc_type": "url",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-01 10:39:44 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyası kapsamında zararlı bileşenlerin indirilmesi amacıyla barındırıldığı bir GitHub URL adresidir.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1891851",
