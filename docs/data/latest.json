@@ -1,6 +1,321 @@
 {
-  "updated_at": "2026-09-03T10:53:06.538688+00:00",
+  "updated_at": "2026-09-05T10:10:37.162111+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901290",
+      "ioc": "154.91.59.108:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-05 10:05:06 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlısı ile ilişkili bir IP ve port adresidir. Saldırganların uzaktan erişim ve komuta-kontrol amaçlı kullandığı kritik bir göstergedir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901291",
+      "ioc": "154.91.59.106:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-05 10:05:06 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlısının iletişim kurduğu şüpheli bir uç nokta adresidir. Ağ güvenliği için engellenmesi gereken potansiyel bir C2 sunucusudur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901287",
+      "ioc": "154.91.57.119:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-05 10:05:05 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlı yazılımının faaliyetlerinde kullandığı tespit edilen bir IP:port adresidir. Yetkisiz erişim riskini artırır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901288",
+      "ioc": "154.91.60.121:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-05 10:05:05 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell kampanyalarına ait altyapının bir parçası olan zararlı IP adresidir. Ağ trafiğinde izlenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901289",
+      "ioc": "154.91.60.126:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-05 10:05:05 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlısı tarafından kullanılan komuta ve kontrol sunucusu IP adresidir. Kurumlar için yüksek risk taşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901267",
+      "ioc": "154.91.60.125:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-05 09:05:06 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlısının iletişim kurduğu bilinen ağ uç noktasıdır. Yetkisiz komut çalıştırma potansiyeli bulunur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901268",
+      "ioc": "154.91.61.98:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-05 09:05:06 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell altyapısına dahil olan ve zararlı faaliyetleri destekleyen bir IP:port adresidir. Acil engelleme gerektirir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901266",
+      "ioc": "188.166.146.72:9034",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-05 08:46:31 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlısına ait komuta-kontrol (C2) sunucusu olarak görev yapan IP adresidir. Sistem ele geçirme riski taşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901265",
+      "ioc": "zyevwgux.us-en-us-nervealive.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-05 08:36:15 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0x0f14",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "macOS sistemlerini hedef alan ClearFake zararlısı ile ilişkili zararlı bir alt etkialandır. Kötü amaçlı yazılım indirmek için kullanılır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901264",
+      "ioc": "us-en-us-nervealive.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-05 08:34:07 UTC",
+      "tags": [
+        "5September2026",
+        "ClearFake",
+        "Commandline",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyaları kapsamında kullanılan ve macOS kullanıcılarını hedefleyen bir alan adıdır. Kimlik avı ve zararlı dağıtımı için önemlidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901263",
+      "ioc": "96e0qwgn.hero--up.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-05 08:24:25 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0x76c7",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlısının macOS alt gruplarıyla iletişim kurduğu tespit edilen alan adıdır. Dikkatle izlenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901246",
+      "ioc": "fppgncn7.us-en-us-biobooster.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-05 08:16:40 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0x68dc",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlı yazılımının dağıtımında rol oynayan şüpheli alan adıdır. Son kullanıcı güvenliğini tehdit eder.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901245",
+      "ioc": "us-en-us-biobooster.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-05 08:12:27 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake altyapısına bağlı olan ve zararlı içerik barındıran bir alan adıdır. Web filtrelerinde engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901243",
+      "ioc": "154.91.57.114:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-05 08:05:08 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlısının iletişim için kullandığı tespit edilen IP ve port hedefidir. Ağ güvenliği açısından tehlikelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901241",
+      "ioc": "154.91.57.125:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-05 08:05:07 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell faaliyetlerinde aktif olarak kullanılan zararlı IP adresidir. Yetkisiz veri akışına neden olabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901242",
+      "ioc": "154.91.57.112:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-05 08:05:07 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlısına ait C2 altyapısının bir parçası olan IP:port göstergesidir. Yüksek risk barındırır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901240",
+      "ioc": "154.91.57.124:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-05 08:05:06 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell saldırılarında kullanılan ve ağlarda şüpheli trafik üreten IP adresidir. Acil önlem alınmalıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901231",
+      "ioc": "c9xrdjdb.us-en-us-enerflow.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-05 07:57:15 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0xdcf2",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlısının macOS odaklı kampanyalarında kullandığı alan adıdır. Zararlı yazılım indirmelerine yol açabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901230",
+      "ioc": "us-en-us-enerflow.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-05 07:56:02 UTC",
+      "tags": [
+        "5September2026",
+        "ClearFake",
+        "Commandline",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake altyapısına ait komut satırı ve macOS hedefli zararlı aktivitelerde görülen alan adıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1901226",
+      "ioc": "154.91.57.122:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-05 07:05:07 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlısının ağ iletişiminde kullandığı tespit edilen IP adresidir. Güvenlik duvarlarında engellenmelidir.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1893794",
