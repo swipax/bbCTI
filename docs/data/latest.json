@@ -1,6 +1,324 @@
 {
-  "updated_at": "2026-09-07T11:54:33.762104+00:00",
+  "updated_at": "2026-09-09T10:56:39.149600+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906026",
+      "ioc": "161.35.166.196:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-09 10:14:39 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlı yazılımına ait bir Komuta ve Kontrol (C2) sunucusu IP adresidir. Ağ güvenliği için engellenmesi kritik önem taşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906027",
+      "ioc": "138.68.130.69:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-09 10:14:38 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlı yazılımının iletişim kurduğu bir C2 IP adresidir. Kurum ağında tespit edilmesi aktif bir sızma girişimi belirtisi olabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906028",
+      "ioc": "159.65.59.117:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-09 10:14:38 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru C2 altyapısının bir parçası olan bu IP adresi, zararlı trafiğin yönlendirilmesinde kullanılır. Acil olarak izlenmeli ve engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906029",
+      "ioc": "165.22.113.73:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-09 10:14:37 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlısının operasyonel faaliyetleri için kullandığı C2 sunucusudur. Yetkisiz veri erişimi riski taşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906030",
+      "ioc": "64.225.102.231:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-09 10:14:37 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru C2 sunucularından biri olup, zararlı yazılımın komuta almasını sağlar. Ağ çevre birimlerinde engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906038",
+      "ioc": "151.80.76.67:1224",
+      "ioc_type": "ip:port",
+      "malware": "BeaverTail",
+      "confidence": 100,
+      "first_seen": "2026-09-09 10:14:37 UTC",
+      "tags": [
+        "BeaverTail",
+        "ContagiousInterview",
+        "FamousChollima",
+        "folderOpen",
+        "vscode-tasks"
+      ],
+      "reference": null,
+      "summary_tr": "BeaverTail bilgi hırsızı ve zararlı yazılım kampanyasıyla ilişkilendirilmiş bir C2 IP adresidir. Hassas verilerin sızdırılması açısından yüksek risk barındırır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906039",
+      "ioc": "http://151.80.76.67:1224/api/checkStatus",
+      "ioc_type": "url",
+      "malware": "BeaverTail",
+      "confidence": 100,
+      "first_seen": "2026-09-09 10:14:36 UTC",
+      "tags": [
+        "BeaverTail",
+        "ContagiousInterview",
+        "EXFILTRATION",
+        "FamousChollima"
+      ],
+      "reference": null,
+      "summary_tr": "BeaverTail zararlısının veri sızdırma (exfiltration) ve durum kontrolü için kullandığı bir URL'dir. Kurumsal güvenlik duvarlarında engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906040",
+      "ioc": "https://a5lab.co/api/settings/linux",
+      "ioc_type": "url",
+      "malware": "BeaverTail",
+      "confidence": 100,
+      "first_seen": "2026-09-09 10:14:36 UTC",
+      "tags": [
+        "BeaverTail",
+        "ContagiousInterview",
+        "Dropper",
+        "vscode-tasks"
+      ],
+      "reference": null,
+      "summary_tr": "Linux sistemleri hedefleyen BeaverTail damlalık (dropper) bileşenini barındıran zararlı bir URL'dir. Sistem tehlikeye atma potansiyeli yüksektir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906092",
+      "ioc": "47.90.209.157:18084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-09 10:05:09 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlı yazılımına ait bir C2 uç noktasıdır. Uzaktan erişim ve kontrol amacıyla kullanılmaktadır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906091",
+      "ioc": "154.91.60.111:8094",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-09 10:05:08 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell operasyonları için kullanılan bir C2 sunucusu IP adresidir. Yetkisiz komut çalıştırma riskine karşı engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906090",
+      "ioc": "154.91.63.107:8094",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-09 10:05:07 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlısının iletişim kurduğu C2 adreslerinden biridir. Ağ izleme sistemlerinde alarm üretmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906089",
+      "ioc": "154.91.62.102:8094",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-09 10:05:06 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell C2 altyapısına dahil olan bu IP adresi, zararlı faaliyetlerin sürekliliğini sağlar. Acil engellenmesi gerekir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906088",
+      "ioc": "154.91.56.100:8094",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-09 10:05:05 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlısının komuta merkezi olarak kullandığı bir uç noktadır. Güvenlik duvarı kurallarında engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906060",
+      "ioc": "e99is6wd.www-bellyflush.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-09 09:16:49 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0x68dc",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyası kapsamında macOS kullanıcılarını hedefleyen zararlı bir alan adıdır. Sahte güncellemeler yaymak için kullanılır.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906046",
+      "ioc": "154.211.92.190:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-09 09:05:08 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlı yazılımının C2 sunucularından biridir. Ağ güvenliği açısından tehdit oluşturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906044",
+      "ioc": "154.91.63.120:8094",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-09 09:05:07 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell C2 altyapısına ait bu IP adresi, zararlı trafiğin merkezlerinden biridir. Engellenmesi zorunludur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906045",
+      "ioc": "154.91.63.123:8094",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-09 09:05:07 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlısı tarafından kullanılan ve komuta altyapısını destekleyen bir IP:port adresidir. Yüksek risk taşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906042",
+      "ioc": "154.91.63.103:8094",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-09 09:05:05 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell operasyonel faaliyetleri için kullanılan C2 sunucusudur. Yetkisiz erişim girişimlerine karşı izlenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906043",
+      "ioc": "154.91.63.117:8094",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-09 09:05:05 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlı yazılımının iletişim kurduğu C2 IP adresidir. Ağ çevre birimlerinde engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1906023",
+      "ioc": "165.227.142.229:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-09 08:47:35 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlısına ait bir C2 sunucu adresidir. Sistem güvenliğini tehlikeye atabilecek nitelistedir.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1903677",
