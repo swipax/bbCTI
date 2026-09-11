@@ -1,6 +1,306 @@
 {
-  "updated_at": "2026-09-09T10:56:39.149600+00:00",
+  "updated_at": "2026-09-11T10:50:25.696366+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912222",
+      "ioc": "89.217.174.207:9001",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:40 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Bilinmeyen bir zararli yazilimin ag iletisimi kurmak icin kullandigi supheli bir IP ve port adresidir. Guvenlik duvarinda engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912221",
+      "ioc": "45.138.16.182:9130",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:38 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Zararli yazilim faaliyetleriyle iliskilendirilen supheli bir IP ve port adresidir. Sistem erisimlerini tehlikeye atabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912220",
+      "ioc": "146.103.99.177:8443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:37 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Tehdit aktorleri tarafindan kullanilan supheli bir ag baglanti noktasidir. Yetkisiz veri transferine yol acabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912219",
+      "ioc": "46.151.29.58:8443",
+      "ioc_type": "ip:port",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:35 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Bilinmeyen zararli yazilimlar icin ag baglantisi saglayan hedef bir IP ve port adresidir. Incelenmesi gereklidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912218",
+      "ioc": "d4911736986cf8affb29106fb8e8b74e00e52d5f762dce9025f2cfe431cf2140",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:34 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Bilinmeyen bir zararli yazilima ait dosya hash degeridir. Sistemde tespiti durumunda analizi yapilmalidir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912217",
+      "ioc": "c25a27b506fbae62010caf2abff699df5c94d29f056fa7ccfb5f3170d917c8cb",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:32 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Zararli oldugu degerlendirilen bir dosyanin benzersiz SHA256 imzasidir. Bulasici faaliyetlerin engellenmesi icin kritikdir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912216",
+      "ioc": "1bf2c5976f2abbe147ae7be140ed69af2c25092f563786400aecd0231229be19",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:31 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Potansiyel olarak zararli bir yazilim bilesenine ait dosya hash degeridir. Endpoint guvenlik cozumleri ile taranmalidir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912215",
+      "ioc": "a9bea5f89984d47dd60216b0a0b064e8c7e8057e0c10509faa4a2d8d641eb73b",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:29 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Supheli bir dosya veya payload'u temsil eden SHA256 degeridir. Ag genelinde engellenmesi onerilir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912214",
+      "ioc": "08fa6abac9c132deff4f120a7fcfe5bf17c797b87dbbc3f261d5cf0c077c0a2e",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:28 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Zararli yazilim kampanyalarinda kullanildigi dusunulen bir dosya hash'idir. Guvenlik kontrolleri saglanmalidir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912213",
+      "ioc": "550f99193f9e90d93b70af1ab050a2d44f1830259ea165568dafc518e761c589",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:26 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Bilinmeyen bir tehdit unsuruyla iliskilendirilen dosya imzasidir. Sistem butunlugunu tehdit edebilir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912212",
+      "ioc": "005e6014fb8fd47249691756f5af3b3d53bfae82df88a71277e53e13fe94cb9f",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:25 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Zararli yazilim analizlerinde tespit edilen supheli bir dosyaya ait SHA256 degeridir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912211",
+      "ioc": "d99fa14f5e7dfe17e437f167f3f9550ebeda496960710dde81d41748bd7749e4",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:23 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Potansiyel tehdit olusturan bir dosyaya ait hash degeridir. Erken tespit icin SIEM sistemlerine tanimlanmalidir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912210",
+      "ioc": "fe7da807a2b37a2bbd8c27830a9acc0d86ad8128f38489c493873c7e410c0408",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:22 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Zararli yazilim aktivitesine isaret eden dosya hash degeridir. Yayilim riskine karsi izlenmelidir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912209",
+      "ioc": "eb4d8aab4e687839c5478a7a3819b0a7a857555ed50fc159c026e99764a0c8a0",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:21 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Supheli bir dosya transferi veya calismasinda gorulen SHA256 imzasidir. Gerekli karantina islemleri yapilmalidir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912208",
+      "ioc": "cc7f0660d56405cbdff157033d3e35305f063e62efaff6501d11e6a34e7bd151",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:19 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Bilinmeyen zararli bir yazilimin parcasi oldugu dusunulen dosya hash degeridir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912207",
+      "ioc": "2d338ffc8cc80293575c6800c059e33eb41e967907c20ba7687b2231c50837db",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:27:18 UTC",
+      "tags": [
+        "STRU"
+      ],
+      "reference": null,
+      "summary_tr": "Tehdit istihbarati kaynaklarinda supheli olarak etiketlenmis dosya imzasidir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912206",
+      "ioc": "log.v-panel.asia",
+      "ioc_type": "domain",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:16:29 UTC",
+      "tags": [],
+      "reference": "",
+      "summary_tr": "Vidar bilgi hirsizligi (info-stealer) zararlisiyla iliskilendirilen bir alan adidir. Hassas verilerin sizdirilmasinda kullanilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912205",
+      "ioc": "https://log.v-panel.asia/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:16:06 UTC",
+      "tags": [],
+      "reference": "",
+      "summary_tr": "Vidar zararlisinin komuta-kontrol (C2) iletisimi veya veri hirsizligi icin kullandigi URL adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912204",
+      "ioc": "155.103.71.115:16409",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:13:04 UTC",
+      "tags": [
+        "c2",
+        "remcos",
+        "REMOTEHOST"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos RAT zararlisinin uzaktan yonetim ve komuta-kontrol (C2) amaciyla kullandigi IP ve port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1912203",
+      "ioc": "155.103.71.115:16408",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-09-11 10:10:04 UTC",
+      "tags": [
+        "c2",
+        "remcos",
+        "REMOTEHOST"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos RAT tarafindan kullanilan aktif bir C2 sunucu baglantisidir. Acil olarak ag seviyesinde engellenmelidir.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1906026",
