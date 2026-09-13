@@ -1,6 +1,386 @@
 {
-  "updated_at": "2026-09-11T10:50:25.696366+00:00",
+  "updated_at": "2026-09-13T11:18:59.851861+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916302",
+      "ioc": "209.38.218.11:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:26 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Bu IP adresi, Jackskid (Mirai türevi) botnet operasyonları ve DDoS saldırıları ile ilişkilendirilmiştir. Ağ güvenliği için yüksek risk oluşturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916303",
+      "ioc": "77.232.42.112:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:26 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Jackskid botnet altyapısının bir parçası olan bu adres, DDoS saldırılarında komuta kontrol veya katılım amaçlı kullanılmaktadır. Kritik seviyede tehdit barındırır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916304",
+      "ioc": "77.232.43.42:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:26 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Mirai tabanlı Jackskid zararlısının iletişim kurduğu bu IP ve port, DDoS faaliyetleri nedeniyle engellenmelidir. Potansiyel sistem kesintilerine yol açabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916305",
+      "ioc": "91.142.78.96:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:26 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Zararlı botnet faaliyetlerinde kullanılan bu IOC, DDoS saldırıları düzenleyen Jackskid altyapısına aittir. Ağ trafiğinde acil olarak izlenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916293",
+      "ioc": "167.172.118.133:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:25 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Jackskid botnetine dahil edilen bu uç nokta, DDoS saldırıları gerçekleştirmek amacıyla kullanılmaktadır. Güvenlik duvarlarında engellenmesi gerekir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916294",
+      "ioc": "168.144.80.153:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:25 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Mirai türevi Jackskid zararlısının zararlı ağ aktivitelerine katıldığı tespit edilmiştir. DDoS tehdit potansiyeli nedeniyle yüksek risklidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916295",
+      "ioc": "185.173.37.80:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:25 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Bu IP adresi ve port üzerinden yürütülen Jackskid faaliyetleri, hedef sistemlerde hizmet dışı bırakma (DDoS) saldırılarına neden olabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916296",
+      "ioc": "185.190.58.252:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:25 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Jackskid botnetine ait bu gösterge, zararlı trafiğin yayılmasında rol oynamaktadır. Kurumsal ağlar için ciddi bir tehdittir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916297",
+      "ioc": "185.232.84.109:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:25 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "DDoS saldırıları ve botnet yönetimi için kullanılan Jackskid zararlısının iletişim adresidir. Acil önlem alınması gerektirir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916298",
+      "ioc": "185.232.84.169:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:25 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Mirai altyapısından türetilen Jackskid botnetinin bir parçasıdır. Ağ güvenliğini tehdit eden yüksek riskli bir IOC'dir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916299",
+      "ioc": "185.244.181.217:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:25 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Bu adres, Jackskid zararlısının DDoS operasyonlarında aktif olarak kullanılmaktadır. Yetkisiz erişim ve kesintilere karşı taranmalıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916300",
+      "ioc": "188.166.17.163:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:25 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Jackskid botnetine bağlı zararlı aktivite kaynağıdır. DDoS saldırı potansiyeli nedeniyle yüksek güvenlik riski taşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916301",
+      "ioc": "192.209.63.229:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:25 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Mirai tabanlı Jackskid zararlısının iletişim kurduğu tespit edilen bu IOC, ağ altyapıları için tehlike arz etmektedir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916284",
+      "ioc": "144.126.197.173:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:24 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Jackskid botnet yapısının bir parçası olan bu IP, DDoS saldırılarında kullanılmaktadır. Güvenlik duvarı kurallarında engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916285",
+      "ioc": "147.182.187.202:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:24 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Zararlı botnet trafiği üreten Jackskid altyapısına aittir. Hedef sistemlerin sürekliliği için yüksek risk oluşturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916286",
+      "ioc": "155.103.49.236:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:24 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Mirai türevi Jackskid zararlısının operasyonel faaliyetlerinde kullandığı bir uç noktadır. Acil engelleme gerektirir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916287",
+      "ioc": "155.103.50.28:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:24 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Bu IP adresi ve port, Jackskid botnetinin DDoS saldırıları için ağ trafiği oluşturmaktadır. Yüksek dereceli tehdittir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916288",
+      "ioc": "155.103.51.85:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:24 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Jackskid zararlısının komuta veya saldırı zincirinde yer alan bir IOC'dir. Ağ güvenliği açısından risklidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916289",
+      "ioc": "159.65.23.101:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:24 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Mirai türevi Jackskid botnetinin zararlı aktivitelerine katıldığı belirlenmiştir. DDoS riski nedeniyle yüksek önem taşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1916290",
+      "ioc": "165.99.131.180:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-13 11:11:24 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Jackskid altyapısına ait bu adres, DDoS saldırıları düzenlemek amacıyla kullanılmaktadır. Ağ yöneticilerinin dikkat etmesi gerekir.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1912222",
