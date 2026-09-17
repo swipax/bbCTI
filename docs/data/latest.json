@@ -1,6 +1,337 @@
 {
-  "updated_at": "2026-09-15T11:20:31.397789+00:00",
+  "updated_at": "2026-09-17T11:14:00.387419+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923106",
+      "ioc": "143.244.130.3:8291",
+      "ioc_type": "ip:port",
+      "malware": "Remus",
+      "confidence": 100,
+      "first_seen": "2026-09-17 11:10:17 UTC",
+      "tags": [
+        "0f81469cc7638ba7c82eaddbd6b3c20a",
+        "c2",
+        "Remus"
+      ],
+      "reference": null,
+      "summary_tr": "Remus zararlisi ile iliskili bir Komuta ve Kontrol (C2) IP adresidir. Kurum aglarinda yetkisiz erisim ve veri sizintisina yol acabilecegi icin yuksek risk tasir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923105",
+      "ioc": "181.235.13.254:6001",
+      "ioc_type": "ip:port",
+      "malware": "Quasar RAT",
+      "confidence": 100,
+      "first_seen": "2026-09-17 11:05:09 UTC",
+      "tags": [
+        "QuasarRAT"
+      ],
+      "reference": null,
+      "summary_tr": "Quasar RAT uzaktan erisim trojani tarafindan kullanilan bir C2 sunucusudur. Sistemlerin uzaktan kontrol edilmesine ve hassas verilerin calinmasina olanak tanir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923104",
+      "ioc": "39.100.66.238:44323",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-09-17 11:05:08 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike saldiri cercevesi tarafindan kullanilan bir C2 uc noktasidir. Ag ici hareketler ve hedefli saldirilar icin kritik bir tehdittir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923103",
+      "ioc": "39.100.66.238:44322",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-09-17 11:05:05 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike altyapisina ait bir C2 IP ve port kombinasyonudur. Saldirganlarin agda kalicilik saglamasi icin kritik onem tasir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923083",
+      "ioc": "43.157.63.92:8080",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-17 10:51:12 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlisina ait bir C2 sunucusudur. Zararli faaliyetlerin yonetilmesinde kullanildigi icin ag guvenligi icin tehlikelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923088",
+      "ioc": "74.50.123.47:2404",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-09-17 10:51:12 UTC",
+      "tags": [
+        "c2",
+        "remcos",
+        "REMOTEHOST"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos RAT zararlisinin iletisim kurdugu bir C2 sunucusudur. Kurbanin cihazi uzerinde tam kontrol saglamaya yarar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923094",
+      "ioc": "c72c17b0abc3b8c184eafed3e983985016a4b201844425e7009eb00faf96cfbd",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown Stealer",
+      "confidence": 100,
+      "first_seen": "2026-09-17 10:51:11 UTC",
+      "tags": [
+        "54e64e",
+        "dropped-by-amadey",
+        "exe",
+        "RustyStealer",
+        "stealer"
+      ],
+      "reference": null,
+      "summary_tr": "RustyStealer bilgi hirsizi zararlisinin SHA-256 dosya ozetidir. Hassas kullanici bilgilerini ve kimlik bilgilerini calmayi amaclar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923098",
+      "ioc": "43.157.63.92:9034",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-17 10:51:11 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlisi ile iliskili baska bir C2 baglanti noktasidir. Zararli trafigin engellenmesi gereklidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923099",
+      "ioc": "https://a7.zk89.net",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-09-17 10:51:10 UTC",
+      "tags": [
+        "8dbad9a375e8878a31856816a5750204",
+        "c2",
+        "Loader",
+        "stealer",
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hirsizi zararlisinin veri goturdugu ve yukleme yaptigi bir URL adresidir. Kimlik ve veri hirsizligi acisindan yuksek risklidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923102",
+      "ioc": "a7.zk89.net",
+      "ioc_type": "domain",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-09-17 10:40:46 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlisinin kullandigi bir C2 alan adidir. Zararli yazilimin komuta merkezine erismesini saglar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923100",
+      "ioc": "a7.199cuan.org",
+      "ioc_type": "domain",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-09-17 10:40:45 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hirsicinin altyapisina ait bir alan adidir. Guvenlik duvarlarinda engellenmesi hayati onem tasir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923101",
+      "ioc": "https://a7.199cuan.org/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-09-17 10:40:45 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlisi ile baglanti kurulan bir URL adresidir. Hassas verilerin sizdirilmasinda kullanilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923086",
+      "ioc": "39.100.66.238:8080",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-09-17 10:05:09 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike operasyonlarinda kullanilan bir C2 adresidir. Gelismis kalici tehditlerde siklikla gorulur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923087",
+      "ioc": "39.100.66.238:4330",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-09-17 10:05:09 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike saldiri altyapisinin parcasi olan bir C2 uc noktasidir. Yetkisiz erisim girisimlerini gosterir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1923085",
+      "ioc": "124.221.4.84:22",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-09-17 10:05:05 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike trafigi barindiran bir SSH/C2 portudur. Ag ici sizma faaliyetlerinin gostergesidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1922646",
+      "ioc": "43.157.63.92:12345",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-17 09:46:49 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlisi tarafindan kullanilan bir C2 sunucu adresidir. Zararli yazilim yonetimi icin kritik bir noktadir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1922823",
+      "ioc": "144.202.84.110:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-17 09:45:31 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Jackskid/Miraiture botnet yapisina dahil olan ve DDoS saldirilarinda kullanilan bir IP adresidir. Ag performansini dusurme amaci tasir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1922827",
+      "ioc": "45.32.64.165:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-17 09:45:31 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Mirai turevi Jackskid botnetine ait bir C2 veya node adresidir. Dagitik hizmet engelleme saldirilarina katilir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1922830",
+      "ioc": "45.76.84.217:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-17 09:45:30 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Jackskid botnet aginin parcasi olan bir IP adresidir. DDoS saldirilari duzenlemek icin kullanilmaktadir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1922834",
+      "ioc": "64.176.67.103:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-17 09:45:30 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Jackskid botnet altyapisiyla iliskili bir ag uc noktasidir. Zararli botnet trafigi uretir.",
+      "severity": "medium"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1920330",
@@ -2928,323 +3259,6 @@
       ],
       "reference": null,
       "summary_tr": "Cobalt Strike C2 sunucusunun HTTPS üzerinden iletişim kurduğu IP adresidir. Güvenli tünel oluşturarak zararlı faaliyetleri gizlemeyi amaçlar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890845",
-      "ioc": "46.101.146.87:9034",
-      "ioc_type": "ip:port",
-      "malware": "Aisuru",
-      "confidence": 100,
-      "first_seen": "2026-08-28 22:04:16 UTC",
-      "tags": [
-        "AISURU",
-        "c2"
-      ],
-      "reference": null,
-      "summary_tr": "Aisuru zararlı yazılımının C2 (Komuta ve Kontrol) sunucusu olarak kullanılan bir IP adresidir. Ağ güvenliği için acilen engellenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890842",
-      "ioc": "a1q5ie1n.gtsdirect.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-08-28 21:36:38 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x68dc",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "macOS sistemlerini hedef alan ClearFake zararlı yazılımıyla ilişkili bir alan adıdır. Kimlik avı ve zararlı yönlendirmeler için kullanılır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890840",
-      "ioc": "hvbabdh2.jeffmowatt.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-08-28 21:20:27 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x0f14",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "macOS kullanıcılarını hedefleyen ClearFake kampanyasının altyapısında yer alan bir alan adıdır. Zararlı içerik dağıtımında rol oynar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890839",
-      "ioc": "jeffmowatt.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-08-28 21:20:03 UTC",
-      "tags": [
-        "28August2026",
-        "ClearFake",
-        "Commandline",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake zararlı yazılım dağıtım ağının bir parçası olan alan adıdır. Sistem güvenliğini tehdit eden zararlı yönlendirmeler yapar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890838",
-      "ioc": "hqgetdsm.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-08-28 21:16:11 UTC",
-      "tags": [
-        "28August2026",
-        "ClearFake",
-        "Commandline",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake kampanyası kapsamında zararlı aktivite gösteren bir alan adıdır. Engellenmesi tavsiye edilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890835",
-      "ioc": "scalewithgetdsm.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-08-28 20:58:17 UTC",
-      "tags": [
-        "ClearFake"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake zararlı yazılımıyla bağlantılı olan bu alan adı, zararlı yazılım yaymak amacıyla kullanılmaktadır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890825",
-      "ioc": "8.145.59.5:11112",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-08-28 20:05:07 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlı yazılımının iletişim kurduğu bir C2 uç noktasıdır. Yetkisiz erişim riskine karşı izlenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890826",
-      "ioc": "89.34.227.96:8088",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-08-28 20:05:07 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlı yazılımının ağ aktivitelerinde kullandığı bir IP ve port adresidir. Kritik düzeyde tehdit barındırır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890824",
-      "ioc": "47.94.194.175:15000",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-08-28 20:05:06 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlı yazılım faaliyetleriyle ilişkilendirilen bir ağ uç noktasıdır. Sızma girişimlerine karşı engellenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890823",
-      "ioc": "196.70.69.77:5000",
-      "ioc_type": "ip:port",
-      "malware": "AsyncRAT",
-      "confidence": 100,
-      "first_seen": "2026-08-28 20:05:05 UTC",
-      "tags": [
-        "asyncrat"
-      ],
-      "reference": null,
-      "summary_tr": "Uzaktan erişim trojanı (RAT) olan AsyncRAT'ın C2 sunucusudur. Sistem kontrolünün ele geçirilmesine yol açabilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890821",
-      "ioc": "http://165.22.225.110/commands",
-      "ioc_type": "url",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-08-28 19:53:05 UTC",
-      "tags": [],
-      "reference": "https://bazaar.abuse.ch/sample/ff5d658fc78d345ed97b0c695ea6ec04feb14848ebe5de056f1c23cbdc9f80ff/",
-      "summary_tr": "Bilinmeyen bir zararlı yazılımın komut aldığı URL adresidir. Şüpheli trafik tespiti için incelenmelidir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890820",
-      "ioc": "http://165.22.225.110/responses.php",
-      "ioc_type": "url",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-08-28 19:53:04 UTC",
-      "tags": [],
-      "reference": "https://bazaar.abuse.ch/sample/ff5d658fc78d345ed97b0c695ea6ec04feb14848ebe5de056f1c23cbdc9f80ff/",
-      "summary_tr": "Bilinmeyen bir zararlı yazılımın veri alışverişi yaptığı yanıt URL'sidir. Ağ trafiğinde engellenmelidir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890816",
-      "ioc": "guard7.barnfabric.click",
-      "ioc_type": "domain",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-08-28 19:48:55 UTC",
-      "tags": [],
-      "reference": "https://bazaar.abuse.ch/sample/e66a19f3842dcd3b3b807dae122aae370d13d2753116495f34ef837ae8f56102/",
-      "summary_tr": "Şüpheli faaliyetlerde bulunan ve zararlı yazılımlarla ilişkili olduğu değerlendirilen bir alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890744",
-      "ioc": "https://46.29.26.35",
-      "ioc_type": "url",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-08-28 19:27:30 UTC",
-      "tags": [
-        "8e8e7920d1ac7f57735398887661bf8d",
-        "c2",
-        "Loader",
-        "stealer",
-        "Vidar"
-      ],
-      "reference": null,
-      "summary_tr": "Hassas bilgileri çalan Vidar bilgi hırsızının C2 sunucusudur. Bilgi sızıntısı riskine karşı acilen engellenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890760",
-      "ioc": "https://nsn.12naga.org",
-      "ioc_type": "url",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-08-28 19:27:25 UTC",
-      "tags": [
-        "279244a0387f7d5a1b68137bd9768de8",
-        "c2",
-        "Loader",
-        "stealer",
-        "Vidar"
-      ],
-      "reference": null,
-      "summary_tr": "Vidar stealer zararlısının veri iletimi yaptığı C2 adresidir. Sistem güvenliği için yüksek risk oluşturur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890781",
-      "ioc": "https://185.229.225.31",
-      "ioc_type": "url",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-08-28 19:27:20 UTC",
-      "tags": [
-        "c2",
-        "e53c0776fdba467447b61be1a2bc4027",
-        "Loader",
-        "stealer",
-        "Vidar"
-      ],
-      "reference": null,
-      "summary_tr": "Vidar bilgi hırsızı zararlısının operasyonel altyapısına ait bir C2 URL adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890787",
-      "ioc": "157.20.182.21:1973",
-      "ioc_type": "ip:port",
-      "malware": "AsyncRAT",
-      "confidence": 100,
-      "first_seen": "2026-08-28 19:05:12 UTC",
-      "tags": [
-        "asyncrat"
-      ],
-      "reference": null,
-      "summary_tr": "AsyncRAT zararlısının komuta ve kontrol merkezi olarak kullandığı bir uç noktadır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890786",
-      "ioc": "104.168.94.108:38006",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-08-28 19:05:11 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlı yazılımının iletişim kurduğu tespit edilen şüpheli bir IP ve port adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890785",
-      "ioc": "20.119.73.195:7443",
-      "ioc_type": "ip:port",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-08-28 19:05:10 UTC",
-      "tags": [
-        "Mythic"
-      ],
-      "reference": null,
-      "summary_tr": "Mythic C2 framework altyapısıyla ilişkilendirilen bir uç noktadır. Yetkisiz sızma testleri veya saldırılar için kullanılabilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1890784",
-      "ioc": "2.88.92.98:7547",
-      "ioc_type": "ip:port",
-      "malware": "Havoc",
-      "confidence": 100,
-      "first_seen": "2026-08-28 19:05:08 UTC",
-      "tags": [
-        "Havoc"
-      ],
-      "reference": null,
-      "summary_tr": "Havoc C2 framework tarafından kullanılan bir ağ adresidir. Kötü amaçlı komuta ve kontrol trafiği üretir.",
       "severity": "high"
     }
   ]
