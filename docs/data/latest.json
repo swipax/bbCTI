@@ -1,6 +1,340 @@
 {
-  "updated_at": "2026-09-21T12:18:33.981766+00:00",
+  "updated_at": "2026-09-23T11:01:32.234890+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929601",
+      "ioc": "155.103.69.239:4550",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-09-23 10:53:01 UTC",
+      "tags": [
+        "c2",
+        "jardon",
+        "remcos"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos RAT zararlisi tarafindan kullanilan bir Komuta ve Kontrol (C2) IP ve port adresidir. Sistem erisimi saglamak amaciyla kritik tehdit olusturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929603",
+      "ioc": "72pxs9dq.osatcarton.ir",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-23 10:23:58 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0x76c7",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyasi ile iliskili olup macOS sistemlerini hedefleyen zararli bir alan adidir. Kullanicilari sahte guncellemelerle kandirmak icin kullanilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929602",
+      "ioc": "osatcarton.ir",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-23 10:20:59 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlisinin altyapisinda kullanilan ana alan adidir. Zararli yonlendirmeler ve kampanya faaliyetleri icin onem arz eder.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929600",
+      "ioc": "ifiyge40.infinityjoespizzaclearwater.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-23 10:14:05 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0xdcf2",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyasi kapsaminda macOS kullanicilarini hedefleyen bir baska zararli alt alan adidir. Kimlik avi ve zararli yazilim indirme amacli kullanilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929590",
+      "ioc": "velvet-otter-glagceis.life",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:45:10 UTC",
+      "tags": [
+        "ClickFix",
+        "Mac"
+      ],
+      "reference": "",
+      "summary_tr": "IClickFix (ClickFix) sosyal muhendislik kampanyasiyla baglantili zararli bir alan adidir. Genellikle sahte hata mesajlari yoluyla kullanicilari hedef alir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929587",
+      "ioc": "hollow-forge-rook-guiyn.life",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:44:01 UTC",
+      "tags": [
+        "ClickFix",
+        "Mac"
+      ],
+      "reference": "",
+      "summary_tr": "IClickFix zararlisinin dagitiminda kullanilan zararli bir alan adidir. Kullanici etkilesimi yoluyla sistem guvenligini tehlikeye atar.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929577",
+      "ioc": "jp8f91ri.303ine.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:40:41 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0x68dc",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake ve macOS odakli zararlilarin erisim sagladigi bir alt alan adidir. Bulasicierigi yaymak icin kritik rol oynar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929576",
+      "ioc": "hollyarcade.org",
+      "ioc_type": "domain",
+      "malware": "SmartApeSG",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:40:31 UTC",
+      "tags": [
+        "SmartApeSG"
+      ],
+      "reference": "",
+      "summary_tr": "SmartApeSG zararlisi ile iliskili olan ve altyapi faaliyetlerinde kullanilan bir alan adidir. Kurumlar icin potansiyel risk tasir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929575",
+      "ioc": "303ine.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:40:14 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararli kampanyasinin yonlendirme ve altyapi islemleri icin kullandigi ana alan adidir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929574",
+      "ioc": "https://hollyarcade.org/tenant/secure-css.js",
+      "ioc_type": "url",
+      "malware": "SmartApeSG",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:40:07 UTC",
+      "tags": [
+        "SmartApeSG"
+      ],
+      "reference": "",
+      "summary_tr": "SmartApeSG zararlisinin kod veya script dosyalarini barindiran zararli bir URL adresidir. Dogrudan bulasma vektoru olarak onemlidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929571",
+      "ioc": "835f2996734cfc372b8e99824ffb778753228733d23ae2e83608c8caad5ce9e6",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:27:26 UTC",
+      "tags": [
+        "Amos",
+        "cc2",
+        "ClickFix",
+        "Foxveil",
+        "macOS"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/835f2996734cfc372b8e99824ffb778753228733d23ae2e83608c8caad5ce9e6",
+      "summary_tr": "macOS platformunu hedefleyen AMOS (Atomic Stealer) bilgi hirsizi zararlisinin SHA256 hash degeridir. Hassas verileri calmak uzere tasarlanmistir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929554",
+      "ioc": "144.126.198.39:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:05:11 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Mirai tabanli Jackskid botnet aginin DDoS saldirilari icin kullandigi C2 IP ve port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929555",
+      "ioc": "152.42.196.145:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:05:11 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Jackskid botnet yapisinin ag faaliyetlerinde kullandigi zararli IP ve port hedefidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929556",
+      "ioc": "165.245.246.201:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:05:10 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Jackskid ve Mirai turevi botnet saldirilarina katilan bir diger zararli ag baglanti noktasidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929557",
+      "ioc": "178.62.233.227:443",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:05:10 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "DDoS saldirilari ve botnet yonetimi icin kullanilan Jackskid altyapisina ait IP ve port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929566",
+      "ioc": "https://45.86.64.51",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:05:10 UTC",
+      "tags": [
+        "277f4d022050679623f08c97241a7142",
+        "c2",
+        "Loader",
+        "stealer",
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hirsizi ve yukleyici (loader) yazilimlarinin C2 iletisimi kurdugu zararli bir URL adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929570",
+      "ioc": "111.231.116.164:55413",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:05:06 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike saldiri cetesinin ag ici hareket ve komuta kontrol icin kullandigi IP ve portdur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929569",
+      "ioc": "139.180.216.149:80",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:05:04 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlisinin baglanti kurdugu ve uzaktan erisim sagladigi C2 IP ve port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929565",
+      "ioc": "pemdistribution.com",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:00:04 UTC",
+      "tags": [
+        "ClickFix"
+      ],
+      "reference": "",
+      "summary_tr": "IClickFix kampanyasi kapsaminda kullanicilari kandirmak icin isletilen zararli bir alan adidir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1929564",
+      "ioc": "focusgood.com",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "confidence": 100,
+      "first_seen": "2026-09-23 09:00:02 UTC",
+      "tags": [
+        "ClickFix"
+      ],
+      "reference": "",
+      "summary_tr": "ClickFix zararli yazilim aktivitelerinde kullanilan ve sosyal muhendislik icerikleri barindiran alan adidir.",
+      "severity": "medium"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1926463",
@@ -2877,343 +3211,6 @@
       ],
       "reference": null,
       "summary_tr": "VShell zararlısının ağ iletişiminde kullandığı tespit edilen IP adresidir. Güvenlik duvarlarında engellenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893794",
-      "ioc": "usa-smartwaterbox.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:51:19 UTC",
-      "tags": [
-        "3September2026",
-        "ClearFake",
-        "Commandline",
-        "DomainShadowing",
-        "Windows"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake zararlı yazılım kampanyasıyla ilişkilendirilmiş şüpheli bir etki alanıdır. Windows sistemlerini hedefleyen komut satırı tabanlı saldırılarda kullanılmaktadır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893793",
-      "ioc": "us-denta-vive.us",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:51:06 UTC",
-      "tags": [
-        "3September2026",
-        "ClearFake",
-        "Commandline",
-        "DomainShadowing",
-        "Windows"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake zararlı yazılımının dağıtımı için kullanılan bir etki alanıdır. Alan adı gölgeleme (domain shadowing) yöntemiyle saldırganlar tarafından kötü amaçlı faaliyetler için suistimal edilmektedir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893792",
-      "ioc": "47jt59gp.us-en-us-heroup.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:48:45 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x68dc",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "macOS platformunu hedefleyen ClearFake kampanyasının altyapısında yer alan bir etki alanıdır. Kullanıcıları kandırarak zararlı komutlar çalıştırmayı amaçlar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893791",
-      "ioc": "omoyr4k2.usa-biodentix.us",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:48:19 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x0f14",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "macOS kullanıcılarını hedefleyen ClearFake zararlı yazılım dağıtım ağının bir parçasıdır. Sistem güvenliğini tehdit eden zararlı yönlendirmelerde kullanılır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893790",
-      "ioc": "fingerprint-veri.info",
-      "ioc_type": "domain",
-      "malware": "IClickFix",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:47:29 UTC",
-      "tags": [
-        "ClickFix"
-      ],
-      "reference": null,
-      "summary_tr": "IClickFix zararlı yazılım ailesiyle bağlantılı bir etki alanıdır. Genellikle sahte güncelleme ve sosyal mühendislik saldırılarında kullanılır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893788",
-      "ioc": "s77.sm188dvlv.mom",
-      "ioc_type": "domain",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:45:45 UTC",
-      "tags": [
-        "Vidar"
-      ],
-      "reference": null,
-      "summary_tr": "Hassas bilgileri çalmakla tanınan Vidar bilgi hırsızı (infostealer) zararlı yazılımının iletişim kurduğu bir etki alanıdır. Kurumsal ağlar için yüksek risk taşır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893789",
-      "ioc": "https://s77.sm188dvlv.mom/",
-      "ioc_type": "url",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:45:45 UTC",
-      "tags": [
-        "Vidar"
-      ],
-      "reference": null,
-      "summary_tr": "Vidar bilgi hırsızı zararlısının komuta-kontrol (C2) iletişiminde kullandığı URL adresidir. Kimlik bilgisi ve hassas veri hırsızlığına yol açabilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893786",
-      "ioc": "s77.13balien.org",
-      "ioc_type": "domain",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:40:45 UTC",
-      "tags": [
-        "Vidar"
-      ],
-      "reference": null,
-      "summary_tr": "Vidar zararlı yazılımının veri sızdırma ve C2 faaliyetleri için kullandığı etki alanıdır. Güvenlik duvarlarında engellenmesi hayati önem taşır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893787",
-      "ioc": "https://s77.13balien.org/",
-      "ioc_type": "url",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:40:45 UTC",
-      "tags": [
-        "Vidar"
-      ],
-      "reference": null,
-      "summary_tr": "Vidar zararlısının faaliyet gösterdiği sunucuya erişim sağlayan bir URL'dir. Kullanıcı verilerini tehlikeye atabilecek zararlı trafik üretir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893785",
-      "ioc": "try-prostafense.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:19:12 UTC",
-      "tags": [
-        "3September2026",
-        "ClearFake",
-        "Commandline",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "macOS ve Windows sistemlerini hedefleyen ClearFake kampanyasına ait zararlı bir etki alanıdır. Komut satırı araçları üzerinden zararlı kod çalıştırmak için kullanılır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893781",
-      "ioc": "193.26.115.223:4411",
-      "ioc_type": "ip:port",
-      "malware": "Remcos",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:13:23 UTC",
-      "tags": [
-        "c2",
-        "FUDBIO-S",
-        "remcos"
-      ],
-      "reference": null,
-      "summary_tr": "Remcos uzaktan erişim truva atının (RAT) C2 sunucusu olarak görev yapan bir IP ve port adresidir. Saldırganlara uzaktan tam kontrol sağlar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893782",
-      "ioc": "217.60.195.34:18631",
-      "ioc_type": "ip:port",
-      "malware": "Remcos",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:13:22 UTC",
-      "tags": [
-        "c2",
-        "remcos",
-        "WhiteRemote32"
-      ],
-      "reference": null,
-      "summary_tr": "Remcos RAT yazılımının iletişim kurduğu zararlı bir uç noktadır. Sistem sızıntılarına ve yetkisiz erişimlere neden olabilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893783",
-      "ioc": "184.107.115.238:2404",
-      "ioc_type": "ip:port",
-      "malware": "Remcos",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:13:21 UTC",
-      "tags": [
-        "c2",
-        "GUMU",
-        "remcos"
-      ],
-      "reference": null,
-      "summary_tr": "Remcos zararlısının komuta-kontrol merkezi olarak kullandığı IP adresidir. Ağ güvenliği açısından kritik bir tehdit oluşturur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893784",
-      "ioc": "107.161.168.253:7789",
-      "ioc_type": "ip:port",
-      "malware": "Remcos",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:13:20 UTC",
-      "tags": [
-        "c2",
-        "remcos",
-        "REMOTEHOST"
-      ],
-      "reference": null,
-      "summary_tr": "Remcos RAT operasyonlarında kullanılan ve sistemleri tehlikeye atan bir C2 sunucu adresidir. Acil olarak engellenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893780",
-      "ioc": "try-cardioslim.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-03 10:09:26 UTC",
-      "tags": [
-        "3September2026",
-        "ClearFake",
-        "Commandline",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake kampanyası kapsamında macOS kullanıcılarını hedefleyen zararlı bir etki alanıdır. Sahte içeriklerle zararlı yazılım yükletmeyi amaçlar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893756",
-      "ioc": "172.111.131.3:56090",
-      "ioc_type": "ip:port",
-      "malware": "Remcos",
-      "confidence": 100,
-      "first_seen": "2026-09-03 09:52:15 UTC",
-      "tags": [
-        "c2",
-        "remcos",
-        "septguops"
-      ],
-      "reference": null,
-      "summary_tr": "Remcos RAT altyapısının bir parçası olan ve zararlı komut alışverişi yapılan bir C2 IP adresidir. Yüksek riskli tehdit göstergesidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893775",
-      "ioc": "0ccb70sc.thevictorytoken.org",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-03 09:48:58 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x76c7",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "macOS platformunu hedefleyen ClearFake zararlı yazılımının dağıtıldığı alt alan adıdır. Kötü amaçlı yönlendirmeler için kullanılır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893769",
-      "ioc": "thevictorytoken.org",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-03 09:45:56 UTC",
-      "tags": [
-        "3September2026",
-        "ClearFake",
-        "Commandline",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake kampanyasına ev sahipliği yapan ve komut satırı tabanlı saldırılarda kullanılan ana etki alanıdır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893763",
-      "ioc": "t5n2mgno.cdn-jbgroup.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-03 09:39:39 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x68dc",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "macOS işletim sistemlerini hedef alan ClearFake zararlısı ile ilişkili bir etki alanıdır. Güvenlik zafiyetlerinden yararlanmaya çalışır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1893762",
-      "ioc": "dy1h1rmc.thetrumplapelpin.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-03 09:37:29 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0xdcf2",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake zararlı yazılım kampanyası kapsamında macOS kullanıcılarını hedefleyen şüpheli bir etki alanıdır.",
       "severity": "high"
     }
   ]
