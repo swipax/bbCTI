@@ -1,6 +1,338 @@
 {
-  "updated_at": "2026-09-27T11:39:39.074093+00:00",
+  "updated_at": "2026-09-29T12:22:33.674379+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941716",
+      "ioc": "fringliaencobalt.ink",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:15:30 UTC",
+      "tags": [
+        "ClickFix",
+        "Mac",
+        "MacFinger"
+      ],
+      "reference": "",
+      "summary_tr": "IClickFix zararlisiyla iliskili bir alan adidir ve macOS sistemlerini hedef alan saldirilarda kullanilmaktadir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941607",
+      "ioc": "aaed196675895fcb5816edf09b0cb120",
+      "ioc_type": "md5_hash",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:53 UTC",
+      "tags": [],
+      "reference": "https://app.any.run/tasks/3240eaad-faea-436e-9606-1aae4cec4173",
+      "summary_tr": "Saldirganlarin ag ici erisim ve komuta-kontrol icin kullandigi Cobalt Strike framework'une ait bir MD5 hash'idir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941610",
+      "ioc": "ce09b63cd78f45022473b9c401c067096436b025d427cd8251e9e9c7d2b59630",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:52 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Nesnelerin interneti (IoT) cihazlarini hedef alan Mirai botnet zararlisinin SHA-256 hash'idir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941612",
+      "ioc": "3bc182cd50a25ea6c9adceb7f327c11ddbe18c28cf87a7f40c56a1562bea91ea",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:52 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "IoT cihazlarini hedefleyen ve DDoS saldirlarinda kullanilan Mirai zararlisina ait bir SHA-256 hash degeridir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941613",
+      "ioc": "29fb2896608e2b8250ae782a68c1c10e0fc02b2e312da5a603cd8d491f4d0f89",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:51 UTC",
+      "tags": [
+        "elf",
+        "Mirai",
+        "upx"
+      ],
+      "reference": null,
+      "summary_tr": "UPX ile paketlenmis ve Mirai botnet ailesine ait olan zararli bir yazilim dosyasinin SHA-256 hash'idir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941614",
+      "ioc": "99c8a5433fb68c939767326a94cd385167a75071c65e2bc90f1dfcdf0c179ea5",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:51 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "IoT aglarini tehdit eden Mirai botnet yaziliminin tespit edilen SHA-256 hash degeridir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941616",
+      "ioc": "3f06c25223339624f82a311192079de84a83dc231a62a16a13ed4cb60de9c010",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:50 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "macOS",
+        "quill"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/3f06c25223339624f82a311192079de84a83dc231a62a16a13ed4cb60de9c010",
+      "summary_tr": "macOS platformunu hedefleyen AMOS (Atomic Stealer) bilgi hirsizi zararlisinin SHA-256 hash'idir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941618",
+      "ioc": "https://pzk.v-panel.asia/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:50 UTC",
+      "tags": [],
+      "reference": "",
+      "summary_tr": "Hassas verileri calmak icin tasarlanmis Vidar bilgi hirsizi zararlisiyla iletisim kuran bir URL'dir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941619",
+      "ioc": "pzk.v-panel.asia",
+      "ioc_type": "domain",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:49 UTC",
+      "tags": [],
+      "reference": "",
+      "summary_tr": "Vidar bilgi hirsizi zararlisinin baglanti kurdugu komuta-kontrol sunucusu alan adidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941620",
+      "ioc": "pro-comfort.pl",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:49 UTC",
+      "tags": [
+        "ClearFake",
+        "ClickFix",
+        "compromised",
+        "etherhiding",
+        "Polygon"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake ve ClickFix kampanyalariyla iliskili, zararli icerik dagitiminda kullanilan ele gecirilmis bir alan adidir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941622",
+      "ioc": "5.181.2.159:15987",
+      "ioc_type": "ip:port",
+      "malware": "Potassium",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:48 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Mirai",
+        "potassium",
+        "woof"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/potassium",
+      "summary_tr": "DDoS saldirilari ve botnet faaliyetleri icin kullanilan Potassium (Mirai turevi) altyapisinin IP ve port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941623",
+      "ioc": "https://pevrix.com/curl/42403afd2906a8f3062e3ddb19b28572d88db9ae74b147319383bd280c6bec0a",
+      "ioc_type": "url",
+      "malware": "MacSync",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:47 UTC",
+      "tags": [
+        "ClickFix",
+        "macOS",
+        "MacSync"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/594a664773b84fbc55649a138f96ff65ae7187951f90aa3aba3e23bea1233a12",
+      "summary_tr": "macOS sistemlerini hedefleyen MacSync zararlisinin indirilmesi icin kullanilan zararli bir URL'dir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941624",
+      "ioc": "594a664773b84fbc55649a138f96ff65ae7187951f90aa3aba3e23bea1233a12",
+      "ioc_type": "sha256_hash",
+      "malware": "MacSync",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:47 UTC",
+      "tags": [
+        "ClickFix",
+        "macOS",
+        "MacSync"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/594a664773b84fbc55649a138f96ff65ae7187951f90aa3aba3e23bea1233a12",
+      "summary_tr": "macOS kullanıcılarini hedef alan MacSync bilgi hirsizi yazilimina ait SHA-256 hash degeridir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941638",
+      "ioc": "b0abdcf8f5a17770dc6f0198a7c551fa9181765af4cc03ead04220377623ef2f",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:46 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "IoT cihazlarini zafiyete ugratmayi amaclayan Mirai botnet turevinin SHA-256 hash'idir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941639",
+      "ioc": "457ea8168a4e0f86b0b29237350d31ab744bd7bf3c923ca83a3f0676bb55f199",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:44 UTC",
+      "tags": [
+        "elf",
+        "Mirai",
+        "opendir",
+        "wer-ldr-duckdns-org",
+        "wereng-duckdns-org"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai botnet ailesine ait olan ve ag taramasi yapan zararli bir yazilimin SHA-256 hash'idir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941640",
+      "ioc": "2fa86f74d22e3a1cd5db46b8528030b5660f3386f0ae9807a921273092db3ace",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:43 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "IoT sistemlerini enfekte etmek icin yayilan Mirai botnet yaziliminin SHA-256 hash degeridir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941646",
+      "ioc": "fortuna-qwont.club",
+      "ioc_type": "domain",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:42 UTC",
+      "tags": [
+        "ClearFake",
+        "ClickFix",
+        "etherhiding",
+        "stealer"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake ve ClickFix kampanyalarinda kullaniciyi kandirarak zararli yazilim indiren bir alan adidir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941647",
+      "ioc": "765d12ca9049d0ba5126befd88492072d5e50806e72b940947e927c3f98a3fc8",
+      "ioc_type": "sha256_hash",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:42 UTC",
+      "tags": [
+        "ClickFix",
+        "injector",
+        "Loader",
+        "stealer"
+      ],
+      "reference": null,
+      "summary_tr": "Kullanici sistemlerine zararli yazilim enjekte etmek icin kullanilan bir yukleyiciye ait SHA-256 hash'idir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941649",
+      "ioc": "46.246.14.10:5987",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:42 UTC",
+      "tags": [
+        "c2",
+        "NMUOnAPUAPU",
+        "remcos"
+      ],
+      "reference": null,
+      "summary_tr": "Uzaktan erisim trojani (RAT) olan Remcos'un komuta-kontrol (C2) iletisimi icin kullandigi IP ve port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1941650",
+      "ioc": "143.198.214.100:8443",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-09-29 12:10:40 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlisinin komuta-kontrol (C2) islemleri icin ag baglantisi kurdugu IP ve port adresidir.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1938732",
@@ -2909,324 +3241,6 @@
       ],
       "reference": null,
       "summary_tr": "Remcos RAT tarafindan kullanilan aktif bir C2 sunucu baglantisidir. Acil olarak ag seviyesinde engellenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906026",
-      "ioc": "161.35.166.196:8001",
-      "ioc_type": "ip:port",
-      "malware": "Aisuru",
-      "confidence": 100,
-      "first_seen": "2026-09-09 10:14:39 UTC",
-      "tags": [
-        "AISURU",
-        "c2"
-      ],
-      "reference": null,
-      "summary_tr": "Aisuru zararlı yazılımına ait bir Komuta ve Kontrol (C2) sunucusu IP adresidir. Ağ güvenliği için engellenmesi kritik önem taşır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906027",
-      "ioc": "138.68.130.69:8001",
-      "ioc_type": "ip:port",
-      "malware": "Aisuru",
-      "confidence": 100,
-      "first_seen": "2026-09-09 10:14:38 UTC",
-      "tags": [
-        "AISURU",
-        "c2"
-      ],
-      "reference": null,
-      "summary_tr": "Aisuru zararlı yazılımının iletişim kurduğu bir C2 IP adresidir. Kurum ağında tespit edilmesi aktif bir sızma girişimi belirtisi olabilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906028",
-      "ioc": "159.65.59.117:8001",
-      "ioc_type": "ip:port",
-      "malware": "Aisuru",
-      "confidence": 100,
-      "first_seen": "2026-09-09 10:14:38 UTC",
-      "tags": [
-        "AISURU",
-        "c2"
-      ],
-      "reference": null,
-      "summary_tr": "Aisuru C2 altyapısının bir parçası olan bu IP adresi, zararlı trafiğin yönlendirilmesinde kullanılır. Acil olarak izlenmeli ve engellenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906029",
-      "ioc": "165.22.113.73:8001",
-      "ioc_type": "ip:port",
-      "malware": "Aisuru",
-      "confidence": 100,
-      "first_seen": "2026-09-09 10:14:37 UTC",
-      "tags": [
-        "AISURU",
-        "c2"
-      ],
-      "reference": null,
-      "summary_tr": "Aisuru zararlısının operasyonel faaliyetleri için kullandığı C2 sunucusudur. Yetkisiz veri erişimi riski taşır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906030",
-      "ioc": "64.225.102.231:8001",
-      "ioc_type": "ip:port",
-      "malware": "Aisuru",
-      "confidence": 100,
-      "first_seen": "2026-09-09 10:14:37 UTC",
-      "tags": [
-        "AISURU",
-        "c2"
-      ],
-      "reference": null,
-      "summary_tr": "Aisuru C2 sunucularından biri olup, zararlı yazılımın komuta almasını sağlar. Ağ çevre birimlerinde engellenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906038",
-      "ioc": "151.80.76.67:1224",
-      "ioc_type": "ip:port",
-      "malware": "BeaverTail",
-      "confidence": 100,
-      "first_seen": "2026-09-09 10:14:37 UTC",
-      "tags": [
-        "BeaverTail",
-        "ContagiousInterview",
-        "FamousChollima",
-        "folderOpen",
-        "vscode-tasks"
-      ],
-      "reference": null,
-      "summary_tr": "BeaverTail bilgi hırsızı ve zararlı yazılım kampanyasıyla ilişkilendirilmiş bir C2 IP adresidir. Hassas verilerin sızdırılması açısından yüksek risk barındırır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906039",
-      "ioc": "http://151.80.76.67:1224/api/checkStatus",
-      "ioc_type": "url",
-      "malware": "BeaverTail",
-      "confidence": 100,
-      "first_seen": "2026-09-09 10:14:36 UTC",
-      "tags": [
-        "BeaverTail",
-        "ContagiousInterview",
-        "EXFILTRATION",
-        "FamousChollima"
-      ],
-      "reference": null,
-      "summary_tr": "BeaverTail zararlısının veri sızdırma (exfiltration) ve durum kontrolü için kullandığı bir URL'dir. Kurumsal güvenlik duvarlarında engellenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906040",
-      "ioc": "https://a5lab.co/api/settings/linux",
-      "ioc_type": "url",
-      "malware": "BeaverTail",
-      "confidence": 100,
-      "first_seen": "2026-09-09 10:14:36 UTC",
-      "tags": [
-        "BeaverTail",
-        "ContagiousInterview",
-        "Dropper",
-        "vscode-tasks"
-      ],
-      "reference": null,
-      "summary_tr": "Linux sistemleri hedefleyen BeaverTail damlalık (dropper) bileşenini barındıran zararlı bir URL'dir. Sistem tehlikeye atma potansiyeli yüksektir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906092",
-      "ioc": "47.90.209.157:18084",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-09 10:05:09 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlı yazılımına ait bir C2 uç noktasıdır. Uzaktan erişim ve kontrol amacıyla kullanılmaktadır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906091",
-      "ioc": "154.91.60.111:8094",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-09 10:05:08 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell operasyonları için kullanılan bir C2 sunucusu IP adresidir. Yetkisiz komut çalıştırma riskine karşı engellenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906090",
-      "ioc": "154.91.63.107:8094",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-09 10:05:07 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlısının iletişim kurduğu C2 adreslerinden biridir. Ağ izleme sistemlerinde alarm üretmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906089",
-      "ioc": "154.91.62.102:8094",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-09 10:05:06 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell C2 altyapısına dahil olan bu IP adresi, zararlı faaliyetlerin sürekliliğini sağlar. Acil engellenmesi gerekir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906088",
-      "ioc": "154.91.56.100:8094",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-09 10:05:05 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlısının komuta merkezi olarak kullandığı bir uç noktadır. Güvenlik duvarı kurallarında engellenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906060",
-      "ioc": "e99is6wd.www-bellyflush.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-09 09:16:49 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x68dc",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake kampanyası kapsamında macOS kullanıcılarını hedefleyen zararlı bir alan adıdır. Sahte güncellemeler yaymak için kullanılır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906046",
-      "ioc": "154.211.92.190:8084",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-09 09:05:08 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlı yazılımının C2 sunucularından biridir. Ağ güvenliği açısından tehdit oluşturur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906044",
-      "ioc": "154.91.63.120:8094",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-09 09:05:07 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell C2 altyapısına ait bu IP adresi, zararlı trafiğin merkezlerinden biridir. Engellenmesi zorunludur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906045",
-      "ioc": "154.91.63.123:8094",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-09 09:05:07 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlısı tarafından kullanılan ve komuta altyapısını destekleyen bir IP:port adresidir. Yüksek risk taşır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906042",
-      "ioc": "154.91.63.103:8094",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-09 09:05:05 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell operasyonel faaliyetleri için kullanılan C2 sunucusudur. Yetkisiz erişim girişimlerine karşı izlenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906043",
-      "ioc": "154.91.63.117:8094",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-09 09:05:05 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlı yazılımının iletişim kurduğu C2 IP adresidir. Ağ çevre birimlerinde engellenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1906023",
-      "ioc": "165.227.142.229:8001",
-      "ioc_type": "ip:port",
-      "malware": "Aisuru",
-      "confidence": 100,
-      "first_seen": "2026-09-09 08:47:35 UTC",
-      "tags": [
-        "AISURU",
-        "c2"
-      ],
-      "reference": null,
-      "summary_tr": "Aisuru zararlısına ait bir C2 sunucu adresidir. Sistem güvenliğini tehlikeye atabilecek nitelistedir.",
       "severity": "high"
     }
   ]
