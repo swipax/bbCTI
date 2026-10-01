@@ -1,6 +1,319 @@
 {
-  "updated_at": "2026-09-29T12:22:33.674379+00:00",
+  "updated_at": "2026-10-01T12:41:37.791132+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943829",
+      "ioc": "7d6aab23591c4a6471b1a459d0ef87f6d36d6f28b2352ecb72f02db8e0da6c0e",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-01 12:24:07 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "macOS",
+        "quill"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/7d6aab23591c4a6471b1a459d0ef87f6d36d6f28b2352ecb72f02db8e0da6c0e",
+      "summary_tr": "macOS sistemleri hedef alan AMOS bilgi hirsizi yazilimina ait bir SHA256 hash degeridir. Hassas verileri caldigi icin yuksek risk tasir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943825",
+      "ioc": "8556f67e1c0044c57d024b3a409d27547b60abd3643af5768a54e908f53be26d",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-01 12:17:39 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "macOS",
+        "quill"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/8556f67e1c0044c57d024b3a409d27547b60abd3643af5768a54e908f53be26d",
+      "summary_tr": "macOS platformunu etkileyen AMOS zararlisinin baska bir varyantina ait hash degeridir. Kritik kullanici verilerini hedef aldigi icin onemlidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943824",
+      "ioc": "dd0b08f858b78d57b73c079282bccd502f1165812f6c33d35e87c589201210d7",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:45:55 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "IoT cihazlarini hedef alan Mirai botnet zararlisinin ELF formatindaki bir ornegidir. Genis capli DDoS saldirilarina yol acabilecegi icin yuksek risklidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943823",
+      "ioc": "0e31d3cfb24baf38d3faec21b52465842fbe5c16e6e16bc2efcd3a5025dde324",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:45:54 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai botnet ailesine ait zararli bir yazilim dosyasinin SHA256 hash degeridir. Ag guvenligi icin kritik tehdit olusturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943822",
+      "ioc": "a157b86bb50b92c090fc69d53330f09f4e9cba5ad3f6d071cce6c541969d08be",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:45:53 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Ag cihazlarini ele gecirmek icin kullanilan Mirai botnet yaziliminin bir baska SHA256 hash gostergesidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943821",
+      "ioc": "a2eb9cf201f057f9860abfbd377b58d390165b6c86ff9a23f848ee0142b40f7b",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:45:52 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai zararlisinin ag uzerinde yayilmasini saglayan ELF ikilisinin hash degeridir. Guvenlik ihlallerine neden olabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943820",
+      "ioc": "2ee382361d90e132a609142789120179e82c82291ddc7c8a477c3bb922d32093",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:45:50 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai botnet operasyonlarinda kullanilan zararli bir dosyaya ait hash degeridir. Botnet aglarini genisletmeyi amaclar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943819",
+      "ioc": "8ee5acc0b90bfe8d1bbed32aa0fb4de9d0845be23114f565cd443cd9f5cc1a79",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:45:49 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai zararlisinin tespit edilen baska bir varyantinin SHA256 hash degeridir. Buyuk olcekli DDoS saldirilarinda kullanilabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943818",
+      "ioc": "2ba4a00fc3670740985247c150f568646945b3c4df303d3dec27449875320b6e",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:45:48 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Zararli Mirai botnet yaziliminin agdaki zayif cihazlari hedef alan bir baska bilesenidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943817",
+      "ioc": "97eda25aafbe8e3cd94697374c2c4fc12f9f81dcad701a4473a419f863a92d9b",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:45:47 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai botnet altyapisinin faaliyet gostermesini saglayan zararli bir dosya hash degeridir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943816",
+      "ioc": "37289b6cd05c122326f557e5ae79c6bb024e0021236dd7ef47c97ffd6af5e155",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:45:46 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "IoT tabanli sistemleri hedef alan Mirai zararlisinin baska bir SHA256 gostergesidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943815",
+      "ioc": "086d6790e715890e2b60732204317771e64f7ea0beb3a77bf7b96420b132b007",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:45:44 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai botnet ailesine ait olan ve ag guvenligini tehdit eden zararli bir dosya hash degeridir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943814",
+      "ioc": "7caa8b33aed02172518789d84dc2caa9a86a38786173ffc6ec50fc4de831fa37",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:45:43 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai zararlisinin ag tarama ve bulasma faaliyetlerinde kullandigi dosyalardan biridir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943813",
+      "ioc": "d7f70d9e7392593238179a17214420161b2b8fd8eca119521cbba82c9aae00cc",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:45:41 UTC",
+      "tags": [
+        "elf",
+        "Mirai",
+        "upx"
+      ],
+      "reference": null,
+      "summary_tr": "UPX ile sıkıştırılmış Mirai botnet zararlısına ait bir dosya hash değeridir. Analiz edilmesini zorlaştıran gizleme teknikleri içerir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943808",
+      "ioc": "driveinformation.com",
+      "ioc_type": "domain",
+      "malware": "TonRAT",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:38:08 UTC",
+      "tags": [],
+      "reference": null,
+      "summary_tr": "TonRAT zararlisinin komuta ve kontrol (C2) iletisimi icin kullandigi bir alan adidir. Bulasici faaliyetlerin merkezini olusturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943809",
+      "ioc": "drivemqx.com",
+      "ioc_type": "domain",
+      "malware": "TonRAT",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:38:08 UTC",
+      "tags": [],
+      "reference": null,
+      "summary_tr": "TonRAT zararlisi tarafindan kullanilan ve ag trafiginde engellenmesi gereken bir C2 alan adidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943810",
+      "ioc": "guest-information-5661939311.com",
+      "ioc_type": "domain",
+      "malware": "TonRAT",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:38:08 UTC",
+      "tags": [],
+      "reference": null,
+      "summary_tr": "TonRAT zararlisinin veri sizdirma veya yonetim amacli kullandigi supheli bir alan adi gostergesidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943811",
+      "ioc": "informationbnb-september.com",
+      "ioc_type": "domain",
+      "malware": "TonRAT",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:38:08 UTC",
+      "tags": [],
+      "reference": null,
+      "summary_tr": "TonRAT zararli yaziliminin altyapisiyla iliskili olan ve tehdit avciligi icin onemli bir alan adidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943805",
+      "ioc": "cloudelivrenterprise.com",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:25:02 UTC",
+      "tags": [
+        "ClickFix"
+      ],
+      "reference": null,
+      "summary_tr": "IClickFix zararlisinin sosyal muhendislik ve tiklama tabanli saldirilarinda kullandigi bir alan adidir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1943804",
+      "ioc": "teamfenterprise2026.com",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "confidence": 100,
+      "first_seen": "2026-10-01 11:24:24 UTC",
+      "tags": [
+        "ClickFix"
+      ],
+      "reference": null,
+      "summary_tr": "IClickFix kampanyalariyla baglantili olan ve zararli yonlendirmeler yapan bir alan adi gostergesidir.",
+      "severity": "medium"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1941716",
@@ -2941,306 +3254,6 @@
       ],
       "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
       "summary_tr": "Jackskid altyapısına ait bu adres, DDoS saldırıları düzenlemek amacıyla kullanılmaktadır. Ağ yöneticilerinin dikkat etmesi gerekir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912222",
-      "ioc": "89.217.174.207:9001",
-      "ioc_type": "ip:port",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:40 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Bilinmeyen bir zararli yazilimin ag iletisimi kurmak icin kullandigi supheli bir IP ve port adresidir. Guvenlik duvarinda engellenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912221",
-      "ioc": "45.138.16.182:9130",
-      "ioc_type": "ip:port",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:38 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Zararli yazilim faaliyetleriyle iliskilendirilen supheli bir IP ve port adresidir. Sistem erisimlerini tehlikeye atabilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912220",
-      "ioc": "146.103.99.177:8443",
-      "ioc_type": "ip:port",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:37 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Tehdit aktorleri tarafindan kullanilan supheli bir ag baglanti noktasidir. Yetkisiz veri transferine yol acabilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912219",
-      "ioc": "46.151.29.58:8443",
-      "ioc_type": "ip:port",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:35 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Bilinmeyen zararli yazilimlar icin ag baglantisi saglayan hedef bir IP ve port adresidir. Incelenmesi gereklidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912218",
-      "ioc": "d4911736986cf8affb29106fb8e8b74e00e52d5f762dce9025f2cfe431cf2140",
-      "ioc_type": "sha256_hash",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:34 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Bilinmeyen bir zararli yazilima ait dosya hash degeridir. Sistemde tespiti durumunda analizi yapilmalidir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912217",
-      "ioc": "c25a27b506fbae62010caf2abff699df5c94d29f056fa7ccfb5f3170d917c8cb",
-      "ioc_type": "sha256_hash",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:32 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Zararli oldugu degerlendirilen bir dosyanin benzersiz SHA256 imzasidir. Bulasici faaliyetlerin engellenmesi icin kritikdir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912216",
-      "ioc": "1bf2c5976f2abbe147ae7be140ed69af2c25092f563786400aecd0231229be19",
-      "ioc_type": "sha256_hash",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:31 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Potansiyel olarak zararli bir yazilim bilesenine ait dosya hash degeridir. Endpoint guvenlik cozumleri ile taranmalidir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912215",
-      "ioc": "a9bea5f89984d47dd60216b0a0b064e8c7e8057e0c10509faa4a2d8d641eb73b",
-      "ioc_type": "sha256_hash",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:29 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Supheli bir dosya veya payload'u temsil eden SHA256 degeridir. Ag genelinde engellenmesi onerilir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912214",
-      "ioc": "08fa6abac9c132deff4f120a7fcfe5bf17c797b87dbbc3f261d5cf0c077c0a2e",
-      "ioc_type": "sha256_hash",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:28 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Zararli yazilim kampanyalarinda kullanildigi dusunulen bir dosya hash'idir. Guvenlik kontrolleri saglanmalidir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912213",
-      "ioc": "550f99193f9e90d93b70af1ab050a2d44f1830259ea165568dafc518e761c589",
-      "ioc_type": "sha256_hash",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:26 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Bilinmeyen bir tehdit unsuruyla iliskilendirilen dosya imzasidir. Sistem butunlugunu tehdit edebilir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912212",
-      "ioc": "005e6014fb8fd47249691756f5af3b3d53bfae82df88a71277e53e13fe94cb9f",
-      "ioc_type": "sha256_hash",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:25 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Zararli yazilim analizlerinde tespit edilen supheli bir dosyaya ait SHA256 degeridir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912211",
-      "ioc": "d99fa14f5e7dfe17e437f167f3f9550ebeda496960710dde81d41748bd7749e4",
-      "ioc_type": "sha256_hash",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:23 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Potansiyel tehdit olusturan bir dosyaya ait hash degeridir. Erken tespit icin SIEM sistemlerine tanimlanmalidir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912210",
-      "ioc": "fe7da807a2b37a2bbd8c27830a9acc0d86ad8128f38489c493873c7e410c0408",
-      "ioc_type": "sha256_hash",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:22 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Zararli yazilim aktivitesine isaret eden dosya hash degeridir. Yayilim riskine karsi izlenmelidir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912209",
-      "ioc": "eb4d8aab4e687839c5478a7a3819b0a7a857555ed50fc159c026e99764a0c8a0",
-      "ioc_type": "sha256_hash",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:21 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Supheli bir dosya transferi veya calismasinda gorulen SHA256 imzasidir. Gerekli karantina islemleri yapilmalidir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912208",
-      "ioc": "cc7f0660d56405cbdff157033d3e35305f063e62efaff6501d11e6a34e7bd151",
-      "ioc_type": "sha256_hash",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:19 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Bilinmeyen zararli bir yazilimin parcasi oldugu dusunulen dosya hash degeridir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912207",
-      "ioc": "2d338ffc8cc80293575c6800c059e33eb41e967907c20ba7687b2231c50837db",
-      "ioc_type": "sha256_hash",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:27:18 UTC",
-      "tags": [
-        "STRU"
-      ],
-      "reference": null,
-      "summary_tr": "Tehdit istihbarati kaynaklarinda supheli olarak etiketlenmis dosya imzasidir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912206",
-      "ioc": "log.v-panel.asia",
-      "ioc_type": "domain",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:16:29 UTC",
-      "tags": [],
-      "reference": "",
-      "summary_tr": "Vidar bilgi hirsizligi (info-stealer) zararlisiyla iliskilendirilen bir alan adidir. Hassas verilerin sizdirilmasinda kullanilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912205",
-      "ioc": "https://log.v-panel.asia/",
-      "ioc_type": "url",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:16:06 UTC",
-      "tags": [],
-      "reference": "",
-      "summary_tr": "Vidar zararlisinin komuta-kontrol (C2) iletisimi veya veri hirsizligi icin kullandigi URL adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912204",
-      "ioc": "155.103.71.115:16409",
-      "ioc_type": "ip:port",
-      "malware": "Remcos",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:13:04 UTC",
-      "tags": [
-        "c2",
-        "remcos",
-        "REMOTEHOST"
-      ],
-      "reference": null,
-      "summary_tr": "Remcos RAT zararlisinin uzaktan yonetim ve komuta-kontrol (C2) amaciyla kullandigi IP ve port adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1912203",
-      "ioc": "155.103.71.115:16408",
-      "ioc_type": "ip:port",
-      "malware": "Remcos",
-      "confidence": 100,
-      "first_seen": "2026-09-11 10:10:04 UTC",
-      "tags": [
-        "c2",
-        "remcos",
-        "REMOTEHOST"
-      ],
-      "reference": null,
-      "summary_tr": "Remcos RAT tarafindan kullanilan aktif bir C2 sunucu baglantisidir. Acil olarak ag seviyesinde engellenmelidir.",
       "severity": "high"
     }
   ]
