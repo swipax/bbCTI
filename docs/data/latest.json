@@ -1,6 +1,340 @@
 {
-  "updated_at": "2026-10-01T12:41:37.791132+00:00",
+  "updated_at": "2026-10-03T11:17:22.734694+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948501",
+      "ioc": "147.45.116.124:27651",
+      "ioc_type": "ip:port",
+      "malware": "Potassium",
+      "confidence": 100,
+      "first_seen": "2026-10-03 11:09:39 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Mirai",
+        "potassium",
+        "woof"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/potassium",
+      "summary_tr": "Potassium botnet ailesi ile ilişkili zararlı bir IP ve port adresidir. DDoS saldırılarında kullanıldığı için ağ güvenliği açısından yüksek risk taşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948502",
+      "ioc": "147.45.116.125:23789",
+      "ioc_type": "ip:port",
+      "malware": "Potassium",
+      "confidence": 100,
+      "first_seen": "2026-10-03 11:09:39 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Mirai",
+        "potassium",
+        "woof"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/potassium",
+      "summary_tr": "Mirai tabanlı Potassium botnetine ait bir komuta-kontrol veya saldırı uç noktasıdır. Genellikle büyük çaplı DDoS saldırılarının bir parçasıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948500",
+      "ioc": "f34d710806afa48402934964c15d381991bb386280a6b84889282e68f2b14ff1",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-03 11:05:41 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "macOS",
+        "stratos"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/f34d710806afa48402934964c15d381991bb386280a6b84889282e68f2b14ff1",
+      "summary_tr": "macOS sistemlerini hedef alan AMOS (Atomic Stealer) zararlısının dosya hash değeridir. Hassas bilgileri ve cüzdan verilerini çaldığı için kritiktir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948498",
+      "ioc": "0cbvmet6.tanyavondegurechaff.fit",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:48:18 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0x0f14",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyasıyla bağlantılı zararlı bir alan adıdır. macOS kullanıcılarını sahte güncellemelerle kandırarak zararlı yazılım bulaştırmayı amaçlar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948497",
+      "ioc": "ccc3cd3605d7c033a1c17030e047bcafd0f33cac1cc9276740c46dc4228f2070",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:51 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai botnetine ait ELF tabanlı zararlı yazılımın dosya hash değeridir. IoT cihazlarını ele geçirmek için kullanılır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948496",
+      "ioc": "226d5f0493530a890fe642db959232b63ba8b7be48ea94a65cc68f8437b10ae5",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:50 UTC",
+      "tags": [
+        "elf",
+        "Mirai",
+        "wraith"
+      ],
+      "reference": null,
+      "summary_tr": "Wraith varyantı içeren Mirai zararlısına ait bir dosya hash değeridir. Ağdaki zayıf cihazları hedef alarak botnete dâhil eder.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948495",
+      "ioc": "744a5384a8bc1749ec3d656c2a123410b336894c771dcc37d8e744e352f6c647",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:49 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai zararlısının ELF formatındaki ikili dosyasının hash değeridir. Dağıtık hizmet dışı bırakma (DDoS) saldırılarında aktif rol oynar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948494",
+      "ioc": "d835a7b69e2a5554b9390fbc03fe175f47e0c47b64dcce8b1bf5ca6fc6d9c134",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:48 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai botnet ailesine ait zararlı bir dosyanın SHA-256 özetidir. Zafiyet barındıran sistemleri tarayarak yayılma eğilimindedir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948493",
+      "ioc": "78a57de8eb7d70af3d44dda3ea3fc11ed44879d34db45fb8c22211b852398763",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:47 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai zararlısının tespit edilen bir başka ELF ikili dosyasıdır. Kritik altyapılara yönelik DDoS tehdidi oluşturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948491",
+      "ioc": "580ffce9b7b58f51cc4db2973f83300e79ee67583f59a96ebdbb4cc0c65710fb",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:46 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai botnet altyapısının bir parçası olan zararlı dosyaya ait hash değeridir. Ağ trafiğinde engellenmesi gereklidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948492",
+      "ioc": "1494e1fbe094a19ccf07ed68425128e124e48852c496ef1f9c2e380c06140c35",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:46 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai zararlısına ait bu dosya hash'i, IoT tabanlı botnet faaliyetlerinin tespitinde kullanılır. Yüksek risk barındırır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948490",
+      "ioc": "81ea2a392b6d71c7cd381f48ebffb992457a1d3897d1484a3fd7823f2e9f69a3",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:45 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai botnetine ait ELF zararlısının SHA-256 hash değeridir. Otomatik yayılım mekanizmalarına sahiptir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948489",
+      "ioc": "ab434585775518b79d589ee36a56eafc9a83c81e9bd4fb5c8b5cb9939220ecd4",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:44 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai zararlı yazılımının bir varyantına ait dosya hash değeridir. Ağ güvenliği için potansiyel tehlike arz eder.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948488",
+      "ioc": "02c7c8ec40b82738e76147ce4491ccaa6486899797384e07420269e7d69cbc10",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:43 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai botnet ailesi kapsamında tespit edilen zararlı bir ikili dosyadır. DDoS saldırılarında bot olarak görev yapar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948487",
+      "ioc": "de83746bf75a7dbdad061ec4b82e9c403eec44b1441cc4b207ddbe21cd787575",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:42 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai zararlısının imza tabanlı tespiti için kullanılan dosya hash değeridir. Sistem bütünlüğünü tehdit eder.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948486",
+      "ioc": "286fe92a07c436d799a411a447e519ef53b557f5819dabde14bf7774780ea7a6",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:41 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai botnet operasyonlarında kullanılan zararlı bir ELF dosyasına ait hash değeridir. Acil karantinaya alınmalıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948485",
+      "ioc": "ef42e6fd238baa990731f2ab20d130c489c1689588c5842713f28b4e90724019",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:40 UTC",
+      "tags": [
+        "elf",
+        "Mirai",
+        "wraith"
+      ],
+      "reference": null,
+      "summary_tr": "Wraith varyantı taşıyan Mirai zararlısına ait hash değeridir. Güvenlik duvarlarında engellenmesi zorunludur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948484",
+      "ioc": "f46e36db293f62f037e5442b11868018c2d82ee028b8c8b63cbf4bcad977fea3",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:39 UTC",
+      "tags": [
+        "elf",
+        "Mirai",
+        "upx"
+      ],
+      "reference": null,
+      "summary_tr": "UPX ile paketlenmiş Mirai zararlısına ait dosya hash değeridir. Analiz edilmesini zorlaştırmak için ambalajlanmıştır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948483",
+      "ioc": "f7912f131a404a0339630246ba5070594d5271e3153f3dc9afe6a8a685c9020e",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:38 UTC",
+      "tags": [
+        "elf",
+        "Mirai"
+      ],
+      "reference": null,
+      "summary_tr": "Mirai botnet ailesine mensup zararlı bir yazılımın hash değeridir. Büyük çaplı saldırılara zemin hazırlar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1948482",
+      "ioc": "459aeb312e7e083130ad6983dfd27cedcc0e73a46d55383a6bddbd1dbb2bec9a",
+      "ioc_type": "sha256_hash",
+      "malware": "Mirai",
+      "confidence": 100,
+      "first_seen": "2026-10-03 10:46:37 UTC",
+      "tags": [
+        "elf",
+        "Mirai",
+        "upx"
+      ],
+      "reference": null,
+      "summary_tr": "UPX paketleyicisi kullanan Mirai zararlısına ait dosya hash değeridir. Ağ ve uç nokta güvenliği için yüksek risk taşır.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1943829",
@@ -2874,386 +3208,6 @@
       ],
       "reference": null,
       "summary_tr": "Cobalt Strike sızma ve kontrol faaliyetlerinin yürütüldüğü tespit edilen şüpheli bir IP ve port adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916302",
-      "ioc": "209.38.218.11:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:26 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Bu IP adresi, Jackskid (Mirai türevi) botnet operasyonları ve DDoS saldırıları ile ilişkilendirilmiştir. Ağ güvenliği için yüksek risk oluşturur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916303",
-      "ioc": "77.232.42.112:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:26 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Jackskid botnet altyapısının bir parçası olan bu adres, DDoS saldırılarında komuta kontrol veya katılım amaçlı kullanılmaktadır. Kritik seviyede tehdit barındırır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916304",
-      "ioc": "77.232.43.42:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:26 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Mirai tabanlı Jackskid zararlısının iletişim kurduğu bu IP ve port, DDoS faaliyetleri nedeniyle engellenmelidir. Potansiyel sistem kesintilerine yol açabilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916305",
-      "ioc": "91.142.78.96:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:26 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Zararlı botnet faaliyetlerinde kullanılan bu IOC, DDoS saldırıları düzenleyen Jackskid altyapısına aittir. Ağ trafiğinde acil olarak izlenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916293",
-      "ioc": "167.172.118.133:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:25 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Jackskid botnetine dahil edilen bu uç nokta, DDoS saldırıları gerçekleştirmek amacıyla kullanılmaktadır. Güvenlik duvarlarında engellenmesi gerekir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916294",
-      "ioc": "168.144.80.153:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:25 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Mirai türevi Jackskid zararlısının zararlı ağ aktivitelerine katıldığı tespit edilmiştir. DDoS tehdit potansiyeli nedeniyle yüksek risklidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916295",
-      "ioc": "185.173.37.80:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:25 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Bu IP adresi ve port üzerinden yürütülen Jackskid faaliyetleri, hedef sistemlerde hizmet dışı bırakma (DDoS) saldırılarına neden olabilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916296",
-      "ioc": "185.190.58.252:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:25 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Jackskid botnetine ait bu gösterge, zararlı trafiğin yayılmasında rol oynamaktadır. Kurumsal ağlar için ciddi bir tehdittir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916297",
-      "ioc": "185.232.84.109:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:25 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "DDoS saldırıları ve botnet yönetimi için kullanılan Jackskid zararlısının iletişim adresidir. Acil önlem alınması gerektirir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916298",
-      "ioc": "185.232.84.169:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:25 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Mirai altyapısından türetilen Jackskid botnetinin bir parçasıdır. Ağ güvenliğini tehdit eden yüksek riskli bir IOC'dir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916299",
-      "ioc": "185.244.181.217:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:25 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Bu adres, Jackskid zararlısının DDoS operasyonlarında aktif olarak kullanılmaktadır. Yetkisiz erişim ve kesintilere karşı taranmalıdır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916300",
-      "ioc": "188.166.17.163:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:25 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Jackskid botnetine bağlı zararlı aktivite kaynağıdır. DDoS saldırı potansiyeli nedeniyle yüksek güvenlik riski taşır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916301",
-      "ioc": "192.209.63.229:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:25 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Mirai tabanlı Jackskid zararlısının iletişim kurduğu tespit edilen bu IOC, ağ altyapıları için tehlike arz etmektedir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916284",
-      "ioc": "144.126.197.173:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:24 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Jackskid botnet yapısının bir parçası olan bu IP, DDoS saldırılarında kullanılmaktadır. Güvenlik duvarı kurallarında engellenmelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916285",
-      "ioc": "147.182.187.202:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:24 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Zararlı botnet trafiği üreten Jackskid altyapısına aittir. Hedef sistemlerin sürekliliği için yüksek risk oluşturur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916286",
-      "ioc": "155.103.49.236:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:24 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Mirai türevi Jackskid zararlısının operasyonel faaliyetlerinde kullandığı bir uç noktadır. Acil engelleme gerektirir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916287",
-      "ioc": "155.103.50.28:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:24 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Bu IP adresi ve port, Jackskid botnetinin DDoS saldırıları için ağ trafiği oluşturmaktadır. Yüksek dereceli tehdittir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916288",
-      "ioc": "155.103.51.85:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:24 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Jackskid zararlısının komuta veya saldırı zincirinde yer alan bir IOC'dir. Ağ güvenliği açısından risklidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916289",
-      "ioc": "159.65.23.101:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:24 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Mirai türevi Jackskid botnetinin zararlı aktivitelerine katıldığı belirlenmiştir. DDoS riski nedeniyle yüksek önem taşır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1916290",
-      "ioc": "165.99.131.180:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-13 11:11:24 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Jackskid altyapısına ait bu adres, DDoS saldırıları düzenlemek amacıyla kullanılmaktadır. Ağ yöneticilerinin dikkat etmesi gerekir.",
       "severity": "high"
     }
   ]
