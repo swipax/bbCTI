@@ -1,6 +1,324 @@
 {
-  "updated_at": "2026-10-03T11:17:22.734694+00:00",
+  "updated_at": "2026-10-05T13:57:37.601952+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952873",
+      "ioc": "sensa138.pro",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:47:31 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlı yazılım kampanyasıyla ilişkilendirilen bu alan adı, kullanıcıları sahte güncellemeler yoluyla istismar etmek için kullanılmaktadır. Kritik güvenlik riskleri barındırır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952830",
+      "ioc": "https://cdn.jsdelivr.net/gh/04fb-ff/c19e1173-a40b-4198-b705-b85466f6cde0/119-73c4846d6ec9",
+      "ioc_type": "url",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:45:47 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyasına ait zararlı dosya veya betikleri barındıran bir CDN bağlantısıdır. Son kullanıcı sistemlerine zararlı yazılım bulaştırmak amacıyla kullanılır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952829",
+      "ioc": "linuxfortravelers.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:44:22 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlı yazılımının altyapısında C2 veya dağıtım noktası olarak kullanılan bir alan adıdır. Engellenmesi ve izlenmesi gereklidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952827",
+      "ioc": "brixtonhomes.com.au",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:36:53 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyası kapsamında zararlı yönlendirmeler veya yüklemeler için kullanılan tehlikeli bir alan adıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952826",
+      "ioc": "bizuterdigital.com.au",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:35:42 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlı yazılım dağıtım faaliyetleriyle bağlantılı tespit edilen bir alan adıdır. Ağ çevre birimlerinde engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952825",
+      "ioc": "bizuter.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:34:41 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake tehdit aktörleri tarafından kullanılan ve zararlı içerik barındıran alan adlarından biridir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952824",
+      "ioc": "bizuter.au",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:31:40 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlı yazılım altyapısının bir parçası olan bu alan adı, kullanıcıları hedef alan saldırılarda rol oynamaktadır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952823",
+      "ioc": "5a068fea365cfeef2c0c6f0999b10b506fa1e0e79b00445ecdef6e4e433f7b5a",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:30:14 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "macOS",
+        "quill"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/5a068fea365cfeef2c0c6f0999b10b506fa1e0e79b00445ecdef6e4e433f7b5a",
+      "summary_tr": "macOS platformunu hedefleyen AMOS (Atomic Stealer) bilgi hırsızı zararlı yazılımına ait SHA-256 hash değeridir. Hassas verileri çalma yeteneğine sahiptir ve yüksek risk taşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952822",
+      "ioc": "roxymigurdia.wiki",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:30:05 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyası ile ilişkili zararlı faaliyetlerde kullanılan bir alan adıdır. Ziyaretçileri kötü amaçlı yazılımlara yönlendirebilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952821",
+      "ioc": "https://cdn.jsdelivr.net/gh/20fd0ae3e004/0d377d00-78a8-4d8d-90b1-243adcb9e9fd/84e8-38f0a7270d68",
+      "ioc_type": "url",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:29:04 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlı yazılımının yayılmasına aracılık eden ve CDN üzerinden barındırılan zararlı bir bağlantıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952792",
+      "ioc": "171.22.130.121:25632",
+      "ioc_type": "ip:port",
+      "malware": "Drifter",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:27:21 UTC",
+      "tags": [
+        "Android",
+        "botnet",
+        "DDoS",
+        "dongfeng",
+        "drifter"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/drifter",
+      "summary_tr": "Android tabanlı cihazları hedefleyen Drifter botnet ve DDoS saldırılarında kullanılan zararlı bir IP ve port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952793",
+      "ioc": "45.146.91.234:32505",
+      "ioc_type": "ip:port",
+      "malware": "Drifter",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:27:21 UTC",
+      "tags": [
+        "Android",
+        "botnet",
+        "DDoS",
+        "dongfeng",
+        "drifter"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/drifter",
+      "summary_tr": "Drifter botnet ağına dahil olan ve DDoS faaliyetleri yürüten zararlı bir uç nokta (IP:port) adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952794",
+      "ioc": "45.146.91.241:23004",
+      "ioc_type": "ip:port",
+      "malware": "Drifter",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:27:21 UTC",
+      "tags": [
+        "Android",
+        "botnet",
+        "DDoS",
+        "dongfeng",
+        "drifter"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/drifter",
+      "summary_tr": "Android tabanlı Drifter zararlısının komuta kontrol veya saldırı altyapısının bir parçası olan IP ve port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952795",
+      "ioc": "93.152.221.232:32505",
+      "ioc_type": "ip:port",
+      "malware": "Drifter",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:27:20 UTC",
+      "tags": [
+        "Android",
+        "botnet",
+        "DDoS",
+        "dongfeng",
+        "drifter"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/drifter",
+      "summary_tr": "Drifter botnet operasyonlarında kullanılan ve DDoS saldırısı gerçekleştiren aktif bir zararlı ağ uç noktasıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952796",
+      "ioc": "84df34daa1dd09d5ad5c6a259d3546940b0dec4ffa54966135d341c0692ce828",
+      "ioc_type": "sha256_hash",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:27:18 UTC",
+      "tags": [],
+      "reference": "",
+      "summary_tr": "ClearFake kampanyasıyla bağlantılı zararlı bir dosyanın SHA-256 hash değeridir. Sistem bütünlüğü için tehdit oluşturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952820",
+      "ioc": "businessclassdeals.com.au",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:25:11 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlı yazılım dağıtım ağının bir parçası olarak tespit edilen şüpheli bir alan adıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952819",
+      "ioc": "connectcapita.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:24:02 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyaları kapsamında zararlı içerik sunmak veya yönlendirme yapmak için kullanılan alan adıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952818",
+      "ioc": "connectcapita.com.au",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:22:59 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlı yazılımının altyapısında yer alan ve güvenlik duvarlarında engellenmesi gereken bir alan adıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952817",
+      "ioc": "chamomilecanto.co",
+      "ioc_type": "domain",
+      "malware": "SmartApeSG",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:22:43 UTC",
+      "tags": [
+        "SmartApeSG"
+      ],
+      "reference": null,
+      "summary_tr": "SmartApeSG zararlı yazılım ailesiyle ilişkilendirilen ve zararlı faaliyetlerde kullanılan bir alan adıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1952816",
+      "ioc": "crmplatform.com.au",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-05 13:22:18 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake tehdit aktörleri tarafından kullanılan ve kullanıcı güvenliğini tehdit eden alan adlarından biridir.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1948501",
@@ -2896,319 +3214,6 @@
       "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
       "summary_tr": "Jackskid botnet altyapisiyla iliskili bir ag uc noktasidir. Zararli botnet trafigi uretir.",
       "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920330",
-      "ioc": "134.209.106.204:8443",
-      "ioc_type": "ip:port",
-      "malware": "Aisuru",
-      "confidence": 100,
-      "first_seen": "2026-09-15 11:15:57 UTC",
-      "tags": [
-        "AISURU",
-        "c2"
-      ],
-      "reference": null,
-      "summary_tr": "Aisuru zararlı yazılımının komuta ve kontrol (C2) iletişiminde kullanılan bir IP ve port adresidir. Ağ güvenliği açısından engellenmesi kritik önem taşır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920326",
-      "ioc": "5.104.86.108:8891",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-15 11:05:07 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Saldırganların ağ içinde kalıcılık sağlamak ve hareket etmek için kullandığı Cobalt Strike C2 sunucusuna ait bir uç nokta adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920327",
-      "ioc": "43.138.0.136:8084",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-15 11:05:07 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlı yazılımının iletişim kurduğu şüpheli bir C2 sunucusu IP ve port adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920321",
-      "ioc": "147.90.182.29:2404",
-      "ioc_type": "ip:port",
-      "malware": "Remcos",
-      "confidence": 100,
-      "first_seen": "2026-09-15 10:53:13 UTC",
-      "tags": [
-        "c2",
-        "remcos",
-        "REMOTEHOST"
-      ],
-      "reference": null,
-      "summary_tr": "Uzaktan erişim trojanı (RAT) olan Remcos yazılımının kontrol merkeziyle iletişim kurduğu bir IP adresidir, yetkisiz erişim riski taşır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920325",
-      "ioc": "gsawilc2.morgz.store",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-15 10:41:42 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0xdcf2",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "macOS sistemlerini hedef alan ClearFake kampanyasıyla ilişkili zararlı bir alan adıdır. Kimlik avı ve zararlı indirmelere yol açabilir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920324",
-      "ioc": "jpfl8cwa.kapkan.store",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-15 10:36:00 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x0f14",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake zararlı yazılım kampanyası kapsamında macOS kullanıcılarını hedefleyen bir alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920323",
-      "ioc": "5jtpv8ur.planus.store",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-15 10:23:07 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x76c7",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake dağıtım ağının bir parçası olan ve macOS sistemleri hedef alan şüpheli bir alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920320",
-      "ioc": "69.48.229.91:8080",
-      "ioc_type": "ip:port",
-      "malware": "AdaptixC2",
-      "confidence": 100,
-      "first_seen": "2026-09-15 10:06:20 UTC",
-      "tags": [
-        "Adaptix"
-      ],
-      "reference": null,
-      "summary_tr": "AdaptixC2 sızma test ve saldırı aracının iletişim için kullandığı sunucu adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920319",
-      "ioc": "69.48.229.91:80",
-      "ioc_type": "ip:port",
-      "malware": "AdaptixC2",
-      "confidence": 100,
-      "first_seen": "2026-09-15 10:06:17 UTC",
-      "tags": [
-        "Adaptix"
-      ],
-      "reference": null,
-      "summary_tr": "AdaptixC2 altyapısına ait, HTTP trafiği üzerinden haberleşen zararlı bir IP ve port kombinasyonudur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920318",
-      "ioc": "69.48.229.91:443",
-      "ioc_type": "ip:port",
-      "malware": "AdaptixC2",
-      "confidence": 100,
-      "first_seen": "2026-09-15 10:06:08 UTC",
-      "tags": [
-        "Adaptix"
-      ],
-      "reference": null,
-      "summary_tr": "AdaptixC2 framework'ünün şifreli iletişim için kullandığı HTTPS tabanlı sunucu adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920317",
-      "ioc": "69.48.229.91:9443",
-      "ioc_type": "ip:port",
-      "malware": "AdaptixC2",
-      "confidence": 100,
-      "first_seen": "2026-09-15 10:05:37 UTC",
-      "tags": [
-        "Adaptix"
-      ],
-      "reference": null,
-      "summary_tr": "AdaptixC2 faaliyetleriyle ilişkili olan ve ağ trafiğinde izlenmesi gereken bir uç noktadır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920316",
-      "ioc": "45.86.64.228:80",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-15 10:05:08 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike C2 altyapısının bir parçası olan ve siber saldırılarda kullanılan sunucu adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920289",
-      "ioc": "kttjcvdz.ddkg.store",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-15 09:27:27 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x68dc",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "macOS kullanıcılarını hedefleyen ClearFake zararlı yazılım kampanyasıyla bağlantılı bir alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920285",
-      "ioc": "http://greenns.biz:2930/orders",
-      "ioc_type": "url",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-15 09:06:54 UTC",
-      "tags": [
-        "ClickFix",
-        "Factory-v3"
-      ],
-      "reference": null,
-      "summary_tr": "ClickFix ve Factory-v3 zararlı kampanyalarıyla ilişkili, kimlik avı veya zararlı içerik barındıran bir URL'dir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920286",
-      "ioc": "http://tokjoza.shop:5200/customers",
-      "ioc_type": "url",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-15 09:06:54 UTC",
-      "tags": [
-        "ClickFix",
-        "Factory-v3"
-      ],
-      "reference": null,
-      "summary_tr": "Kullanıcıları kandırarak zararlı yazılım indirmeyi amaçlayan ClickFix kampanyasına ait şüpheli bir URL'dir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920284",
-      "ioc": "45.86.64.228:3389",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-15 09:05:07 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike operasyonlarında RDP protokolü üzerinden erişim sağlandığını gösteren kritik bir IOC'dir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920283",
-      "ioc": "45.86.64.228:443",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-15 09:05:05 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike C2 sunucusunun HTTPS üzerinden komut iletmek için kullandığı ağ adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920278",
-      "ioc": "121.43.152.104:22222",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-15 08:05:07 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Saldırganların ağ içi hareketler ve C2 iletişimi için kullandığı Cobalt Strike sunucusudur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920279",
-      "ioc": "45.86.64.228:22",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-15 08:05:07 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike altyapısına ait SSH veya benzeri servisler üzerinden erişilen zararlı bir IP ve port adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1920277",
-      "ioc": "121.43.152.104:7000",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-15 08:05:06 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike sızma ve kontrol faaliyetlerinin yürütüldüğü tespit edilen şüpheli bir IP ve port adresidir.",
-      "severity": "high"
     }
   ]
 }
