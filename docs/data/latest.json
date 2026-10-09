@@ -1,6 +1,351 @@
 {
-  "updated_at": "2026-10-05T13:57:37.601952+00:00",
+  "updated_at": "2026-10-09T12:48:03.476268+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958315",
+      "ioc": "217.60.242.27:12345",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-10-09 12:31:21 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru zararlisina ait bir komuta-kontrol (C2) IP ve port adresidir. Ag guvenligi icin engellenmesi hayati onem tasir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958314",
+      "ioc": "48ypnsgk.porel.store",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-09 12:28:01 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0x76c7",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlisi ile iliskili bir alan adidir. macOS sistemleri hedef alan sahte guncelleme kampanyalarinda kullanilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958313",
+      "ioc": "deba43734e342776a2724c6cf12557aa7bbbd93200a4f2bfa8f2e7f7ef1b56a8",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-09 12:26:54 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "macOS",
+        "quill"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/deba43734e342776a2724c6cf12557aa7bbbd93200a4f2bfa8f2e7f7ef1b56a8",
+      "summary_tr": "macOS platformunu hedefleyen AMOS (Atomic Stealer) bilgi hirsizi yaziliminin SHA256 ozet degeridir. Hassas verileri calar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958310",
+      "ioc": "194.182.79.61:53898",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-10-09 12:12:17 UTC",
+      "tags": [
+        "c2",
+        "Local",
+        "remcos"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos RAT zararlisinin haberlesme yaptigi bir C2 sunucu adresidir. Uzaktan kontrol ve veri sizintisina yol acabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958308",
+      "ioc": "pro.jasperwater.info",
+      "ioc_type": "domain",
+      "malware": "SmartApeSG",
+      "confidence": 100,
+      "first_seen": "2026-10-09 12:10:36 UTC",
+      "tags": [
+        "SmartApeSG"
+      ],
+      "reference": null,
+      "summary_tr": "SmartApeSG zararlisi tarafindan kullanilan kotu amacli bir alan adidir. Bulasicierginer icin ag trafiginde izlenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958309",
+      "ioc": "https://pro.jasperwater.info/auth/permission-render.js",
+      "ioc_type": "url",
+      "malware": "SmartApeSG",
+      "confidence": 100,
+      "first_seen": "2026-10-09 12:10:36 UTC",
+      "tags": [
+        "SmartApeSG"
+      ],
+      "reference": null,
+      "summary_tr": "SmartApeSG zararlisinin bilesenlerini barindiran bir URL adresidir. Zararli script icerikleri sunar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958307",
+      "ioc": "https://pro.jasperwater.info/auth/dashboard-cache",
+      "ioc_type": "url",
+      "malware": "SmartApeSG",
+      "confidence": 100,
+      "first_seen": "2026-10-09 12:10:35 UTC",
+      "tags": [
+        "SmartApeSG"
+      ],
+      "reference": null,
+      "summary_tr": "SmartApeSG kampanyasi kapsaminda kullanilan ve zararli aktiviteler yuruten bir URL'dir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958303",
+      "ioc": "45.144.172.49:32789",
+      "ioc_type": "ip:port",
+      "malware": "Jackskid",
+      "confidence": 100,
+      "first_seen": "2026-10-09 11:54:40 UTC",
+      "tags": [
+        "botnet",
+        "DDoS",
+        "Jackskid",
+        "Mirai",
+        "rctea"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
+      "summary_tr": "Jackskid/Mirai botnet ailesine ait, DDoS saldirilarinda kullanilan bir IP ve port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958302",
+      "ioc": "3e0b7f50928f8b8f08f1527129a5c8aad50df66e88f2c34a3fd3056081e26d77",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-09 11:51:01 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "macOS",
+        "quill"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/3e0b7f50928f8b8f08f1527129a5c8aad50df66e88f2c34a3fd3056081e26d77",
+      "summary_tr": "macOS kullanıcılarini hedefleyen AMOS bilgi hirsizi yaziliminin dosya ozetidir. Kimlik bilgilerini tehlikeye atar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958299",
+      "ioc": "104.248.144.172:6738",
+      "ioc_type": "ip:port",
+      "malware": "Remus",
+      "confidence": 100,
+      "first_seen": "2026-10-09 11:32:05 UTC",
+      "tags": [
+        "0f81469cc7638ba7c82eaddbd6b3c20a",
+        "c2",
+        "Remus"
+      ],
+      "reference": null,
+      "summary_tr": "Remus zararlisina ait bir C2 sunucu adresidir. Sistem erisimi saglamak amaciyla kullanilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958300",
+      "ioc": "b55e16170cbba64cb8fe432d2004c0b011db6318ed41dd359637a2afe9d6545b",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-09 11:32:05 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "macOS",
+        "quill"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/b55e16170cbba64cb8fe432d2004c0b011db6318ed41dd359637a2afe9d6545b",
+      "summary_tr": "AMOS bilgi hirsisi yaziliminin baska bir varyantina ait SHA256 dosya hash degeridir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958291",
+      "ioc": "708329a7a39e5391fe3e938933e5758b685d080146c0b703f1805e179d2bae8d",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-09 11:13:16 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "macOS",
+        "quill"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/708329a7a39e5391fe3e938933e5758b685d080146c0b703f1805e179d2bae8d",
+      "summary_tr": "macOS tabanli sistemleri hedef alan AMOS zararlisinin calisan bir dosyasinin hash degeridir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958295",
+      "ioc": "45.135.194.116:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-10-09 11:13:16 UTC",
+      "tags": [
+        "AISURU",
+        "c2"
+      ],
+      "reference": null,
+      "summary_tr": "Aisuru botnet ve C2 altyapisinin bir parcasi olan IP ve port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958296",
+      "ioc": "199.101.198.165:32043",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-10-09 11:13:16 UTC",
+      "tags": [
+        "c2",
+        "remcos",
+        "TONERO"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos RAT yaziliminin ag baglantisi kurdugu bir C2 sunucusudur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958293",
+      "ioc": "67.220.71.211:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-10-09 10:52:11 UTC",
+      "tags": [
+        "airashi",
+        "AISURU",
+        "botnet",
+        "DDoS",
+        "Mirai"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/aisuru",
+      "summary_tr": "Mirai turevi Aisuru botnetine ait, DDoS saldirisi amaciyla kullanilan bir IP adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958292",
+      "ioc": "45.127.32.69:8001",
+      "ioc_type": "ip:port",
+      "malware": "Aisuru",
+      "confidence": 100,
+      "first_seen": "2026-10-09 10:52:10 UTC",
+      "tags": [
+        "airashi",
+        "AISURU",
+        "botnet",
+        "DDoS",
+        "Mirai"
+      ],
+      "reference": "https://github.com/deepfield/public-research/tree/main/aisuru",
+      "summary_tr": "Aisuru ve Mirai botnet faaliyetleri ile iliskilendirilmis bir C2 ve saldiri kaynagi IP adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958240",
+      "ioc": "172.94.99.29:1408",
+      "ioc_type": "ip:port",
+      "malware": "XWorm",
+      "confidence": 100,
+      "first_seen": "2026-10-09 10:48:33 UTC",
+      "tags": [
+        "RAT",
+        "XWorm"
+      ],
+      "reference": "",
+      "summary_tr": "XWorm uzaktan erisim trojanina (RAT) ait bir C2 baglanti noktasidir. Kritik guvenlik riskleri barindirir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958258",
+      "ioc": "192.3.73.139:14645",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-10-09 10:48:32 UTC",
+      "tags": [
+        "c2",
+        "garus & alaskaa",
+        "remcos"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos RAT zararlisinin kontrol sunucusu olarak kullandigi IP ve port ikilisidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958259",
+      "ioc": "192.3.73.139:14646",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-10-09 10:48:32 UTC",
+      "tags": [
+        "c2",
+        "garus & alaskaa",
+        "remcos"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos zararlisinin faaliyetleri icin kullandigi alternatif bir C2 port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1958260",
+      "ioc": "192.3.73.139:14647",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-10-09 10:48:31 UTC",
+      "tags": [
+        "c2",
+        "garus & alaskaa",
+        "remcos"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos RAT altyapisina ait ve zararli trafigin gecis yaptigi bir diger port adresidir.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1952873",
@@ -2883,337 +3228,6 @@
       "reference": null,
       "summary_tr": "VShell zararlısının iletişim kurduğu, saldırganların ağa erişimini destekleyen bir C2 sunucusudur.",
       "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923106",
-      "ioc": "143.244.130.3:8291",
-      "ioc_type": "ip:port",
-      "malware": "Remus",
-      "confidence": 100,
-      "first_seen": "2026-09-17 11:10:17 UTC",
-      "tags": [
-        "0f81469cc7638ba7c82eaddbd6b3c20a",
-        "c2",
-        "Remus"
-      ],
-      "reference": null,
-      "summary_tr": "Remus zararlisi ile iliskili bir Komuta ve Kontrol (C2) IP adresidir. Kurum aglarinda yetkisiz erisim ve veri sizintisina yol acabilecegi icin yuksek risk tasir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923105",
-      "ioc": "181.235.13.254:6001",
-      "ioc_type": "ip:port",
-      "malware": "Quasar RAT",
-      "confidence": 100,
-      "first_seen": "2026-09-17 11:05:09 UTC",
-      "tags": [
-        "QuasarRAT"
-      ],
-      "reference": null,
-      "summary_tr": "Quasar RAT uzaktan erisim trojani tarafindan kullanilan bir C2 sunucusudur. Sistemlerin uzaktan kontrol edilmesine ve hassas verilerin calinmasina olanak tanir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923104",
-      "ioc": "39.100.66.238:44323",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-17 11:05:08 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike saldiri cercevesi tarafindan kullanilan bir C2 uc noktasidir. Ag ici hareketler ve hedefli saldirilar icin kritik bir tehdittir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923103",
-      "ioc": "39.100.66.238:44322",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-17 11:05:05 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike altyapisina ait bir C2 IP ve port kombinasyonudur. Saldirganlarin agda kalicilik saglamasi icin kritik onem tasir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923083",
-      "ioc": "43.157.63.92:8080",
-      "ioc_type": "ip:port",
-      "malware": "Aisuru",
-      "confidence": 100,
-      "first_seen": "2026-09-17 10:51:12 UTC",
-      "tags": [
-        "AISURU",
-        "c2"
-      ],
-      "reference": null,
-      "summary_tr": "Aisuru zararlisina ait bir C2 sunucusudur. Zararli faaliyetlerin yonetilmesinde kullanildigi icin ag guvenligi icin tehlikelidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923088",
-      "ioc": "74.50.123.47:2404",
-      "ioc_type": "ip:port",
-      "malware": "Remcos",
-      "confidence": 100,
-      "first_seen": "2026-09-17 10:51:12 UTC",
-      "tags": [
-        "c2",
-        "remcos",
-        "REMOTEHOST"
-      ],
-      "reference": null,
-      "summary_tr": "Remcos RAT zararlisinin iletisim kurdugu bir C2 sunucusudur. Kurbanin cihazi uzerinde tam kontrol saglamaya yarar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923094",
-      "ioc": "c72c17b0abc3b8c184eafed3e983985016a4b201844425e7009eb00faf96cfbd",
-      "ioc_type": "sha256_hash",
-      "malware": "Unknown Stealer",
-      "confidence": 100,
-      "first_seen": "2026-09-17 10:51:11 UTC",
-      "tags": [
-        "54e64e",
-        "dropped-by-amadey",
-        "exe",
-        "RustyStealer",
-        "stealer"
-      ],
-      "reference": null,
-      "summary_tr": "RustyStealer bilgi hirsizi zararlisinin SHA-256 dosya ozetidir. Hassas kullanici bilgilerini ve kimlik bilgilerini calmayi amaclar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923098",
-      "ioc": "43.157.63.92:9034",
-      "ioc_type": "ip:port",
-      "malware": "Aisuru",
-      "confidence": 100,
-      "first_seen": "2026-09-17 10:51:11 UTC",
-      "tags": [
-        "AISURU",
-        "c2"
-      ],
-      "reference": null,
-      "summary_tr": "Aisuru zararlisi ile iliskili baska bir C2 baglanti noktasidir. Zararli trafigin engellenmesi gereklidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923099",
-      "ioc": "https://a7.zk89.net",
-      "ioc_type": "url",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-09-17 10:51:10 UTC",
-      "tags": [
-        "8dbad9a375e8878a31856816a5750204",
-        "c2",
-        "Loader",
-        "stealer",
-        "Vidar"
-      ],
-      "reference": null,
-      "summary_tr": "Vidar bilgi hirsizi zararlisinin veri goturdugu ve yukleme yaptigi bir URL adresidir. Kimlik ve veri hirsizligi acisindan yuksek risklidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923102",
-      "ioc": "a7.zk89.net",
-      "ioc_type": "domain",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-09-17 10:40:46 UTC",
-      "tags": [
-        "Vidar"
-      ],
-      "reference": null,
-      "summary_tr": "Vidar zararlisinin kullandigi bir C2 alan adidir. Zararli yazilimin komuta merkezine erismesini saglar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923100",
-      "ioc": "a7.199cuan.org",
-      "ioc_type": "domain",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-09-17 10:40:45 UTC",
-      "tags": [
-        "Vidar"
-      ],
-      "reference": null,
-      "summary_tr": "Vidar bilgi hirsicinin altyapisina ait bir alan adidir. Guvenlik duvarlarinda engellenmesi hayati onem tasir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923101",
-      "ioc": "https://a7.199cuan.org/",
-      "ioc_type": "url",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-09-17 10:40:45 UTC",
-      "tags": [
-        "Vidar"
-      ],
-      "reference": null,
-      "summary_tr": "Vidar zararlisi ile baglanti kurulan bir URL adresidir. Hassas verilerin sizdirilmasinda kullanilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923086",
-      "ioc": "39.100.66.238:8080",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-17 10:05:09 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike operasyonlarinda kullanilan bir C2 adresidir. Gelismis kalici tehditlerde siklikla gorulur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923087",
-      "ioc": "39.100.66.238:4330",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-17 10:05:09 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike saldiri altyapisinin parcasi olan bir C2 uc noktasidir. Yetkisiz erisim girisimlerini gosterir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1923085",
-      "ioc": "124.221.4.84:22",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-17 10:05:05 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike trafigi barindiran bir SSH/C2 portudur. Ag ici sizma faaliyetlerinin gostergesidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1922646",
-      "ioc": "43.157.63.92:12345",
-      "ioc_type": "ip:port",
-      "malware": "Aisuru",
-      "confidence": 100,
-      "first_seen": "2026-09-17 09:46:49 UTC",
-      "tags": [
-        "AISURU",
-        "c2"
-      ],
-      "reference": null,
-      "summary_tr": "Aisuru zararlisi tarafindan kullanilan bir C2 sunucu adresidir. Zararli yazilim yonetimi icin kritik bir noktadir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1922823",
-      "ioc": "144.202.84.110:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-17 09:45:31 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Jackskid/Miraiture botnet yapisina dahil olan ve DDoS saldirilarinda kullanilan bir IP adresidir. Ag performansini dusurme amaci tasir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1922827",
-      "ioc": "45.32.64.165:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-17 09:45:31 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Mirai turevi Jackskid botnetine ait bir C2 veya node adresidir. Dagitik hizmet engelleme saldirilarina katilir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1922830",
-      "ioc": "45.76.84.217:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-17 09:45:30 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Jackskid botnet aginin parcasi olan bir IP adresidir. DDoS saldirilari duzenlemek icin kullanilmaktadir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1922834",
-      "ioc": "64.176.67.103:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-17 09:45:30 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Jackskid botnet altyapisiyla iliskili bir ag uc noktasidir. Zararli botnet trafigi uretir.",
-      "severity": "medium"
     }
   ]
 }
