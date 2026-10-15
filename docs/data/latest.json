@@ -1,6 +1,333 @@
 {
-  "updated_at": "2026-10-09T12:48:03.476268+00:00",
+  "updated_at": "2026-10-15T11:02:15.623704+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967452",
+      "ioc": "https://iq.7dewaslot.org/uz/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-15 11:00:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hirsizi zararlisina ait bir C2 (komuta ve kontrol) URL adresidir. Hassas verilerin sizdirilmasinda kullanilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967451",
+      "ioc": "https://iq.7dewaslot.org/uz",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-15 11:00:20 UTC",
+      "tags": [
+        "c2",
+        "c7a50169dbc6d842a7e7d349513f88f1",
+        "Loader",
+        "stealer",
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar stealer ve loader kampanyalariyla iliskili zararli bir C2 URL'sidir. Sistem guvenligi icin kritik tehdit olusturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967450",
+      "ioc": "https://iq.7dewaslot.org/gy",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:58:21 UTC",
+      "tags": [
+        "1718e0679220166cf123fbe6e40c635c",
+        "c2",
+        "Loader",
+        "stealer",
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlisinin veri iletmek ve komuta almak icin kullandigi bir C2 baglanti noktasidir. Bulasmis sistemlerden bilgi calinmasini saglar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967449",
+      "ioc": "https://iq.7dewaslot.org/mr",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:56:35 UTC",
+      "tags": [
+        "ab0a59f4970a96fd6e8daa4f6f8e22cd",
+        "c2",
+        "Loader",
+        "stealer",
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hirsizi yaziliminin operasyonlari icin kullandigi zararli bir URL adresidir. Kurumlar icin yuksek risk tasir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967448",
+      "ioc": "https://iq.7dewaslot.org/f58/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlisinin ag aktivitesi gosterdigi tespit edilen bir C2 uc noktasidir. Veri sizintisi riskine yol acar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967447",
+      "ioc": "43.143.34.190:12345",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:15 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell zararlisina ait bir komuta ve kontrol (C2) IP ve port adresidir. Uzaktan erisim ve kontrol amacli kullanilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967446",
+      "ioc": "60.204.171.31:8136",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:15 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell araclariyla iliskili zararli bir C2 sunucu adresidir. Ag guvenligi ihlallerine neden olabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967445",
+      "ioc": "113.249.105.221:10080",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:15 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell zararlisinin ag uzerinden iletisim kurdugu tespit edilen bir IP ve port hedefidir. Yetkisiz erisim riski barindirir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967444",
+      "ioc": "175.178.81.236:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:15 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell C2 altyapisinin bir parcasi olan zararli bir ag baglantisidir. Saldirganlarin agda kalicilik saglamasina yardimci olur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967443",
+      "ioc": "47.84.20.77:80",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:15 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell zararlisi tarafindan kullanilan bir komuta ve kontrol sunucusu IP adresidir. Slayt veya erisim saldirilarinda aktif rol oynayabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967442",
+      "ioc": "49.232.90.5:1443",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:15 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell operasyonlariyla baglantili olan bir C2 erisim noktasidir. Sistemlere yetkisiz sizma girisimlerinde kullanilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967441",
+      "ioc": "124.221.216.186:8086",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:14 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell zararlisinin komuta merkezine baglandigi ag adreslerinden biridir. Kritik altyapilar icin tehlike arz eder.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967440",
+      "ioc": "154.36.183.100:15082",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:14 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell C2 trafiginin tespit edildigi zararli bir IP ve port kombinasyonudur. Ag izleme sistemlerinde engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967439",
+      "ioc": "134.122.154.247:58084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:14 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell zararlisinin dis aglarla iletisim kurmak icin kullandigi bir sunucu adresidir. Guvenlik duvarinda engellenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967438",
+      "ioc": "2.59.132.142:443",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:14 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell operasyonlarinda kullanilan guvenli port uzerinden hizmet veren bir C2 IP adresidir. Zararli faaliyetler icinote tasir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967437",
+      "ioc": "2.59.132.142:5522",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:14 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell zararlisinin komuta ve kontrol haberlesmesini gerceklestirdigi bir diger port adresidir. Yuksek riskli IOC sinifindadir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967436",
+      "ioc": "2.59.132.142:5533",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:14 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell saldirilarinda aktif olarak kullanilan C2 altyapi unsurlarindan biridir. Yetkisiz erisim girisimlerine karsi izlenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967435",
+      "ioc": "198.44.32.14:60010",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:14 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell zararlisinin komuta merkezine baglanti kurdugu tespit edilen bir IP:port adresidir. Tehdit avciligi calismalarinda dikkate alinmalidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967434",
+      "ioc": "104.194.88.154:39001",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:14 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell C2 aginin parcasi olan ve zararli trafige ev sahipligi yapan bir IP adresidir. Kurumsal aglar icin tehlikelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1967433",
+      "ioc": "63.141.229.228:8086",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-15 10:55:14 UTC",
+      "tags": [
+        "c2",
+        "Vshell"
+      ],
+      "reference": "",
+      "summary_tr": "VShell zararlisinin komuta ve kontrol faaliyeti yurutmek amaciyla kullandigi bir baglanti adresidir. Acil engelleme gerektirir.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1958315",
@@ -2912,322 +3239,6 @@
       "reference": null,
       "summary_tr": "TonRAT zararlısının C2 sunucularına yönlendirme yapmak için kullandığı tespit edilen alan adıdır.",
       "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924433",
-      "ioc": "rd6k97w3.shop-burnflow.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-19 10:06:17 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x68dc",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake zararlısının macOS sistemlerini hedef alan altyapısıyla ilişkili kötü amaçlı bir alan adıdır. Kullanıcıları sahte güncellemelerle kandırarak sistem güvenliğini tehlikeye atar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924432",
-      "ioc": "154.91.62.101:8084",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-19 10:05:07 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlısı iletişim ve komuta kontrol (C2) faaliyetleri için kullanılan bir IP ve port adresidir. Yetkisiz erişim ve uzaktan kontrol riskleri barındırır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924430",
-      "ioc": "154.91.60.124:8084",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-19 10:05:06 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlısının iletişim kurduğu C2 sunucu adreslerinden biridir. Ağ güvenliği açısından engellenmesi gereken kritik bir göstergedir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924431",
-      "ioc": "154.91.61.99:8084",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-19 10:05:06 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlısının faaliyetlerinde kullandığı şüpheli bir uç nokta IP ve port kombinasyonudur. Sistem sızmalarına yol açabilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924428",
-      "ioc": "154.91.63.115:8084",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-19 10:05:05 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlısına ait komuta kontrol altyapısının bir parçasıdır. Kurumsal ağlar için yüksek risk teşkil eder.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924429",
-      "ioc": "154.91.60.123:8084",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-19 10:05:05 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlısı tarafından kullanılan ve zararlı trafiğe aracılık eden bir IP adresidir. Aktif tehdit yayılımı için kullanılmaktadır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924426",
-      "ioc": "43.172.9.116:8001",
-      "ioc_type": "ip:port",
-      "malware": "Aisuru",
-      "confidence": 100,
-      "first_seen": "2026-09-19 09:51:37 UTC",
-      "tags": [
-        "airashi",
-        "AISURU",
-        "botnet",
-        "DDoS",
-        "Mirai"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/aisuru",
-      "summary_tr": "Aisuru (Mirai tabanlı) botnet ve DDoS saldırılarıyla ilişkili kötü amaçlı bir uç noktadır. Ağ trafiğinde yoğun zararlı aktiviteye neden olabilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924402",
-      "ioc": "hqqpi58b.en-xenburn.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-19 09:30:21 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x76c7",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "macOS kullanıcılarını hedefleyen ClearFake kampanyalarına hizmet eden zararlı bir alan adıdır. Kimlik avı ve zararlı yazılım indirme amacı taşır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924400",
-      "ioc": "47.122.120.188:81",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-19 09:19:08 UTC",
-      "tags": [
-        "CobaltStrike",
-        "cs-watermark-1234567890"
-      ],
-      "reference": null,
-      "summary_tr": "Saldırganlar tarafından sızılan sistemleri yönetmek için kullanılan Cobalt Strike C2 sunucusudur. Kritik düzeyde güvenlik tehdidi oluşturur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924399",
-      "ioc": "101.34.208.175:8081",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-19 09:19:03 UTC",
-      "tags": [
-        "CobaltStrike",
-        "cs-watermark-987654321"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike framework altyapısına ait bir komuta kontrol sunucusu IP adresidir. Kurumsal ağlarda yetkisiz kontrolü gösterir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924398",
-      "ioc": "139.199.18.159:81",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-19 09:19:02 UTC",
-      "tags": [
-        "CobaltStrike",
-        "cs-watermark-1234567890"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike zararlısı ile ilişkilendirilmiş, sızma ve uzaktan erişim faaliyetlerinde kullanılan bir uç noktadır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924397",
-      "ioc": "35.215.160.200:80",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-19 09:19:00 UTC",
-      "tags": [
-        "CobaltStrike",
-        "cs-watermark-987654321"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike C2 sunucusu olarak faaliyet gösteren ve ağ içi hareketleri destekleyen zararlı bir IP adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924396",
-      "ioc": "123.57.146.34:80",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-19 09:18:59 UTC",
-      "tags": [
-        "CobaltStrike",
-        "cs-watermark-987654321"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike operasyonlarında kullanılan ve tehdit aktörlerine kalıcı erişim sağlayan bir komuta kontrol noktasıdır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924395",
-      "ioc": "114.215.190.7:443",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-19 09:18:58 UTC",
-      "tags": [
-        "CobaltStrike",
-        "cs-watermark-666666666"
-      ],
-      "reference": null,
-      "summary_tr": "Güvenli port üzerinden (443) haberleşen Cobalt Strike C2 sunucusudur. Trafiğin şifreli olması tespiti zorlaştırabilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924393",
-      "ioc": "kiln-skioi-c29up.com",
-      "ioc_type": "domain",
-      "malware": "IClickFix",
-      "confidence": 100,
-      "first_seen": "2026-09-19 09:06:06 UTC",
-      "tags": [
-        "ClickFix",
-        "Mac"
-      ],
-      "reference": "",
-      "summary_tr": "Mac kullanıcılarını hedefleyen IClickFix (ClickFix) sosyal mühendislik ve zararlı yazılım dağıtım kampanyasıyla bağlantılıdır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924394",
-      "ioc": "trilliot6776.icu",
-      "ioc_type": "domain",
-      "malware": "IClickFix",
-      "confidence": 100,
-      "first_seen": "2026-09-19 09:06:06 UTC",
-      "tags": [
-        "ClickFix",
-        "Mac"
-      ],
-      "reference": "",
-      "summary_tr": "IClickFix zararlısının yayılması ve kullanıcıların kandırılması için kullanılan zararlı bir alan adıdır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924390",
-      "ioc": "154.91.61.109:8084",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-19 09:05:07 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlısının operasyonel altyapısına dahil olan ve C2 haberleşmesi gerçekleştiren bir IP adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924391",
-      "ioc": "154.91.63.113:8084",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-19 09:05:07 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlısı ile ilişkili, ağ güvenliği ihlallerine yol açabilecek tehlikeli bir uç noktadır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924387",
-      "ioc": "154.91.60.116:8084",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-19 09:05:06 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlısının komuta kontrol trafiğinde tespit edilen ve engellenmesi gereken bir IP adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1924388",
-      "ioc": "154.91.60.98:8084",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-19 09:05:06 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlısının iletişim kurduğu, saldırganların ağa erişimini destekleyen bir C2 sunucusudur.",
-      "severity": "high"
     }
   ]
 }
