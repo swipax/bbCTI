@@ -1,6 +1,339 @@
 {
-  "updated_at": "2026-10-15T11:02:15.623704+00:00",
+  "updated_at": "2026-10-17T10:19:34.871795+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971168",
+      "ioc": "https://va.8mytogel.org/uo/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-17 10:15:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hırsızlığı zararlısının iletişim kurduğu zararlı bir URL'dir. Hassas kullanıcı verilerini çalmak için kullanılır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971165",
+      "ioc": "j.88mdc.org",
+      "ioc_type": "domain",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-17 10:10:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlısının C2 altyapısıyla bağlantılı bir alan adıdır. Kimlik bilgisi ve veri sızıntısına yol açabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971166",
+      "ioc": "https://j.88mdc.org/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-17 10:10:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hırsızının veri ilettiği veya komuta aldığı zararlı bir URL'dir. Engellenmesi hayati önem taşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971167",
+      "ioc": "https://va.8mytogel.org/u2/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-17 10:10:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlısının operasyonel faaliyetlerinde kullandığı bir bağlantı adresidir. Sistem güvenliğini tehdit eder.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971163",
+      "ioc": "185.99.135.110:8888",
+      "ioc_type": "ip:port",
+      "malware": "Remcos",
+      "confidence": 100,
+      "first_seen": "2026-10-17 10:10:10 UTC",
+      "tags": [
+        "c2",
+        "remcos",
+        "REMOTEHOST"
+      ],
+      "reference": null,
+      "summary_tr": "Remcos RAT (Uzaktan Erişim Truva Atı) komuta kontrol sunucusudur. Saldırganlara uzaktan tam kontrol sağlar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971161",
+      "ioc": "https://va.8mytogel.org/mr/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-17 10:05:49 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar infostealer zararlısının veri hırsızlığı için kullandığı bir URL'dir. Kritik bilgileri hedef alır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971159",
+      "ioc": "ym.88bravo.com",
+      "ioc_type": "domain",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-17 10:05:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlısının iletişim için kullandığı zararlı bir alan adıdır. Ağ güvenliği için risk oluşturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971160",
+      "ioc": "https://ym.88bravo.com/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-17 10:05:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlısının C2 sunucusuna erişim sağlayan bir URL'dir. Hassas verilerin sızdırılmasına neden olabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971158",
+      "ioc": "8f4e0b918ba5b5b8769e08f04e4aa366acc0159b3a1179b321d776f49006c940",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-17 10:05:01 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "macOS",
+        "nova"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/8f4e0b918ba5b5b8769e08f04e4aa366acc0159b3a1179b321d776f49006c940",
+      "summary_tr": "macOS platformunu hedefleyen AMOS bilgi hırsızı zararlısının dosya hash değeridir. Kişisel verileri çeker.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971156",
+      "ioc": "66163a1a120bab4c0578cb1e44ae3aca6a70b276f19e6934d766f96c80451dc6",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-17 10:02:40 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "haven",
+        "macOS"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/66163a1a120bab4c0578cb1e44ae3aca6a70b276f19e6934d766f96c80451dc6",
+      "summary_tr": "macOS sistemleri etkileyen AMOS stealer zararlısına ait bir dosyadır. Oturum açma bilgilerini hedefler.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971155",
+      "ioc": "https://ym.88bravo.com",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-17 10:01:51 UTC",
+      "tags": [
+        "1718e0679220166cf123fbe6e40c635c",
+        "c2",
+        "Loader",
+        "stealer",
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlısının ana komuta kontrol ve yük indirme adresidir. Yüksek riskli bir tehdit göstergesidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971154",
+      "ioc": "https://fr.8mytogel.org/zf/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-17 10:00:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar infostealer ailesine ait zararlı bir URL'dir. Kullanıcı bilgilerini çalmayı amaçlar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971153",
+      "ioc": "104c36235c59c5519c5db3ad607ec89128b1ddf27587ac0522f39b7137919915",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-17 10:00:21 UTC",
+      "tags": [
+        "Amos",
+        "chant",
+        "ClickFix",
+        "Foxveil",
+        "macOS"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/104c36235c59c5519c5db3ad607ec89128b1ddf27587ac0522f39b7137919915",
+      "summary_tr": "macOS kullanıcılarını hedefleyen AMOS zararlısının SHA256 hash değeridir. Sistem bütünlüğünü tehdit eder.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971149",
+      "ioc": "104.237.154.191:31337",
+      "ioc_type": "ip:port",
+      "malware": "Sliver",
+      "confidence": 100,
+      "first_seen": "2026-10-17 09:59:04 UTC",
+      "tags": [
+        "shodan",
+        "sliverc2"
+      ],
+      "reference": "https://x.com/orlof_v/status/2111396440815947970?s=20",
+      "summary_tr": "Sliver C2 framework altyapısına ait bir IP ve port adresidir. Yetkisiz uzaktan erişim amaçlı kullanılır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971150",
+      "ioc": "106.55.34.199:31337",
+      "ioc_type": "ip:port",
+      "malware": "Sliver",
+      "confidence": 100,
+      "first_seen": "2026-10-17 09:59:04 UTC",
+      "tags": [
+        "shodan",
+        "sliverc2"
+      ],
+      "reference": "https://x.com/orlof_v/status/2111396440815947970?s=20",
+      "summary_tr": "Sliver komuta kontrol sunucusunun ağ adresidir. Saldırganların ağda kalıcılık sağlamasına yarar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971151",
+      "ioc": "145.223.68.204:31337",
+      "ioc_type": "ip:port",
+      "malware": "Sliver",
+      "confidence": 100,
+      "first_seen": "2026-10-17 09:59:04 UTC",
+      "tags": [
+        "shodan",
+        "sliverc2"
+      ],
+      "reference": "https://x.com/orlof_v/status/2111396440815947970?s=20",
+      "summary_tr": "Sliver C2 operasyonlarında kullanılan şüpheli bir IP ve port kombinasyonudur. Sıkı izlenmelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971152",
+      "ioc": "43.155.215.231:31337",
+      "ioc_type": "ip:port",
+      "malware": "Sliver",
+      "confidence": 100,
+      "first_seen": "2026-10-17 09:59:04 UTC",
+      "tags": [
+        "shodan",
+        "sliverc2"
+      ],
+      "reference": "https://x.com/orlof_v/status/2111396440815947970?s=20",
+      "summary_tr": "Sliver C2 altyapısına bağlanan zararlı bir uç noktadır. Kurumsal ağlar için tehlikelidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971148",
+      "ioc": "https://meta.fabricmc.online/v2/versions/loader",
+      "ioc_type": "url",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-17 09:58:29 UTC",
+      "tags": [
+        "fabric",
+        "java",
+        "Loader",
+        "minecraft"
+      ],
+      "reference": "https://modrinth.com/plugin/universetiertagger",
+      "summary_tr": "Minecraft ve Java ekosistemini hedefleyen şüpheli bir yük indirme URL'sidir. Potansiyel zararlı aktivite barındırır.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971147",
+      "ioc": "f7154cf7168bdde487a9e4d4e5f1655a2f1735757d7196d3d657798dd8db36a5",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-17 09:58:10 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "macOS",
+        "willow"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/f7154cf7168bdde487a9e4d4e5f1655a2f1735757d7196d3d657798dd8db36a5",
+      "summary_tr": "macOS işletim sistemlerini hedef alan AMOS zararlısının dosya imzisidir. Hassas verileri tehlikeye atar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1971146",
+      "ioc": "9b16036e4a700f0a56aa83df448a53536a1d59a34245b49ed8cb64607f7f478e",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-17 09:55:57 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "macOS",
+        "quill"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/9b16036e4a700f0a56aa83df448a53536a1d59a34245b49ed8cb64607f7f478e",
+      "summary_tr": "AMOS bilgi hırsızı zararlısına ait bir dosyanın hash değeridir. macOS cihazlarda veri hırsızlığı yapar.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1967452",
@@ -2957,287 +3290,6 @@
       ],
       "reference": "",
       "summary_tr": "ClickFix zararli yazilim aktivitelerinde kullanilan ve sosyal muhendislik icerikleri barindiran alan adidir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926463",
-      "ioc": "rq5ic3bf.usa-lipogummy.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-21 12:02:29 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x76c7",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake zararlısının macOS sistemleri hedef alan kampanyalarında kullanılan bir zararlı alan adıdır. Kullanıcıları sahte güncellemelerle kandırarak sistem güvenliğini tehlikeye atar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926401",
-      "ioc": "188.166.158.18:8080",
-      "ioc_type": "ip:port",
-      "malware": "Aisuru",
-      "confidence": 100,
-      "first_seen": "2026-09-21 11:29:16 UTC",
-      "tags": [
-        "AISURU",
-        "c2"
-      ],
-      "reference": null,
-      "summary_tr": "Aisuru zararlısının komuta ve kontrol (C2) merkezi olarak kullandığı bir IP ve port adresidir. Yetkisiz erişim ve veri sızıntısı riskini artırır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926424",
-      "ioc": "https://77.91.100.107",
-      "ioc_type": "url",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-09-21 11:29:13 UTC",
-      "tags": [
-        "8ea11cc1044439e36eed1e5c2ecf057d",
-        "c2",
-        "Loader",
-        "stealer",
-        "Vidar"
-      ],
-      "reference": null,
-      "summary_tr": "Vidar bilgi çalan (stealer) zararlısının C2 iletişimini sağlayan bir zararlı URL'dir. Hassas kullanıcı verilerini çalmak amacıyla aktif olarak kullanılmaktadır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926435",
-      "ioc": "9f7bfdbf82d08d21fd6e9f31dc5f5e9e9b541bb39f94fa32992281a463e73173",
-      "ioc_type": "sha256_hash",
-      "malware": "AMOS",
-      "confidence": 100,
-      "first_seen": "2026-09-21 11:29:09 UTC",
-      "tags": [
-        "Amos",
-        "cc2",
-        "ClickFix",
-        "Foxveil",
-        "macOS"
-      ],
-      "reference": "https://bazaar.abuse.ch/sample/9f7bfdbf82d08d21fd6e9f31dc5f5e9e9b541bb39f94fa32992281a463e73173/",
-      "summary_tr": "macOS kullanıcılarını hedefleyen AMOS (Atomic macOS Stealer) zararlısına ait bir dosya hash değeridir. Hassas bilgileri ve cüzdan verilerini çalma potansiyeli taşır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926431",
-      "ioc": "36.255.97.162:27346",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-21 11:05:05 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Sızma testleri ve kötü amaçlı faaliyetler için kullanılan Cobalt Strike framework'ünün C2 sunucusudur. Ağ içi hareket ve uzaktan kontrol imkanı tanır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926416",
-      "ioc": "photo0826jpg.com",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:31 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısının altyapısında kullanılan ve kurbanların sistemlerine erişim sağlamaya çalışan zararlı bir alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926417",
-      "ioc": "photo0926jpg.com",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:31 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısının operasyonlarında kullanılan ve komuta kontrol merkeziyle iletişim kuran bir alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926418",
-      "ioc": "photolink-checkzip.com",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:31 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısının dağıtım ve iletişim faaliyetleri için kullandığı şüpheli bir alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926419",
-      "ioc": "property-onlines.com",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:31 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısı ile ilişkili olan ve saldırganların ağ altyapısını destekleyen bir alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926420",
-      "ioc": "stayreportdesk.life",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:31 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısının C2 trafiğini yönlendirmek amacıyla kullandığı tespit edilen alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926421",
-      "ioc": "yd2s-extranet.cfd",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:31 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısı kampanyalarında kullanılan ve sistem güvenliğini tehdit eden bir alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926402",
-      "ioc": "be6-extranet.cfd",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:30 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısının iletişim kurduğu ve zararlı faaliyetleri koordine ettiği alan adlarından biridir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926403",
-      "ioc": "bookphotohotel.info",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:30 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısının altyapısında yer alan ve zararlı yazılım indirme faaliyetlerinde kullanılan bir alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926404",
-      "ioc": "checlappart.help",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:30 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısı ile bağlantılı olan, kullanıcıları yanıltmaya yönelik hazırlanmış zararlı alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926405",
-      "ioc": "download0596.com",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:30 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısının dosyalarını barındıran veya C2 iletişimi sağlayan şüpheli bir alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926406",
-      "ioc": "download0644.com",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:30 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısı operasyonlarında kullanılan ve zararlı aktivitelere ev sahipliği yapan alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926407",
-      "ioc": "dropfilesbox.com",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:30 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısının veri sızdırma veya dosya indirme süreçlerinde kullandığı bir alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926408",
-      "ioc": "filecheck-drive-photo.icu",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:30 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısının faaliyetleri kapsamında kullanılan, sahte dosya kontrolü sunan bir alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926409",
-      "ioc": "help-desk0926.com",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:30 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısı altyapısına ait olan ve saldırganların kontrolü sağlamasına yardımcı olan alan adıdır.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1926410",
-      "ioc": "helpdesk-0826.com",
-      "ioc_type": "domain",
-      "malware": "TonRAT",
-      "confidence": 100,
-      "first_seen": "2026-09-21 10:39:30 UTC",
-      "tags": [],
-      "reference": null,
-      "summary_tr": "TonRAT zararlısının C2 sunucularına yönlendirme yapmak için kullandığı tespit edilen alan adıdır.",
       "severity": "medium"
     }
   ]
