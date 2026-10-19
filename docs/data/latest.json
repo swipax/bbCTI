@@ -1,6 +1,316 @@
 {
-  "updated_at": "2026-10-17T10:19:34.871795+00:00",
+  "updated_at": "2026-10-19T12:31:23.297977+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974289",
+      "ioc": "https://w2.9winter.com/n5/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:30:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hirsizligi yazilimi ile iliskili zararli bir URL adresidir. Hassas verilerin sizdirilmasi ve korsan faaliyetler icin kritik risk olusturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974288",
+      "ioc": "https://at.9kio.org/a/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:30:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlisinin iletisim kurdugu tespit edilen bir komuta-kontrol URL'sidir. Kimlik bilgilerini calarak guvenlik ihlallerine yol acabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974286",
+      "ioc": "https://w2.9winter.com/n4/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:25:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlisinin yayilmasinda kullanilan zararli bir baglantidir. Sistem guvenligini tehdit eden aktif bir gostergedir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974281",
+      "ioc": "0323998E0E85ECA5FD90D9F8ECBBD6C2",
+      "ioc_type": "md5_hash",
+      "malware": "ACR Stealer",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:22:26 UTC",
+      "tags": [
+        "ACR",
+        "ACRStealer",
+        "fake game",
+        "ROM",
+        "setup.exe",
+        "setup.py"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/7123e1514b939b165985560057fe3c761440a9fff9783a3b84e861fd2888d4ab/community",
+      "summary_tr": "ACR Stealer zararlisina ait MD5 ozet degeridir. Sahte oyun kurulum dosyalari araciligiyla kullanici verilerini hedef alir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974280",
+      "ioc": "7123E1514B939B165985560057FE3C761440A9FFF9783A3B84E861FD2888D4AB",
+      "ioc_type": "sha256_hash",
+      "malware": "ACR Stealer",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:21:23 UTC",
+      "tags": [
+        "ACR",
+        "ACRStealer",
+        "fake game setup",
+        "ROM",
+        "setup.exe"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/7123e1514b939b165985560057fe3c761440a9fff9783a3b84e861fd2888d4ab/community",
+      "summary_tr": "ACR Stealer zararlisinin SHA256 dosya hash degeridir. Kurbanlarin sistemlerine sizmak icin sahte kurulum dosyalarini kullanir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974279",
+      "ioc": "https://w2.9winter.com/z/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:20:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar infostealer ailesine ait olan ve zararli dosya indirmek icin kullanilan bir URL'dir. Yuksek riskli bir tehdit gostergesidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974275",
+      "ioc": "https://w2.9winter.com/n/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:15:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlisinin ag aktivitelerinde kullandigi tespit edilen bir URL adresidir. Veri mahremiyetini dogrudan tehdit eder.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974274",
+      "ioc": "coletteloire.rest",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:11:02 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyasiyla baglantili zararli bir alan adidir. Sahte guncellemeler yoluyla kullanicilari zararli yazilim indirmeye yonlendirir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974273",
+      "ioc": "https://w2.9winter.com/pi5/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:10:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlisinin komuta-kontrol sunucusu ile iletisim kurdugu bir URL'dir. Hassas bilgilerin calinmasinda aktif rol oynar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974272",
+      "ioc": "https://w2.9winter.com/wl/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:05:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar infostealer yaziliminin erisim sagladigi zararli bir baglantidir. Sistem guvenligi acisindan yuksek risk tasir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974271",
+      "ioc": "checkgwfwtg465.art",
+      "ioc_type": "domain",
+      "malware": "IClickFix",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:03:05 UTC",
+      "tags": [
+        "ClickFix"
+      ],
+      "reference": null,
+      "summary_tr": "IClickFix (ClickFix) kampanyalarinda kullanilan zararli bir alan adidir. Sosyal muhendislik saldirilarinda onemli bir roldedir.",
+      "severity": "medium"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974270",
+      "ioc": "upi.log.30ca777733df8aa6e4404bd8beadb65c36105e9346e15819152e9ecc4.fd746f6f221867dd6d504e00569cc108bbf5c5e0daf7628d26285775.86174a0a1dc3dd1625fc62e486572c26425c95ffef342f6dddb5ffe0.1b1f3f2edc.7605f6.pnalumni.dgitd.anchorbolnorth.com",
+      "ioc_type": "domain",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:01:52 UTC",
+      "tags": [],
+      "reference": "https://app.any.run/tasks/7fe90473-d0aa-439d-b0b4-18aa3019f8a4",
+      "summary_tr": "Cobalt Strike Framework tarafindan kullanilan alt alan adidir. Saldirganlarin ag icinde kalici olmasini ve yonetim saglamasini amaclar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974269",
+      "ioc": "cdn.img.76e1e5fa.PNAlumni.dgitd.anchorbolnorth.com",
+      "ioc_type": "domain",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:01:52 UTC",
+      "tags": [],
+      "reference": "https://app.any.run/tasks/7fe90473-d0aa-439d-b0b4-18aa3019f8a4",
+      "summary_tr": "Cobalt Strike operasyonlariyla iliskili bir C2 alan adidir. Kurumsal aglar icin kritik duzeyde tehlike arz eder.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974268",
+      "ioc": "https://kn.9winter.com/ht/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:00:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlisinin veri iletmek icin kullandigi zararli bir URL adresidir. Kurumlar icin yuksek risk seviyesindedir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974267",
+      "ioc": "https://at.9kio.org/w/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-19 12:00:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar infostealer yaziliminin erisim amaciyla kullandigi bir URL'dir. Zararli yazilim yayiliminda etkindir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974266",
+      "ioc": "57.129.169.16:31337",
+      "ioc_type": "ip:port",
+      "malware": "Sliver",
+      "confidence": 100,
+      "first_seen": "2026-10-19 11:57:21 UTC",
+      "tags": [
+        "shodan",
+        "sliver"
+      ],
+      "reference": "",
+      "summary_tr": "Sliver C2 komuta-kontrol altyapisina ait IP ve port adresidir. Saldirganlarin uzaktan erisim ve yonetim saglamasi icin kullanilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974265",
+      "ioc": "46.19.140.45:31337",
+      "ioc_type": "ip:port",
+      "malware": "Sliver",
+      "confidence": 100,
+      "first_seen": "2026-10-19 11:57:21 UTC",
+      "tags": [
+        "shodan",
+        "sliver"
+      ],
+      "reference": "",
+      "summary_tr": "Sliver framework faaliyetleri ile iliskili zararli bir IP:port gostergesidir. Kritik seviyede tehdit olusturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974264",
+      "ioc": "45.142.140.138:31337",
+      "ioc_type": "ip:port",
+      "malware": "Sliver",
+      "confidence": 100,
+      "first_seen": "2026-10-19 11:57:21 UTC",
+      "tags": [
+        "shodan",
+        "sliver"
+      ],
+      "reference": "",
+      "summary_tr": "Sliver C2 sunucusuna ait oldugu belirlenen IP ve port adresidir. Ag guvenligi ihlallerine yol acabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974263",
+      "ioc": "43.160.211.117:31337",
+      "ioc_type": "ip:port",
+      "malware": "Sliver",
+      "confidence": 100,
+      "first_seen": "2026-10-19 11:57:21 UTC",
+      "tags": [
+        "shodan",
+        "sliver"
+      ],
+      "reference": "",
+      "summary_tr": "Sliver komuta-kontrol yazilimi tarafindan kullanilan zararli bir baglanti noktasidir. Yetkisiz erisim riskini artirir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1974262",
+      "ioc": "38.87.116.68:31337",
+      "ioc_type": "ip:port",
+      "malware": "Sliver",
+      "confidence": 100,
+      "first_seen": "2026-10-19 11:57:21 UTC",
+      "tags": [
+        "shodan",
+        "sliver"
+      ],
+      "reference": "",
+      "summary_tr": "Sliver C2 altyapisi kapsaminda tespit edilen IP ve port adresidir. Ag bazli saldirilar icin yuksek risk tasir.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1971168",
@@ -2957,340 +3267,6 @@
       "reference": null,
       "summary_tr": "VShell zararlısının faaliyet gösterdiği ve ağ üzerinden komut yürüttüğü bir C2 uç noktasıdır.",
       "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929601",
-      "ioc": "155.103.69.239:4550",
-      "ioc_type": "ip:port",
-      "malware": "Remcos",
-      "confidence": 100,
-      "first_seen": "2026-09-23 10:53:01 UTC",
-      "tags": [
-        "c2",
-        "jardon",
-        "remcos"
-      ],
-      "reference": null,
-      "summary_tr": "Remcos RAT zararlisi tarafindan kullanilan bir Komuta ve Kontrol (C2) IP ve port adresidir. Sistem erisimi saglamak amaciyla kritik tehdit olusturur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929603",
-      "ioc": "72pxs9dq.osatcarton.ir",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-23 10:23:58 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x76c7",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake kampanyasi ile iliskili olup macOS sistemlerini hedefleyen zararli bir alan adidir. Kullanicilari sahte guncellemelerle kandirmak icin kullanilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929602",
-      "ioc": "osatcarton.ir",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-23 10:20:59 UTC",
-      "tags": [
-        "ClearFake"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake zararlisinin altyapisinda kullanilan ana alan adidir. Zararli yonlendirmeler ve kampanya faaliyetleri icin onem arz eder.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929600",
-      "ioc": "ifiyge40.infinityjoespizzaclearwater.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-23 10:14:05 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0xdcf2",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake kampanyasi kapsaminda macOS kullanicilarini hedefleyen bir baska zararli alt alan adidir. Kimlik avi ve zararli yazilim indirme amacli kullanilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929590",
-      "ioc": "velvet-otter-glagceis.life",
-      "ioc_type": "domain",
-      "malware": "IClickFix",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:45:10 UTC",
-      "tags": [
-        "ClickFix",
-        "Mac"
-      ],
-      "reference": "",
-      "summary_tr": "IClickFix (ClickFix) sosyal muhendislik kampanyasiyla baglantili zararli bir alan adidir. Genellikle sahte hata mesajlari yoluyla kullanicilari hedef alir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929587",
-      "ioc": "hollow-forge-rook-guiyn.life",
-      "ioc_type": "domain",
-      "malware": "IClickFix",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:44:01 UTC",
-      "tags": [
-        "ClickFix",
-        "Mac"
-      ],
-      "reference": "",
-      "summary_tr": "IClickFix zararlisinin dagitiminda kullanilan zararli bir alan adidir. Kullanici etkilesimi yoluyla sistem guvenligini tehlikeye atar.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929577",
-      "ioc": "jp8f91ri.303ine.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:40:41 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x68dc",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake ve macOS odakli zararlilarin erisim sagladigi bir alt alan adidir. Bulasicierigi yaymak icin kritik rol oynar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929576",
-      "ioc": "hollyarcade.org",
-      "ioc_type": "domain",
-      "malware": "SmartApeSG",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:40:31 UTC",
-      "tags": [
-        "SmartApeSG"
-      ],
-      "reference": "",
-      "summary_tr": "SmartApeSG zararlisi ile iliskili olan ve altyapi faaliyetlerinde kullanilan bir alan adidir. Kurumlar icin potansiyel risk tasir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929575",
-      "ioc": "303ine.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:40:14 UTC",
-      "tags": [
-        "ClearFake"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake zararli kampanyasinin yonlendirme ve altyapi islemleri icin kullandigi ana alan adidir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929574",
-      "ioc": "https://hollyarcade.org/tenant/secure-css.js",
-      "ioc_type": "url",
-      "malware": "SmartApeSG",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:40:07 UTC",
-      "tags": [
-        "SmartApeSG"
-      ],
-      "reference": "",
-      "summary_tr": "SmartApeSG zararlisinin kod veya script dosyalarini barindiran zararli bir URL adresidir. Dogrudan bulasma vektoru olarak onemlidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929571",
-      "ioc": "835f2996734cfc372b8e99824ffb778753228733d23ae2e83608c8caad5ce9e6",
-      "ioc_type": "sha256_hash",
-      "malware": "AMOS",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:27:26 UTC",
-      "tags": [
-        "Amos",
-        "cc2",
-        "ClickFix",
-        "Foxveil",
-        "macOS"
-      ],
-      "reference": "https://www.virustotal.com/gui/file/835f2996734cfc372b8e99824ffb778753228733d23ae2e83608c8caad5ce9e6",
-      "summary_tr": "macOS platformunu hedefleyen AMOS (Atomic Stealer) bilgi hirsizi zararlisinin SHA256 hash degeridir. Hassas verileri calmak uzere tasarlanmistir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929554",
-      "ioc": "144.126.198.39:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:05:11 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Mirai tabanli Jackskid botnet aginin DDoS saldirilari icin kullandigi C2 IP ve port adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929555",
-      "ioc": "152.42.196.145:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:05:11 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Jackskid botnet yapisinin ag faaliyetlerinde kullandigi zararli IP ve port hedefidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929556",
-      "ioc": "165.245.246.201:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:05:10 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "Jackskid ve Mirai turevi botnet saldirilarina katilan bir diger zararli ag baglanti noktasidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929557",
-      "ioc": "178.62.233.227:443",
-      "ioc_type": "ip:port",
-      "malware": "Jackskid",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:05:10 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Jackskid",
-        "Mirai",
-        "rctea"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/jackskid",
-      "summary_tr": "DDoS saldirilari ve botnet yonetimi icin kullanilan Jackskid altyapisina ait IP ve port adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929566",
-      "ioc": "https://45.86.64.51",
-      "ioc_type": "url",
-      "malware": "Vidar",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:05:10 UTC",
-      "tags": [
-        "277f4d022050679623f08c97241a7142",
-        "c2",
-        "Loader",
-        "stealer",
-        "Vidar"
-      ],
-      "reference": null,
-      "summary_tr": "Vidar bilgi hirsizi ve yukleyici (loader) yazilimlarinin C2 iletisimi kurdugu zararli bir URL adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929570",
-      "ioc": "111.231.116.164:55413",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:05:06 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike saldiri cetesinin ag ici hareket ve komuta kontrol icin kullandigi IP ve portdur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929569",
-      "ioc": "139.180.216.149:80",
-      "ioc_type": "ip:port",
-      "malware": "VShell",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:05:04 UTC",
-      "tags": [
-        "Vshell"
-      ],
-      "reference": null,
-      "summary_tr": "VShell zararlisinin baglanti kurdugu ve uzaktan erisim sagladigi C2 IP ve port adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929565",
-      "ioc": "pemdistribution.com",
-      "ioc_type": "domain",
-      "malware": "IClickFix",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:00:04 UTC",
-      "tags": [
-        "ClickFix"
-      ],
-      "reference": "",
-      "summary_tr": "IClickFix kampanyasi kapsaminda kullanicilari kandirmak icin isletilen zararli bir alan adidir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1929564",
-      "ioc": "focusgood.com",
-      "ioc_type": "domain",
-      "malware": "IClickFix",
-      "confidence": 100,
-      "first_seen": "2026-09-23 09:00:02 UTC",
-      "tags": [
-        "ClickFix"
-      ],
-      "reference": "",
-      "summary_tr": "ClickFix zararli yazilim aktivitelerinde kullanilan ve sosyal muhendislik icerikleri barindiran alan adidir.",
-      "severity": "medium"
     }
   ]
 }
