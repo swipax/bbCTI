@@ -1,6 +1,319 @@
 {
-  "updated_at": "2026-10-21T11:23:00.868204+00:00",
+  "updated_at": "2026-10-23T11:13:04.717375+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981786",
+      "ioc": "https://v3.acplay99.org/n/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-23 11:10:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hirsizligi yazilimi tarafindan kullanilan zararli bir URL'dir. Hassas verilerin sizdirilmasi amaciyla kullanilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981783",
+      "ioc": "https://v3.acplay99.org/j6/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-23 11:05:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hirsizligi zararlisiyla iliskili komuta ve kontrol (C2) iletisimi icin kullanilan bir URL'dir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981782",
+      "ioc": "156.240.41.69:8877",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-23 11:05:06 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell araci ile baglantili zararli bir IP ve port adresidir. Ag erisimi ve yonetimi icin istismar edilebilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981779",
+      "ioc": "156.240.41.38:8877",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-23 11:05:05 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell tehdidi kapsaminda faaliyet gosteren supheli bir IP ve port hedefidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981780",
+      "ioc": "156.240.41.62:8877",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-23 11:05:05 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell altyapisinin bir parcasi olan ve yetkisiz erisim saglamak amaciyla kullanilan IP adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981781",
+      "ioc": "156.240.41.68:8877",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-23 11:05:05 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlisi ile iliskilendirilmis, ag trafiginde engellenmesi gereken bir IP:port uc noktasidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981778",
+      "ioc": "156.240.41.254:8877",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-23 11:05:04 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell faaliyetleri icin kullanilan ve sistem guvenligini tehdit eden bir IP ve port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981745",
+      "ioc": "37.128.206.215:31337",
+      "ioc_type": "ip:port",
+      "malware": "Sliver",
+      "confidence": 100,
+      "first_seen": "2026-10-23 11:03:23 UTC",
+      "tags": [
+        "shodan",
+        "sliver"
+      ],
+      "reference": "",
+      "summary_tr": "Sliver C2 framework'u tarafindan kullanilan zararli bir ag uc noktasidir. Saldirganlarauzaktan erisim saglar.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981746",
+      "ioc": "38.242.147.58:31337",
+      "ioc_type": "ip:port",
+      "malware": "Sliver",
+      "confidence": 100,
+      "first_seen": "2026-10-23 11:03:22 UTC",
+      "tags": [
+        "shodan",
+        "sliver"
+      ],
+      "reference": "",
+      "summary_tr": "Sliver komuta kontrol altyapisinin parcasi olan ve s sizma testleri veya saldirilar icin kullanilan IP:port ikilisidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981747",
+      "ioc": "45.150.109.94:31337",
+      "ioc_type": "ip:port",
+      "malware": "Sliver",
+      "confidence": 100,
+      "first_seen": "2026-10-23 11:03:21 UTC",
+      "tags": [
+        "shodan",
+        "sliver"
+      ],
+      "reference": "",
+      "summary_tr": "Sliver zararlisinin ag baglantisi kurmak icin kullandigi tespit edilen bir IP ve port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981776",
+      "ioc": "https://my.acplay99.org/wp/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-23 11:00:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hirsizi zararlisinin veri iletmek icin kullandigi zararli bir web adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981775",
+      "ioc": "9yzw1gk1.blinkhorizon.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-23 11:00:17 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0x68dc",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "macOS sistemlerini hedef alan ClearFake kampanyasiyla baglantili zararli bir etki alanidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981774",
+      "ioc": "https://my.acplay99.org/m/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-23 10:55:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlisinin bulasmis sistemlerden bilgi calmak icin eristigi bir URL'dir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981773",
+      "ioc": "blinkhorizon.com",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-23 10:53:52 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararli yazilim kampanyasi tarafindan kullanilan supheli bir etki alanidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981772",
+      "ioc": "https://my.acplay99.org/n1/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-23 10:50:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hirsizinin C2 iletisimi gerceklestirdigi tespit edilen zararli bir URL'dir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981771",
+      "ioc": "teste.clarasampaio.com.br",
+      "ioc_type": "domain",
+      "malware": "StrelaStealer",
+      "confidence": 100,
+      "first_seen": "2026-10-23 10:47:26 UTC",
+      "tags": [
+        "StrelaStealer"
+      ],
+      "reference": null,
+      "summary_tr": "StrelaStealer zararlisi ile iliskili, kimlik bilgisi calinmasinda kullanilan bir etki alanidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981770",
+      "ioc": "https://my.acplay99.org/ex/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-23 10:45:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlisinin faaliyetleri icin ag trafigi olusturan zararli bir URL adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981769",
+      "ioc": "149aae4f28db1f160e3a72aea34aa09cf8af0f7cc179531d42a3001538096473",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-23 10:44:04 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "forge",
+        "Foxveil",
+        "macOS"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/149aae4f28db1f160e3a72aea34aa09cf8af0f7cc179531d42a3001538096473",
+      "summary_tr": "macOS platformunu hedef alan AMOS bilgi hirsizligi zararlisinin SHA-256 dosya ozetidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981768",
+      "ioc": "a87f31dab3b5446ebfa1427dc3e7e63a5a573f729f5cdd4ed2ad4718d48f43c0",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-23 10:41:15 UTC",
+      "tags": [
+        "Amos",
+        "boost",
+        "ClickFix",
+        "Foxveil",
+        "macOS"
+      ],
+      "reference": "https://www.virustotal.com/gui/file/a87f31dab3b5446ebfa1427dc3e7e63a5a573f729f5cdd4ed2ad4718d48f43c0",
+      "summary_tr": "macOS sistemlerde veri hirsizligi amaciyla calisan AMOS zararlisinin dosya hash degeridir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-1981767",
+      "ioc": "https://my.acplay99.org/wx/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-23 10:40:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hirsizinin komuta ve kontrol sunucularina baglanmak icin kullandigi bir URL'dir.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1978060",
@@ -2929,338 +3242,6 @@
       ],
       "reference": null,
       "summary_tr": "Aisuru zararlisinin komuta-kontrol (C2) islemleri icin ag baglantisi kurdugu IP ve port adresidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938732",
-      "ioc": "123.60.102.111:80",
-      "ioc_type": "ip:port",
-      "malware": "Cobalt Strike",
-      "confidence": 100,
-      "first_seen": "2026-09-27 11:05:08 UTC",
-      "tags": [
-        "CobaltStrike"
-      ],
-      "reference": null,
-      "summary_tr": "Cobalt Strike zararli yazilimi ile iliskilendirilen bu IP ve port, saldirganlarin hedef sistemlerde komuta kontrol (C2) kurmasi icin kullanilmaktadir. Kritik seviyede bir ag tehdidi olusturur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938731",
-      "ioc": "46.8.102.144:8888",
-      "ioc_type": "ip:port",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-27 11:05:06 UTC",
-      "tags": [
-        "Supershell"
-      ],
-      "reference": null,
-      "summary_tr": "Supershell zararlisi tarafindan kullanilan bu IP ve port adresi, uzaktan erisim ve kontrol amacli ag trafigine neden olur. Potansiyel bir yetkisiz erisim girisimini gosterir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938730",
-      "ioc": "46.8.102.144:443",
-      "ioc_type": "ip:port",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-27 11:05:06 UTC",
-      "tags": [
-        "Supershell"
-      ],
-      "reference": null,
-      "summary_tr": "Supershell zararlisi ile iliskili bu guvenli baglanti noktasi, sifrelenmis komuta kontrol iletisimi saglamak amaciyla kullanilmaktadir. Ag guvenligi icin yuksek risk tasir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938729",
-      "ioc": "46.8.102.144:22",
-      "ioc_type": "ip:port",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-09-27 11:05:05 UTC",
-      "tags": [
-        "Supershell"
-      ],
-      "reference": null,
-      "summary_tr": "Supershell zararlisinin erisim saglamak icin kullandigi SSH portu uzerinden gerceklesen faaliyetleri gosterir. Sistemlerin ele gecirilmesi riski nedeniyle onemlidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938728",
-      "ioc": "varzeshitime.ir",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-27 10:46:34 UTC",
-      "tags": [
-        "27September2026",
-        "ClearFake",
-        "Commandline",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake kampanyasi kapsaminda macOS kullanicilarini hedefleyen zararli bir alan adidir. Sahte guncellemeler araciligiyla zararli yazilim yaymak icin kullanilir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938727",
-      "ioc": "4h3y0wdh.varzeshitime.ir",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-27 10:46:12 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0xdcf2",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake zararli yazilim kampanyasina ait alt alan adi olup, kullanicilari sahte site ve iceriklere yonlendirir. macOS sistemler icin dogrudan tehdit olusturur.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938726",
-      "ioc": "g66c3tx3.semilink.ir",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-27 10:41:10 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x76c7",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake altyapisinin bir parcasi olan bu domain, macOS isletim sistemlerini hedefleyen zararli yonlendirmelerde aktif olarak rol alir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938725",
-      "ioc": "semilink.ir",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-27 10:39:12 UTC",
-      "tags": [
-        "ClearFake"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake kampanyalariyla baglantili ana alan adi, zararli iceriklerin dagitiminda kullanilan altyapinin bir parcasidir. Engellenmesi gerekir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938722",
-      "ioc": "d060ee9b0fbd1f2c3067ed1ea0c105deaa1985e78a04fc89b599841433d52b9c",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-09-27 10:38:59 UTC",
-      "tags": [
-        "elf",
-        "Mirai"
-      ],
-      "reference": null,
-      "summary_tr": "Mirai botnet aginin ELF tabanli mimarisini tasiyan bu zararli dosya hash degeri, IoT cihazlarini hedef alan DDoS saldirilarinda kullanilir. Ag altyapisi icin buyuk risk tasir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938714",
-      "ioc": "d70183a3214c07c3f4235404afeddeba8db9783bc73e8e6f813c7d8e7ce1bdc1",
-      "ioc_type": "sha256_hash",
-      "malware": "AMOS",
-      "confidence": 100,
-      "first_seen": "2026-09-27 10:24:21 UTC",
-      "tags": [
-        "Amos",
-        "ClickFix",
-        "Foxveil",
-        "macOS",
-        "quill"
-      ],
-      "reference": "https://www.virustotal.com/gui/file/d70183a3214c07c3f4235404afeddeba8db9783bc73e8e6f813c7d8e7ce1bdc1",
-      "summary_tr": "macOS platformunu hedefleyen AMOS (Atomic macOS Stealer) bilgi hirsizi zararlisinin dosya hash degeridir. Hassas kullanici verilerini calarak saldirgana iletir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938712",
-      "ioc": "40809d1e43d3c5b1973c6c6577d166be0adfe814bfa8c911a02b527702456aa2",
-      "ioc_type": "sha256_hash",
-      "malware": "AMOS",
-      "confidence": 100,
-      "first_seen": "2026-09-27 10:24:21 UTC",
-      "tags": [
-        "Amos",
-        "ClickFix",
-        "Foxveil",
-        "macOS",
-        "quill"
-      ],
-      "reference": "https://www.virustotal.com/gui/file/40809d1e43d3c5b1973c6c6577d166be0adfe814bfa8c911a02b527702456aa2",
-      "summary_tr": "AMOS bilgi hirsizi zararlisina ait baska bir dosya hash degeri olup, macOS cihazlarda kimlik bilgisi ve Cuzdan hirsizligi amacli calisir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938716",
-      "ioc": "9s25krs9.dumanbett.co",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-27 10:20:41 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x68dc",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake kampanyasinin macOS hedefli operasyonlarinda kullanilan alt alan adidir. Tarayici tabanli zararli yazilim yuklemelerine aracilik eder.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938715",
-      "ioc": "dumanbett.co",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-27 10:19:55 UTC",
-      "tags": [
-        "ClearFake"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake altyapisi icerisinde faaliyet gosteren ve zararli icerik dagitiminda kullanilan bir alan adidir. Ag duzeyinde engellenmelidir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938713",
-      "ioc": "dqtransformer.com",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-09-27 10:10:51 UTC",
-      "tags": [
-        "ClearFake"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake zararli kampanyasina hizmet eden bu domain, kullanicilari aldatarak zararli yazilim indirmelerini saglayan altyapinin bir parcasidir.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938711",
-      "ioc": "45.9.150.176:4332",
-      "ioc_type": "ip:port",
-      "malware": "Remcos",
-      "confidence": 100,
-      "first_seen": "2026-09-27 10:00:37 UTC",
-      "tags": [
-        "c2",
-        "remcos",
-        "tor25t"
-      ],
-      "reference": null,
-      "summary_tr": "Remcos RAT (Uzaktan Erisim Truva Ati) tarafindan C2 iletisimi icin kullanilan IP ve port adresidir. Sistem uzerinde tam kontrol saglama amaci guser.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938694",
-      "ioc": "94.154.40.106:1413",
-      "ioc_type": "ip:port",
-      "malware": "Remcos",
-      "confidence": 100,
-      "first_seen": "2026-09-27 09:43:14 UTC",
-      "tags": [
-        "c2",
-        "remcos",
-        "tor05g"
-      ],
-      "reference": null,
-      "summary_tr": "Remcos zararlisinin komuta kontrol sunucusuyla iletisim kurmak icin kullandigi ag uc noktasidir. Yetkisiz veri sizdirma faaliyetlerine yol acabilir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938679",
-      "ioc": "aabb72da5f64a911dabda790fa46b35c0d8747ed56c9ae99d152010119f32532",
-      "ioc_type": "sha256_hash",
-      "malware": "AMOS",
-      "confidence": 100,
-      "first_seen": "2026-09-27 08:50:51 UTC",
-      "tags": [
-        "Amos",
-        "ClickFix",
-        "Foxveil",
-        "macOS",
-        "quill"
-      ],
-      "reference": "https://www.virustotal.com/gui/file/aabb72da5f64a911dabda790fa46b35c0d8747ed56c9ae99d152010119f32532",
-      "summary_tr": "AMOS macOS Stealer zararlisinin baska bir varyantina ait dosya hash degeridir. Sistem guvenligini tehlikeye atan kritik bir tehdittir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938685",
-      "ioc": "http://179.214.0.18/Photo.scr",
-      "ioc_type": "url",
-      "malware": "xmrig",
-      "confidence": 100,
-      "first_seen": "2026-09-27 08:50:50 UTC",
-      "tags": [
-        "CoinMiner",
-        "exe",
-        "PhoMiner",
-        "xmrig"
-      ],
-      "reference": null,
-      "summary_tr": "XMRig kripto para madenciligi yazilimini (CoinMiner) indirmek icin kullanilan zararli URL'dir. Sistem kaynaklarini izinsiz kullanarak performans dususune yol acar.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938686",
-      "ioc": "http://180.148.33.24/Photo.scr",
-      "ioc_type": "url",
-      "malware": "Coinminer",
-      "confidence": 100,
-      "first_seen": "2026-09-27 08:50:49 UTC",
-      "tags": [
-        "CoinMiner",
-        "exe",
-        "PhoMiner"
-      ],
-      "reference": null,
-      "summary_tr": "PhoMiner ve CoinMiner ailesine ait zararli bir ekran koruyucu/script dosyasini barindiran URL'dir. Kaynak somuren zararli yazilim faaliyetine isaret eder.",
-      "severity": "medium"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1938691",
-      "ioc": "ab163943a962cb6bb8b55808a0d1d45863a36b65ebddf32b330b42600d8b77be",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-09-27 08:50:47 UTC",
-      "tags": [
-        "elf",
-        "Mirai"
-      ],
-      "reference": null,
-      "summary_tr": "Mirai botnet zararlisinin ELF ikili dosya hash degeri olup, ag tarama ve bul bulasma faaliyetleri yurutur. Kritik seviyede ag tehdididir.",
       "severity": "high"
     }
   ]
