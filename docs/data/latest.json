@@ -1,6 +1,332 @@
 {
-  "updated_at": "2026-10-27T11:47:07.353936+00:00",
+  "updated_at": "2026-10-29T12:30:32.649510+00:00",
   "items": [
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001447",
+      "ioc": "e4830ef4d0dbdd1379f569c217404a9f3da94904c260645a1ef74ca8543e5f55",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:25:55 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "forge",
+        "Foxveil",
+        "macOS"
+      ],
+      "reference": "https://hybrid-analysis.com/sample/e4830ef4d0dbdd1379f569c217404a9f3da94904c260645a1ef74ca8543e5f55",
+      "summary_tr": "macOS sistemleri hedef alan AMOS bilgi hırsızı zararlısının SHA256 özet değeridir. Hassas verileri çalma yeteneği nedeniyle yüksek risk taşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001446",
+      "ioc": "https://md.airbet.org/u/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:25:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hırsızı zararlısı tarafından kullanılan zararlı bir URL'dir. Kimlik bilgilerini ve hassas verileri sızdırmak için kullanılır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001445",
+      "ioc": "f444121159ca7b2f0b6fc98574aca42dccaf33879b1c9cd280aacb4cc3df2eae",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:21:29 UTC",
+      "tags": [
+        "Amos",
+        "boost",
+        "ClickFix",
+        "Foxveil",
+        "macOS"
+      ],
+      "reference": "https://hybrid-analysis.com/sample/f444121159ca7b2f0b6fc98574aca42dccaf33879b1c9cd280aacb4cc3df2eae",
+      "summary_tr": "macOS kullanıcılarını hedefleyen AMOS zararlısına ait bir dosya hash değeridir. Sistem güvenliğini doğrudan tehdit eder.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001444",
+      "ioc": "https://md.airbet.org/gg/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:20:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlısının komuta ve kontrol (C2) iletişiminde kullandığı zararlı bir bağlantıdır. Engellenmesi hayati önem taşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001436",
+      "ioc": "kfsesbn5.paars.poker",
+      "ioc_type": "domain",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:17:40 UTC",
+      "tags": [
+        "ClearFake",
+        "mac-0xa07e",
+        "macOS"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake kampanyasıyla ilişkili ve macOS kullanıcılarını hedefleyen zararlı bir alan adıdır. Sahte güncellemeler yoluyla bulaşır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001435",
+      "ioc": "5ace5227e537ad58d03350d767d26b123f9a92ca8eaeb2f60892dd8dad0ab50d",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:17:01 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "macOS",
+        "stratos"
+      ],
+      "reference": "https://hybrid-analysis.com/sample/5ace5227e537ad58d03350d767d26b123f9a92ca8eaeb2f60892dd8dad0ab50d",
+      "summary_tr": "macOS platformunu hedefleyen AMOS bilgi hırsızına ait SHA256 hash değeridir. Veri sızıntısına yol açabilir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001434",
+      "ioc": "https://md.airbet.org/ic/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:15:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hırsızı zararlısının veri alışverişi için kullandığı tespit edilen bir URL'dir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001433",
+      "ioc": "adc57ba1d689459ea85efc0095abb8207fd53e6adb9b7219189bc9e18f046252",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:12:50 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "grove",
+        "macOS"
+      ],
+      "reference": "https://hybrid-analysis.com/sample/adc57ba1d689459ea85efc0095abb8207fd53e6adb9b7219189bc9e18f046252",
+      "summary_tr": "AMOS macOS zararlısına ait bu dosya hash değeri, sistemdeki hassas bilgileri hedef alan bir saldırının göstergesidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001432",
+      "ioc": "https://md.airbet.org/sd/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:10:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlısı tarafından kullanılan ve zararlı aktivitelere aracılık eden bir URL adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001429",
+      "ioc": "e3368a579486767e8762b37d11f6b40060471163a2d077c7039329f00e1974c8",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:08:36 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "frame97",
+        "macOS"
+      ],
+      "reference": "https://hybrid-analysis.com/sample/e3368a579486767e8762b37d11f6b40060471163a2d077c7039329f00e1974c8",
+      "summary_tr": "macOS sistemler üzerinde çalışan AMOS bilgi hırsızının kimlik doğrulama ve veri çalma operasyonlarında kullandığı dosya imzetisidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001428",
+      "ioc": "https://fastly.jsdelivr.net/gh/sdedyk172/ad8f6908-5019-42ff-a88e-b8279bfaed84/9cc8ac42-ee34-4250-bfee-d893438a3b3b",
+      "ioc_type": "url",
+      "malware": "ClearFake",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:08:30 UTC",
+      "tags": [
+        "ClearFake"
+      ],
+      "reference": null,
+      "summary_tr": "ClearFake zararlı yazılım kampanyası kapsamında kullanılan ve kötü amaçlı içerik barındıran bir URL'dir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001427",
+      "ioc": "https://md.airbet.org/nb/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:05:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hırsızının operasyonel altyapısına ait zararlı bir bağlantıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001426",
+      "ioc": "47.103.70.55:8080",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:05:08 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike saldırı çerçevesinin C2 iletişimi için kullandığı IP ve port adresidir. Ağ güvenliği için kritik risk oluşturur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001425",
+      "ioc": "47.103.70.55:80",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:05:07 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike yapıları tarafından uzaktan erişim ve kontrol amacıyla kullanılan bir uç nokta adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001424",
+      "ioc": "47.103.70.55:443",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:05:06 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike zararlısının şifreli iletişim kurmak için kullandığı şüpheli IP ve port kombinasyonudur.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001423",
+      "ioc": "47.103.70.55:22",
+      "ioc_type": "ip:port",
+      "malware": "Cobalt Strike",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:05:06 UTC",
+      "tags": [
+        "CobaltStrike"
+      ],
+      "reference": null,
+      "summary_tr": "Cobalt Strike faaliyetleriyle ilişkilendirilen, SSH servisi üzerinden yürütülen potansiyel bir saldırı uç noktasıdır.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001422",
+      "ioc": "8.138.27.20:8084",
+      "ioc_type": "ip:port",
+      "malware": "VShell",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:05:04 UTC",
+      "tags": [
+        "Vshell"
+      ],
+      "reference": null,
+      "summary_tr": "VShell zararlısının iletişim kurduğu ve uzaktan komuta imkanı sağlayan zararlı bir IP ve port adresidir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001421",
+      "ioc": "371ee72dde7a8848fe2a4470b40c62037a8e1bf8c1cf03d7c1c435e61c1d05d0",
+      "ioc_type": "sha256_hash",
+      "malware": "AMOS",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:04:18 UTC",
+      "tags": [
+        "Amos",
+        "ClickFix",
+        "Foxveil",
+        "frame",
+        "macOS"
+      ],
+      "reference": "https://hybrid-analysis.com/sample/371ee72dde7a8848fe2a4470b40c62037a8e1bf8c1cf03d7c1c435e61c1d05d0",
+      "summary_tr": "macOS kullanıcılarını hedef alan AMOS zararlısının tespit edilen bir diğer SHA256 hash değeridir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001419",
+      "ioc": "https://ym.airbet.org/r3/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:00:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar bilgi hırsızı zararlısının veri sızdırma faaliyetlerinde kullandığı tespit edilen zararlı bir URL'dir.",
+      "severity": "high"
+    },
+    {
+      "source": "threatfox",
+      "id": "threatfox-2001418",
+      "ioc": "https://s.bamto.org/w/",
+      "ioc_type": "url",
+      "malware": "Vidar",
+      "confidence": 100,
+      "first_seen": "2026-10-29 12:00:48 UTC",
+      "tags": [
+        "Vidar"
+      ],
+      "reference": null,
+      "summary_tr": "Vidar zararlısının komuta kontrol sunucularına erişmek için kullandığı zararlı bağlantılardan biridir.",
+      "severity": "high"
+    },
     {
       "source": "threatfox",
       "id": "threatfox-1997297",
@@ -2933,340 +3259,6 @@
       ],
       "reference": null,
       "summary_tr": "ClearFake tehdit aktörleri tarafından kullanılan ve kullanıcı güvenliğini tehdit eden alan adlarından biridir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948501",
-      "ioc": "147.45.116.124:27651",
-      "ioc_type": "ip:port",
-      "malware": "Potassium",
-      "confidence": 100,
-      "first_seen": "2026-10-03 11:09:39 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Mirai",
-        "potassium",
-        "woof"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/potassium",
-      "summary_tr": "Potassium botnet ailesi ile ilişkili zararlı bir IP ve port adresidir. DDoS saldırılarında kullanıldığı için ağ güvenliği açısından yüksek risk taşır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948502",
-      "ioc": "147.45.116.125:23789",
-      "ioc_type": "ip:port",
-      "malware": "Potassium",
-      "confidence": 100,
-      "first_seen": "2026-10-03 11:09:39 UTC",
-      "tags": [
-        "botnet",
-        "DDoS",
-        "Mirai",
-        "potassium",
-        "woof"
-      ],
-      "reference": "https://github.com/deepfield/public-research/tree/main/potassium",
-      "summary_tr": "Mirai tabanlı Potassium botnetine ait bir komuta-kontrol veya saldırı uç noktasıdır. Genellikle büyük çaplı DDoS saldırılarının bir parçasıdır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948500",
-      "ioc": "f34d710806afa48402934964c15d381991bb386280a6b84889282e68f2b14ff1",
-      "ioc_type": "sha256_hash",
-      "malware": "AMOS",
-      "confidence": 100,
-      "first_seen": "2026-10-03 11:05:41 UTC",
-      "tags": [
-        "Amos",
-        "ClickFix",
-        "Foxveil",
-        "macOS",
-        "stratos"
-      ],
-      "reference": "https://www.virustotal.com/gui/file/f34d710806afa48402934964c15d381991bb386280a6b84889282e68f2b14ff1",
-      "summary_tr": "macOS sistemlerini hedef alan AMOS (Atomic Stealer) zararlısının dosya hash değeridir. Hassas bilgileri ve cüzdan verilerini çaldığı için kritiktir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948498",
-      "ioc": "0cbvmet6.tanyavondegurechaff.fit",
-      "ioc_type": "domain",
-      "malware": "ClearFake",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:48:18 UTC",
-      "tags": [
-        "ClearFake",
-        "mac-0x0f14",
-        "macOS"
-      ],
-      "reference": null,
-      "summary_tr": "ClearFake kampanyasıyla bağlantılı zararlı bir alan adıdır. macOS kullanıcılarını sahte güncellemelerle kandırarak zararlı yazılım bulaştırmayı amaçlar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948497",
-      "ioc": "ccc3cd3605d7c033a1c17030e047bcafd0f33cac1cc9276740c46dc4228f2070",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:51 UTC",
-      "tags": [
-        "elf",
-        "Mirai"
-      ],
-      "reference": null,
-      "summary_tr": "Mirai botnetine ait ELF tabanlı zararlı yazılımın dosya hash değeridir. IoT cihazlarını ele geçirmek için kullanılır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948496",
-      "ioc": "226d5f0493530a890fe642db959232b63ba8b7be48ea94a65cc68f8437b10ae5",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:50 UTC",
-      "tags": [
-        "elf",
-        "Mirai",
-        "wraith"
-      ],
-      "reference": null,
-      "summary_tr": "Wraith varyantı içeren Mirai zararlısına ait bir dosya hash değeridir. Ağdaki zayıf cihazları hedef alarak botnete dâhil eder.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948495",
-      "ioc": "744a5384a8bc1749ec3d656c2a123410b336894c771dcc37d8e744e352f6c647",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:49 UTC",
-      "tags": [
-        "elf",
-        "Mirai"
-      ],
-      "reference": null,
-      "summary_tr": "Mirai zararlısının ELF formatındaki ikili dosyasının hash değeridir. Dağıtık hizmet dışı bırakma (DDoS) saldırılarında aktif rol oynar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948494",
-      "ioc": "d835a7b69e2a5554b9390fbc03fe175f47e0c47b64dcce8b1bf5ca6fc6d9c134",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:48 UTC",
-      "tags": [
-        "elf",
-        "Mirai"
-      ],
-      "reference": null,
-      "summary_tr": "Mirai botnet ailesine ait zararlı bir dosyanın SHA-256 özetidir. Zafiyet barındıran sistemleri tarayarak yayılma eğilimindedir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948493",
-      "ioc": "78a57de8eb7d70af3d44dda3ea3fc11ed44879d34db45fb8c22211b852398763",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:47 UTC",
-      "tags": [
-        "elf",
-        "Mirai"
-      ],
-      "reference": null,
-      "summary_tr": "Mirai zararlısının tespit edilen bir başka ELF ikili dosyasıdır. Kritik altyapılara yönelik DDoS tehdidi oluşturur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948491",
-      "ioc": "580ffce9b7b58f51cc4db2973f83300e79ee67583f59a96ebdbb4cc0c65710fb",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:46 UTC",
-      "tags": [
-        "elf",
-        "Mirai"
-      ],
-      "reference": null,
-      "summary_tr": "Mirai botnet altyapısının bir parçası olan zararlı dosyaya ait hash değeridir. Ağ trafiğinde engellenmesi gereklidir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948492",
-      "ioc": "1494e1fbe094a19ccf07ed68425128e124e48852c496ef1f9c2e380c06140c35",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:46 UTC",
-      "tags": [
-        "elf",
-        "Mirai"
-      ],
-      "reference": null,
-      "summary_tr": "Mirai zararlısına ait bu dosya hash'i, IoT tabanlı botnet faaliyetlerinin tespitinde kullanılır. Yüksek risk barındırır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948490",
-      "ioc": "81ea2a392b6d71c7cd381f48ebffb992457a1d3897d1484a3fd7823f2e9f69a3",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:45 UTC",
-      "tags": [
-        "elf",
-        "Mirai"
-      ],
-      "reference": null,
-      "summary_tr": "Mirai botnetine ait ELF zararlısının SHA-256 hash değeridir. Otomatik yayılım mekanizmalarına sahiptir.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948489",
-      "ioc": "ab434585775518b79d589ee36a56eafc9a83c81e9bd4fb5c8b5cb9939220ecd4",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:44 UTC",
-      "tags": [
-        "elf",
-        "Mirai"
-      ],
-      "reference": null,
-      "summary_tr": "Mirai zararlı yazılımının bir varyantına ait dosya hash değeridir. Ağ güvenliği için potansiyel tehlike arz eder.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948488",
-      "ioc": "02c7c8ec40b82738e76147ce4491ccaa6486899797384e07420269e7d69cbc10",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:43 UTC",
-      "tags": [
-        "elf",
-        "Mirai"
-      ],
-      "reference": null,
-      "summary_tr": "Mirai botnet ailesi kapsamında tespit edilen zararlı bir ikili dosyadır. DDoS saldırılarında bot olarak görev yapar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948487",
-      "ioc": "de83746bf75a7dbdad061ec4b82e9c403eec44b1441cc4b207ddbe21cd787575",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:42 UTC",
-      "tags": [
-        "elf",
-        "Mirai"
-      ],
-      "reference": null,
-      "summary_tr": "Mirai zararlısının imza tabanlı tespiti için kullanılan dosya hash değeridir. Sistem bütünlüğünü tehdit eder.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948486",
-      "ioc": "286fe92a07c436d799a411a447e519ef53b557f5819dabde14bf7774780ea7a6",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:41 UTC",
-      "tags": [
-        "elf",
-        "Mirai"
-      ],
-      "reference": null,
-      "summary_tr": "Mirai botnet operasyonlarında kullanılan zararlı bir ELF dosyasına ait hash değeridir. Acil karantinaya alınmalıdır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948485",
-      "ioc": "ef42e6fd238baa990731f2ab20d130c489c1689588c5842713f28b4e90724019",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:40 UTC",
-      "tags": [
-        "elf",
-        "Mirai",
-        "wraith"
-      ],
-      "reference": null,
-      "summary_tr": "Wraith varyantı taşıyan Mirai zararlısına ait hash değeridir. Güvenlik duvarlarında engellenmesi zorunludur.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948484",
-      "ioc": "f46e36db293f62f037e5442b11868018c2d82ee028b8c8b63cbf4bcad977fea3",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:39 UTC",
-      "tags": [
-        "elf",
-        "Mirai",
-        "upx"
-      ],
-      "reference": null,
-      "summary_tr": "UPX ile paketlenmiş Mirai zararlısına ait dosya hash değeridir. Analiz edilmesini zorlaştırmak için ambalajlanmıştır.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948483",
-      "ioc": "f7912f131a404a0339630246ba5070594d5271e3153f3dc9afe6a8a685c9020e",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:38 UTC",
-      "tags": [
-        "elf",
-        "Mirai"
-      ],
-      "reference": null,
-      "summary_tr": "Mirai botnet ailesine mensup zararlı bir yazılımın hash değeridir. Büyük çaplı saldırılara zemin hazırlar.",
-      "severity": "high"
-    },
-    {
-      "source": "threatfox",
-      "id": "threatfox-1948482",
-      "ioc": "459aeb312e7e083130ad6983dfd27cedcc0e73a46d55383a6bddbd1dbb2bec9a",
-      "ioc_type": "sha256_hash",
-      "malware": "Mirai",
-      "confidence": 100,
-      "first_seen": "2026-10-03 10:46:37 UTC",
-      "tags": [
-        "elf",
-        "Mirai",
-        "upx"
-      ],
-      "reference": null,
-      "summary_tr": "UPX paketleyicisi kullanan Mirai zararlısına ait dosya hash değeridir. Ağ ve uç nokta güvenliği için yüksek risk taşır.",
       "severity": "high"
     }
   ]
